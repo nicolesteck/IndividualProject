@@ -18,4 +18,4 @@ JSP for sync all/refresh
 #####Selective sync
 JSP for form data
 <br />Servlet to handle search, form validation & synchronization
-<br />(Redirects to Existing User Login) -- screen to display results being brought in?
+<br />(Redirects to Selective Sync search results JSP
