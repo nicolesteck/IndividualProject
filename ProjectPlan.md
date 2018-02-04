@@ -13,7 +13,7 @@
 - [ ] Hibernate
 - [ ] DAOs
 - [ ] Hone database design
-- [ ] Create User entity class and annotate for hibernate
+- [ ] Create User edu.matc.entity class and annotate for hibernate
 - [ ] Create User dao
 - [ ] Create User dao unit tests
 - [ ] Create User table
@@ -21,7 +21,7 @@
 - [ ] Journal
 
 ### Week 5: Hibernate
-- [ ] Create Connection Information entity and annotate for hibernate
+- [ ] Create Connection Information edu.matc.entity and annotate for hibernate
 - [ ] Create Connection Information dao
 - [ ] Create Connection Information dao unit tests
 - [ ] Create Connection Information table
@@ -32,7 +32,7 @@
 
 ### Week 6: AWS Deployment - CHECKPOINT 2
 - [ ] Deploy to AWS
-- [ ] Create Connection Updates entity and annotate for hibernate
+- [ ] Create Connection Updates edu.matc.entity and annotate for hibernate
 - [ ] Create Connection Updates dao
 - [ ] Create Connection Updates dao unit tests
 - [ ] Create Connection Updates table
