@@ -7,9 +7,9 @@
 <body>
 
 <h2>Project - Users</h2>
-<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
+<%--<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
     url = "jdbc:mysql://localhost:3306/li_annotate"
-    user = "root" password = "password" />
+    user = "root" password = "password" /> --%>
 
 <sql:query dataSource = "${snapshot}" var = "result">
     SELECT * FROM users;
