@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
  * @author pwaite, with some mods by nsteck
  */
 @Entity(name = "User")
-@Table(name = "user") /// case sensitive
+@Table(name = "users") /// case sensitive
 public class User {
     @Column(name = "first_name")
     private String firstName;

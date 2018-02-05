@@ -5,6 +5,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
 <html>
 <body>
+
 <h2>Project - Users</h2>
 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
     url = "jdbc:mysql://localhost:3306/li_annotate"
@@ -20,6 +21,7 @@
     </tr>
 </c:forEach>
 </table>
+
 
 </body>
 </html>
