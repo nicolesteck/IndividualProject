@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
  * @author pwaite, with some mods by nsteck
  */
 @Entity(name = "User")
-@Table(name = "users") /// case sensitive
+@Table(name = "users", schema = "li_annotate") /// case sensitive
 public class User {
     @Column(name = "first_name")
     private String firstName;
@@ -22,8 +22,6 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "user_name")
-    private String userName;
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key
     @GeneratedValue(strategy=GenerationType.AUTO, generator="native")
@@ -49,7 +47,6 @@ public class User {
     public User(String firstName, String lastName, String userName, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.userName = userName;
         this.id = id;
     }
 
@@ -90,23 +87,7 @@ public class User {
         this.lastName = lastName;
     }
 
-    /**
-     * Gets user name.
-     *
-     * @return the user name
-     */
-    public String getUserName() {
-        return userName;
-    }
 
-    /**
-     * Sets user name.
-     *
-     * @param userName the user name
-     */
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
     /**
      * Gets id.
@@ -131,7 +112,6 @@ public class User {
         return "User{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", userName='" + userName + '\'' +
                 '}';
     }
 
