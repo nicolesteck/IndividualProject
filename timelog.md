@@ -13,3 +13,4 @@ initial review of project plan, initial design of databases
 <br ><br />2/4: 6 hours - flesh out project plan, add a couple more screens 
 (search results & sync confirmation) and begin to think through flow of JSPs/servlets. Last 4 hours were trying to debug 
 a hibernate issue.
+<br /><br />2/5: 2 hours - videos and trying to implement hibernate in project
