@@ -1,0 +1,42 @@
+[ERROR] 2018-02-07 20:39:13.342 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:39:13.689 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:39:13.720 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:39:13.742 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:39:13.768 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:39:13.873 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:39:13.874 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:39:14.174 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:43:20.424 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:43:20.437 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-07 20:43:20.845 [main] UserDao - Searching for id: 5
+[ERROR] 2018-02-07 20:43:20.890 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:43:20.914 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:43:20.942 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:43:20.944 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:43:20.970 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:43:20.971 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-07 20:43:21.001 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:43:21.032 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:43:21.036 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:43:21.383 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:43:21.404 [main] UserDao - Searching for id: 17
+[ERROR] 2018-02-07 20:48:56.238 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:48:56.286 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:54:15.767 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:16.021 [main] UserDao - Searching for user with firstName = ar
+[ERROR] 2018-02-07 20:54:28.264 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:28.273 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-07 20:54:28.667 [main] UserDao - Searching for id: 5
+[ERROR] 2018-02-07 20:54:28.699 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:28.700 [main] UserDao - Searching for user with firstName = ar
+[ERROR] 2018-02-07 20:54:29.048 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:29.049 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:54:29.079 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:29.083 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:54:29.135 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:29.138 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-07 20:54:29.160 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-07 20:54:29.192 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:54:29.195 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:54:29.233 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-02-07 20:54:29.257 [main] UserDao - Searching for id: 18

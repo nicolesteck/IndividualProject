@@ -34,6 +34,7 @@ public class UserDao {
     }
 
     public User getUserById(int id) {
+        logger.debug("Searching for id: {}", id);
         Session session = sessionFactory.openSession();
         User user = session.get(User.class, id);
         session.close();
@@ -47,7 +48,9 @@ public class UserDao {
      */
     public void saveOrUpdate(User user) {
         Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
+        transaction.commit();
         session.close();
     }
 

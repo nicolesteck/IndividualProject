@@ -37,6 +37,12 @@ class UserDaoTest {
 
     @Test
     void saveOrUpdate() {
+        String newName = "Wolfenstein";
+        User thisUser = dao.getUserById(3);
+        thisUser.setLastName(newName);
+        dao.saveOrUpdate(thisUser);
+        User thatUser = dao.getUserById(3);
+        assertEquals(newName, thatUser.getLastName());
     }
 
     @Test
@@ -55,16 +61,18 @@ class UserDaoTest {
         assertNull(dao.getUserById(5));
     }
 
-    @Test
-    void getAll() {
-    }
 
     @Test
     void getByPropertyEqual() {
+        User thisUser = dao.getUserById(3);
+        assertNotNull(thisUser);
+        assertEquals("Curry", thisUser.getLastName());
     }
 
     @Test
     void getByPropertyLike() {
+        List<User> users = dao.getByPropertyLike("firstName", "ar");
+        assertEquals(2, users.size());
     }
 
 

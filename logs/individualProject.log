@@ -71,3 +71,27 @@
 [ERROR] 2018-02-07 20:09:42.542 [main] Database - java.sql.SQLException: Can not issue empty query.
 [INFO ] 2018-02-07 20:09:42.547 [main] UserDao - in get all users
 [ERROR] 2018-02-07 20:09:43.018 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.287 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.604 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.631 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.687 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.733 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:16:10.784 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:16:10.786 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:16:11.356 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:09.560 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:09.957 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:09.978 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:10.007 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:10.034 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:17:10.110 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:17:10.111 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:17:10.453 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:54.539 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:54.984 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:55.017 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:55.052 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:55.102 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-02-07 20:19:55.150 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-02-07 20:19:55.152 [main] UserDao - in get all users
+[ERROR] 2018-02-07 20:19:55.454 [main] Database - java.sql.SQLException: Can not issue empty query.
