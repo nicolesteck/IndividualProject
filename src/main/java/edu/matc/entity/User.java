@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
  * @author pwaite, with some mods by nsteck
  */
 @Entity(name = "User")
-@Table(name = "users", schema = "li_annotate") /// case sensitive
+@Table(name = "users") /// case sensitive
 public class User {
     @Column(name = "first_name")
     private String firstName;
@@ -41,13 +41,11 @@ public class User {
      *
      * @param firstName the first name
      * @param lastName  the last name
-     * @param userName  the user name
-     * @param id        the id
+
      */
-    public User(String firstName, String lastName, String userName, int id) {
+    public User(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.id = id;
     }
 
 
