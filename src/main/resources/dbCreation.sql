@@ -20,8 +20,8 @@ create table connections(
 );
 
 create table connectionJob(
-  connectionId int primary key,
   jobId int auto_increment primary key,
+  connectionId int,
   jobName varchar(30),
   companyName varchar(30),
   jobStart date,
@@ -32,7 +32,8 @@ create table connectionJob(
 );
 
 create table connectionDetail(
-  connectionId int primary key,
+  detailId int primary key,
+  connectionId int,
   headline varchar(255),
   location varchar(30),
   industry varchar(30),
@@ -44,7 +45,8 @@ create table connectionDetail(
 );
 
 create table connectionUpdates(
-  connectionId int primary key,
+  updateId int primary key,
+  connectionId int,
   relationship varchar(50),
   sharedInterests varchar(255),
   background varchar(255),

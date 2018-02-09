@@ -1,0 +1,63 @@
+updated on 2/9/18 to incorporate unique identifiers on each table
+
+user
+-
+  userId int  pk
+  first_name varchar(25)
+  last_name varchar(25)
+  email varchar(30)
+  password varchar(30)
+  li_password varchar(30)
+
+
+connection
+-
+  connectionId int  pk
+  userID int fk >- user.userId
+  linkedInID int
+  first_name varchar(30)
+  last_name varchar(30)
+  numberConnections int
+  isUpdated boolean
+
+connectionJob
+-
+  jobId int pk
+  connectionId int fk >- connection.connectionId
+  jobName varchar(30)
+  companyName varchar(30)
+  jobStart date
+  jobEnd date
+  jobDescription text
+
+connectionDetail
+-
+  detailId int pk
+  connectionId int fk >- connection.connectionId
+  headline varchar(255)
+  location varchar(30)
+  industry varchar(30)
+  summary text
+  specialties text
+  profile varchar(50)
+
+connectionUpdate
+-
+  updateId int pk
+  connectionId int fk >- connection.connectionId
+  relationship varchar(50)
+  sharedInterests varchar(255)
+  background varchar(255)
+  notes text
+
+actionItems
+-
+  actionItemId int  pk
+  connectionId int fk >- connection.connectionId
+  userId int fk >- user.userId
+  actionItemName varchar(30)
+  dateCreated date
+  status varchar(15)
+  isComplete boolean
+  dateCompleted date
+
