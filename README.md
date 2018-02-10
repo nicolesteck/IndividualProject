@@ -11,7 +11,7 @@ the line that you can no longer remember why you connected with many of those pe
 important connections. <br />
 
 ## Solution 
-LinkedIn will be a much more useful tool when users are able to make notes on their contacts that can include context, 
+LinkedIn's already vital functionality will be strengthened with the user's ability to make notes on their contacts that can include context, 
 background, and other vital data. This application will allow users to contextualize all of their contacts, including 
 logging previous interactions, action items, and other salient details. This will build LinkedIn out and make it a 
 truly necessary application for job seekers and career builders. 
