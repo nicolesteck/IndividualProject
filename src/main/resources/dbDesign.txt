@@ -49,6 +49,7 @@ connectionUpdate
   sharedInterests varchar(255)
   background varchar(255)
   notes text
+  // Some way to incorporate the connection's connections?
 
 actionItems
 -
