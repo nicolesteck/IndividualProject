@@ -3,18 +3,22 @@ package edu.matc.entity;
 
 import javax.persistence.Id;
 import org.hibernate.annotations.GenericGenerator;
-import javax.ejb.Local;
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 
 /**
  * A class to represent a user.
  *
- * @author pwaite, with some mods by nsteck
+ * @author nsteck based on code from pawaite
+ *
+ *   userId int  pk
+ *   first_name varchar(25)
+ *   last_name varchar(25)
+ *   email varchar(30)
+ *   password varchar(30)
+ *   li_password varchar(30)
  */
 @Entity(name = "User")
-@Table(name = "users") /// case sensitive
+@Table(name = "user") /// case sensitive
 public class User {
     @Column(name = "first_name")
     private String firstName;
@@ -22,6 +26,8 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "email")
+    private String email;
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key
     @GeneratedValue(strategy=GenerationType.AUTO, generator="native")
@@ -83,6 +89,24 @@ public class User {
      */
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    /**
+     * Gets email.
+     *
+     * @return email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * Sets email.
+     *
+     * @param email the email
+     */
+    public void setEmail(String string) {
+        this.email = email;
     }
 
 

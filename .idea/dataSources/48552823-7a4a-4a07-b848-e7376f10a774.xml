@@ -12,43 +12,44 @@
     <schema id="6" parent="1" name="performance_schema"/>
     <schema id="7" parent="1" name="sample"/>
     <schema id="8" parent="1" name="sys"/>
-    <table id="9" parent="2" name="users"/>
-    <column id="10" parent="9" name="id">
+    <schema id="9" parent="1" name="li_test"/>
+    <table id="10" parent="2" name="users"/>
+    <column id="11" parent="10" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="11" parent="9" name="first_name">
+    <column id="12" parent="10" name="first_name">
       <Position>2</Position>
       <DataType>varchar(25)|0</DataType>
     </column>
-    <column id="12" parent="9" name="last_name">
+    <column id="13" parent="10" name="last_name">
       <Position>3</Position>
       <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="13" parent="9" name="user_name">
+    <column id="14" parent="10" name="user_name">
       <Position>4</Position>
       <DataType>varchar(15)|0</DataType>
     </column>
-    <column id="14" parent="9" name="password">
+    <column id="15" parent="10" name="password">
       <Position>5</Position>
       <DataType>varchar(30)|0</DataType>
     </column>
-    <column id="15" parent="9" name="date_of_birth">
+    <column id="16" parent="10" name="date_of_birth">
       <Position>6</Position>
       <DataType>date|0</DataType>
     </column>
-    <index id="16" parent="9" name="users_user_name_uindex">
+    <index id="17" parent="10" name="users_user_name_uindex">
       <ColNames>user_name</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="17" parent="9" name="PRIMARY">
+    <key id="18" parent="10" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="18" parent="9" name="users_user_name_uindex">
+    <key id="19" parent="10" name="users_user_name_uindex">
       <ColNames>user_name</ColNames>
       <UnderlyingIndexName>users_user_name_uindex</UnderlyingIndexName>
     </key>

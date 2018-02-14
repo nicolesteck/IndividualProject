@@ -1,32 +1,68 @@
-[ERROR] 2018-02-08 17:48:32.539 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:32.547 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-08 17:48:32.841 [main] UserDao - Searching for id: 5
-[ERROR] 2018-02-08 17:48:32.878 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:32.879 [main] UserDao - Searching for user with firstName = ar
-[ERROR] 2018-02-08 17:48:33.262 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:33.263 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:48:33.291 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:33.293 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:48:33.313 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:33.314 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-08 17:48:33.338 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:48:33.377 [main] Database - java.sql.SQLException: Can not issue empty query.
-[INFO ] 2018-02-08 17:48:33.380 [main] UserDao - in get all users
-[ERROR] 2018-02-08 17:48:33.414 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:48:33.440 [main] UserDao - Searching for id: 19
-[ERROR] 2018-02-08 17:49:14.055 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:14.064 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-08 17:49:14.445 [main] UserDao - Searching for id: 5
-[ERROR] 2018-02-08 17:49:14.467 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:14.470 [main] UserDao - Searching for user with firstName = ar
-[ERROR] 2018-02-08 17:49:14.817 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:14.818 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:49:14.843 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:14.845 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:49:14.871 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:14.872 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-08 17:49:14.897 [main] UserDao - Searching for id: 3
-[ERROR] 2018-02-08 17:49:14.979 [main] Database - java.sql.SQLException: Can not issue empty query.
-[INFO ] 2018-02-08 17:49:14.981 [main] UserDao - in get all users
-[ERROR] 2018-02-08 17:49:14.999 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-02-08 17:49:15.096 [main] UserDao - Searching for id: 20
+[DEBUG] 2018-02-13 19:30:29.487 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:31:25.004 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 19:31:25.283 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-13 19:31:25.725 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:31:25.748 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:31:25.837 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:31:25.883 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:31:25.964 [main] UserDao - Searching for id: 110
+[DEBUG] 2018-02-13 19:36:41.872 [main] UserDao - Searching for email: bcurry@gmail.com
+[DEBUG] 2018-02-13 19:38:37.731 [main] UserDao - Searching for email: bcurry@gmail.com
+[DEBUG] 2018-02-13 19:40:15.315 [main] UserDao - Searching for email: bcurry@gmail.com
+[DEBUG] 2018-02-13 19:46:50.715 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:46:53.620 [main] UserDao - Searching for email: bcurry@gmail.com
+[DEBUG] 2018-02-13 19:47:12.979 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:49:06.782 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:49:36.282 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 19:49:36.600 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:49:36.974 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:49:37.012 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:49:37.061 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:49:37.093 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:49:37.171 [main] UserDao - Searching for id: 195
+[DEBUG] 2018-02-13 19:51:36.003 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:53:50.931 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:53:51.348 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 19:53:51.389 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:53:51.415 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:53:51.452 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:53:51.517 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:53:51.541 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:53:51.642 [main] UserDao - Searching for id: 244
+[DEBUG] 2018-02-13 19:54:16.562 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:54:16.984 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:54:17.029 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:54:17.060 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:54:17.099 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:54:17.169 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:54:17.197 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:54:17.408 [main] UserDao - Searching for id: 287
+[DEBUG] 2018-02-13 19:54:49.876 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:54:50.271 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:54:50.316 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:54:50.348 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:54:50.370 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:54:50.436 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:54:50.460 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:54:50.549 [main] UserDao - Searching for id: 330
+[DEBUG] 2018-02-13 19:58:07.708 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:58:08.120 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:58:08.156 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:58:08.188 [main] UserDao - Searching for user with email = bcurry@gmail.com
+[DEBUG] 2018-02-13 19:58:08.228 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 19:58:08.306 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 19:58:08.330 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 19:58:08.410 [main] UserDao - Searching for id: 373
+[DEBUG] 2018-02-13 19:58:49.580 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 19:58:50.025 [main] UserDao - Searching for user with email = dklein@gmail.com
+[DEBUG] 2018-02-13 20:01:27.365 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:01:27.660 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:01:38.578 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:01:39.082 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:01:39.117 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-13 20:01:39.483 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:01:39.518 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:01:39.546 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:01:39.583 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 20:01:39.617 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 20:01:39.669 [main] UserDao - Searching for id: 380

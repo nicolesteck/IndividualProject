@@ -29,8 +29,6 @@ public class UserDao {
         List<User> users = session.createQuery(query).getResultList();
         session.close();
         return users;
-
-
     }
 
     public User getUserById(int id) {
@@ -39,8 +37,8 @@ public class UserDao {
         User user = session.get(User.class, id);
         session.close();
         return user;
-
     }
+
 
     /**
      * update user

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="li_annotate@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="li_annotate">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="li_test"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="sample"/>
+    <schema id="8" parent="1" name="sys"/>
+    <schema id="9" parent="1" name="test_sample"/>
+    <table id="10" parent="2" name="actionItems"/>
+    <table id="11" parent="2" name="connectionDetail"/>
+    <table id="12" parent="2" name="connectionJob"/>
+    <table id="13" parent="2" name="connectionUpdates"/>
+    <table id="14" parent="2" name="connections"/>
+    <table id="15" parent="2" name="user"/>
+    <column id="16" parent="10" name="actionItemId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="17" parent="10" name="itemConnectionId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="18" parent="10" name="itemUserId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="19" parent="10" name="actionItemName">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="20" parent="10" name="dateCreated">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="21" parent="10" name="status">
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <column id="22" parent="10" name="isComplete">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <column id="23" parent="10" name="dateCompleted">
+      <Position>8</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <index id="24" parent="10" name="FK_itemConnectionId">
+      <ColNames>itemConnectionId</ColNames>
+    </index>
+    <index id="25" parent="10" name="FK_itemUserId">
+      <ColNames>itemUserId</ColNames>
+    </index>
+    <key id="26" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>actionItemId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="27" parent="10" name="FK_itemConnectionId">
+      <ColNames>itemConnectionId</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>connections</RefTableName>
+      <RefColNames>connectionId</RefColNames>
+    </foreign-key>
+    <foreign-key id="28" parent="10" name="FK_itemUserId">
+      <ColNames>itemUserId</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>userId</RefColNames>
+    </foreign-key>
+    <column id="29" parent="11" name="detailId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="11" name="detailConnectionId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="31" parent="11" name="headline">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="32" parent="11" name="location">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="33" parent="11" name="industry">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="34" parent="11" name="summary">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="35" parent="11" name="specialties">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="36" parent="11" name="profile">
+      <Position>8</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <index id="37" parent="11" name="FK_detailConnectionId">
+      <ColNames>detailConnectionId</ColNames>
+    </index>
+    <key id="38" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>detailId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="39" parent="11" name="FK_detailConnectionId">
+      <ColNames>detailConnectionId</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>connections</RefTableName>
+      <RefColNames>connectionId</RefColNames>
+    </foreign-key>
+    <column id="40" parent="12" name="jobId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="41" parent="12" name="jobConnectionId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="12" name="jobName">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="43" parent="12" name="companyName">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="44" parent="12" name="jobStart">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="45" parent="12" name="jobEnd">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="46" parent="12" name="jobDescription">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <index id="47" parent="12" name="FK_jobConnectionId">
+      <ColNames>jobConnectionId</ColNames>
+    </index>
+    <key id="48" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>jobId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="12" name="FK_jobConnectionId">
+      <ColNames>jobConnectionId</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>connections</RefTableName>
+      <RefColNames>connectionId</RefColNames>
+    </foreign-key>
+    <column id="50" parent="13" name="updateId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="13" name="updatesConnectionId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="52" parent="13" name="relationship">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="53" parent="13" name="sharedInterests">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="54" parent="13" name="background">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="55" parent="13" name="notes">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <index id="56" parent="13" name="FK_updatesConnectionId">
+      <ColNames>updatesConnectionId</ColNames>
+    </index>
+    <key id="57" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>updateId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="58" parent="13" name="FK_updatesConnectionId">
+      <ColNames>updatesConnectionId</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>connections</RefTableName>
+      <RefColNames>connectionId</RefColNames>
+    </foreign-key>
+    <column id="59" parent="14" name="connectionId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="60" parent="14" name="connectionUserID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="61" parent="14" name="linkedInID">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="62" parent="14" name="first_name">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="63" parent="14" name="last_name">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="64" parent="14" name="numberConnections">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="65" parent="14" name="isUpdated">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <index id="66" parent="14" name="FK_connectionUserId">
+      <ColNames>connectionUserID</ColNames>
+    </index>
+    <key id="67" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>connectionId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="14" name="FK_connectionUserId">
+      <ColNames>connectionUserID</ColNames>
+      <RefSchemaName>li_annotate</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>userId</RefColNames>
+    </foreign-key>
+    <column id="69" parent="15" name="userId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="70" parent="15" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="71" parent="15" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="72" parent="15" name="email">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="73" parent="15" name="password">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="74" parent="15" name="li_password">
+      <Position>6</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <key id="75" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userId</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

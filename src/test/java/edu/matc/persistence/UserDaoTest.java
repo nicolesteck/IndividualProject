@@ -18,8 +18,6 @@ class UserDaoTest {
         dao = new UserDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-
-
     }
 
     @Test
