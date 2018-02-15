@@ -8,64 +8,64 @@ create table user(
 );
 
 create table connections(
-  connectionId int auto_increment primary key,
-  connectionUserId int,
-  linkedInId int,
+  connection_id int auto_increment primary key,
+  connection_user_id int,
+  linkedin_id int,
   first_name varchar(30),
   last_name varchar(30),
-  numberConnections int,
-  isUpdated boolean,
-  constraint FK_connectionUserId foreign key (connectionUserId)
+  number_connections int,
+  is_updated boolean,
+  constraint FK_connection_user_id foreign key (connection_user_id)
   references user(id)
 );
 
-create table connectionJob(
-  jobId int auto_increment primary key,
-  jobConnectionId int,
-  jobName varchar(30),
-  companyName varchar(30),
-  jobStart date,
-  jobEnd date,
-  jobDescription text,
-  constraint FK_jobConnectionId foreign key (jobConnectionId)
-  references connections(connectionId)
+create table connection_job(
+  job_id int auto_increment primary key,
+  job_connection_id int,
+  job_name varchar(30),
+  company_name varchar(30),
+  job_start date,
+  job_end date,
+  job_description text,
+  constraint FK_job_connection_id foreign key (job_connection_id)
+  references connections(connection_id)
 );
 
-create table connectionDetail(
-  detailId int primary key,
-  detailConnectionId int,
+create table connection_detail(
+  detail_id int primary key,
+  detail_connection_id int,
   headline varchar(255),
   location varchar(30),
   industry varchar(30),
   summary text,
   specialties text,
   profile varchar(50),
-  constraint FK_detailConnectionId foreign key (detailConnectionId)
-  references connections(connectionId)
+  constraint FK_detail_connection_id foreign key (detail_connection_id)
+  references connections(connection_id)
 );
 
-create table connectionUpdates(
-  updateId int primary key,
-  updatesConnectionId int,
+create table connection_updates(
+  update_id int primary key,
+  updates_connection_id int,
   relationship varchar(50),
-  sharedInterests varchar(255),
+  shared_interests varchar(255),
   background varchar(255),
   notes text,
-  constraint FK_updatesConnectionId foreign key (updatesConnectionId)
-  references connections(connectionId)
+  constraint FK_updates_connection_id foreign key (updates_connection_id)
+  references connections(connection_id)
 );
 
-create table actionItems(
-  actionItemId int auto_increment primary key,
-  itemConnectionId int,
-  itemUserId int,
-  actionItemName varchar(30),
-  dateCreated date,
+create table action_items(
+  action_item_id int auto_increment primary key,
+  item_connection_id int,
+  item_user_id int,
+  action_item_name varchar(30),
+  date_created date,
   status varchar(15),
-  isComplete boolean,
-  dateCompleted date,
-  constraint FK_itemConnectionId foreign key (itemConnectionId)
-  references connections(connectionId),
-  constraint FK_itemUserId foreign key (itemUserId)
+  is_complete boolean,
+  date_completed date,
+  constraint FK_item_connectionid foreign key (item_connection_id)
+  references connections(connection_id),
+  constraint FK_item_user_id foreign key (item_user_id)
   references user(id)
 );

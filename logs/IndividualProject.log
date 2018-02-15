@@ -66,3 +66,12 @@
 [DEBUG] 2018-02-13 20:01:39.583 [main] UserDao - Searching for id: 3
 [INFO ] 2018-02-13 20:01:39.617 [main] UserDao - in get all users
 [DEBUG] 2018-02-13 20:01:39.669 [main] UserDao - Searching for id: 380
+[DEBUG] 2018-02-13 20:10:40.863 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:10:41.275 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-13 20:10:41.307 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-13 20:10:41.805 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:10:41.952 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:10:42.035 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-13 20:10:42.336 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-13 20:10:42.401 [main] UserDao - in get all users
+[DEBUG] 2018-02-13 20:10:42.920 [main] UserDao - Searching for id: 381

@@ -4,18 +4,13 @@ package edu.matc.entity;
 import javax.persistence.Id;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * A class to represent a user.
  *
- * @author nsteck based on code from pawaite
- *
- *   userId int  pk
- *   first_name varchar(25)
- *   last_name varchar(25)
- *   email varchar(30)
- *   password varchar(30)
- *   li_password varchar(30)
+ * @author nsteck based on code from pawaite   userId int  pk   first_name varchar(25)   last_name varchar(25)   email varchar(30)   password varchar(30)   li_password varchar(30)
  */
 @Entity(name = "User")
 @Table(name = "user") /// case sensitive
@@ -28,6 +23,8 @@ public class User {
 
     @Column(name = "email")
     private String email;
+
+    private Set<Connection> connections = new HashSet<>();
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key
     @GeneratedValue(strategy=GenerationType.AUTO, generator="native")
@@ -47,7 +44,6 @@ public class User {
      *
      * @param firstName the first name
      * @param lastName  the last name
-
      */
     public User(String firstName, String lastName) {
         this.firstName = firstName;
@@ -94,7 +90,7 @@ public class User {
     /**
      * Gets email.
      *
-     * @return email
+     * @return email email
      */
     public String getEmail() {
         return email;
@@ -103,12 +99,11 @@ public class User {
     /**
      * Sets email.
      *
-     * @param email the email
+     * @param string the string
      */
     public void setEmail(String string) {
         this.email = email;
     }
-
 
 
     /**
@@ -127,6 +122,24 @@ public class User {
      */
     public void setId(int id) {
         this.id = id;
+    }
+
+    /**
+     * Gets connections.
+     *
+     * @return the connections
+     */
+    public Set<Connection> getConnections() {
+        return connections;
+    }
+
+    /**
+     * Sets connections.
+     *
+     * @param connections the connections
+     */
+    public void setConnections(Set<Connection> connections) {
+        this.connections = connections;
     }
 
     @Override
