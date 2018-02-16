@@ -17,7 +17,11 @@ create table connections(
   is_updated boolean,
   constraint FK_connection_user_id foreign key (connection_user_id)
   references user(id)
+  on update CASCADE
+  on delete CASCADE
 );
+
+create index FK_connection_user_id ON connections (connection_user_id);
 
 create table connection_job(
   job_id int auto_increment primary key,
@@ -28,12 +32,12 @@ create table connection_job(
   job_end date,
   job_description text,
   constraint FK_job_connection_id foreign key (job_connection_id)
-  references connections(connection_id)
+  references connections(id)
 );
 
 create table connection_detail(
-  detail_id int primary key,
-  detail_connection_id int,
+  id int primary key,
+  detail_connection_id int not null,
   headline varchar(255),
   location varchar(30),
   industry varchar(30),
@@ -41,7 +45,7 @@ create table connection_detail(
   specialties text,
   profile varchar(50),
   constraint FK_detail_connection_id foreign key (detail_connection_id)
-  references connections(connection_id)
+  references connections(id)
 );
 
 create table connection_updates(
@@ -52,7 +56,7 @@ create table connection_updates(
   background varchar(255),
   notes text,
   constraint FK_updates_connection_id foreign key (updates_connection_id)
-  references connections(connection_id)
+  references connections(id)
 );
 
 create table action_items(
@@ -65,7 +69,7 @@ create table action_items(
   is_complete boolean,
   date_completed date,
   constraint FK_item_connectionid foreign key (item_connection_id)
-  references connections(connection_id),
+  references connections(id),
   constraint FK_item_user_id foreign key (item_user_id)
   references user(id)
 );
