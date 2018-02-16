@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.Connection;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
@@ -47,6 +48,23 @@ class UserDaoTest {
     void insertSuccess() {
         User newUser = new User("Joe", "Trebek");
         int id = dao.insert(newUser);
+        assertNotEquals(0,id);
+        User insertedUser = dao.getUserById(id);
+        assertEquals("Joe", insertedUser.getFirstName());
+
+    }
+
+    @Test
+    void insertWithConnectionSuccess() {
+        User newUser = new User("John", "TrebekConnect");
+        Connection connection = new Connection(newUser);
+
+        newUser.addConnection(connection);
+
+        int id = dao.insert(newUser);
+
+        assertEquals(1, newUser.getConnections().size());
+
         assertNotEquals(0,id);
         User insertedUser = dao.getUserById(id);
         assertEquals("Joe", insertedUser.getFirstName());

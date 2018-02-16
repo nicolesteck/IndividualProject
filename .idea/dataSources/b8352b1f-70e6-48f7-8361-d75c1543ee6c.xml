@@ -13,10 +13,10 @@
     <schema id="7" parent="1" name="sys"/>
     <schema id="8" parent="1" name="test_sample"/>
     <schema id="9" parent="1" name="li_annotate"/>
-    <table id="10" parent="2" name="actionItems"/>
-    <table id="11" parent="2" name="connectionDetail"/>
-    <table id="12" parent="2" name="connectionJob"/>
-    <table id="13" parent="2" name="connectionUpdates"/>
+    <table id="10" parent="2" name="action_items"/>
+    <table id="11" parent="2" name="connection_detail"/>
+    <table id="12" parent="2" name="connection_job"/>
+    <table id="13" parent="2" name="connection_updates"/>
     <table id="14" parent="2" name="connections"/>
     <table id="15" parent="2" name="user"/>
     <column id="16" parent="10" name="action_item_id">

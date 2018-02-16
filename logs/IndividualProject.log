@@ -1,77 +1,19 @@
-[DEBUG] 2018-02-13 19:30:29.487 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:31:25.004 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 19:31:25.283 [main] UserDao - Searching for user with firstName = ar
-[DEBUG] 2018-02-13 19:31:25.725 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:31:25.748 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:31:25.837 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:31:25.883 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:31:25.964 [main] UserDao - Searching for id: 110
-[DEBUG] 2018-02-13 19:36:41.872 [main] UserDao - Searching for email: bcurry@gmail.com
-[DEBUG] 2018-02-13 19:38:37.731 [main] UserDao - Searching for email: bcurry@gmail.com
-[DEBUG] 2018-02-13 19:40:15.315 [main] UserDao - Searching for email: bcurry@gmail.com
-[DEBUG] 2018-02-13 19:46:50.715 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:46:53.620 [main] UserDao - Searching for email: bcurry@gmail.com
-[DEBUG] 2018-02-13 19:47:12.979 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:49:06.782 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:49:36.282 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 19:49:36.600 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:49:36.974 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:49:37.012 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:49:37.061 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:49:37.093 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:49:37.171 [main] UserDao - Searching for id: 195
-[DEBUG] 2018-02-13 19:51:36.003 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:53:50.931 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:53:51.348 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 19:53:51.389 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:53:51.415 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:53:51.452 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:53:51.517 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:53:51.541 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:53:51.642 [main] UserDao - Searching for id: 244
-[DEBUG] 2018-02-13 19:54:16.562 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:54:16.984 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:54:17.029 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:54:17.060 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:54:17.099 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:54:17.169 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:54:17.197 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:54:17.408 [main] UserDao - Searching for id: 287
-[DEBUG] 2018-02-13 19:54:49.876 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:54:50.271 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:54:50.316 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:54:50.348 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:54:50.370 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:54:50.436 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:54:50.460 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:54:50.549 [main] UserDao - Searching for id: 330
-[DEBUG] 2018-02-13 19:58:07.708 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:58:08.120 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:58:08.156 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:58:08.188 [main] UserDao - Searching for user with email = bcurry@gmail.com
-[DEBUG] 2018-02-13 19:58:08.228 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 19:58:08.306 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 19:58:08.330 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 19:58:08.410 [main] UserDao - Searching for id: 373
-[DEBUG] 2018-02-13 19:58:49.580 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 19:58:50.025 [main] UserDao - Searching for user with email = dklein@gmail.com
-[DEBUG] 2018-02-13 20:01:27.365 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:01:27.660 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:01:38.578 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:01:39.082 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:01:39.117 [main] UserDao - Searching for user with firstName = ar
-[DEBUG] 2018-02-13 20:01:39.483 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:01:39.518 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:01:39.546 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:01:39.583 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 20:01:39.617 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 20:01:39.669 [main] UserDao - Searching for id: 380
-[DEBUG] 2018-02-13 20:10:40.863 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:10:41.275 [main] UserDao - Searching for id: 5
-[DEBUG] 2018-02-13 20:10:41.307 [main] UserDao - Searching for user with firstName = ar
-[DEBUG] 2018-02-13 20:10:41.805 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:10:41.952 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:10:42.035 [main] UserDao - Searching for id: 3
-[DEBUG] 2018-02-13 20:10:42.336 [main] UserDao - Searching for id: 3
-[INFO ] 2018-02-13 20:10:42.401 [main] UserDao - in get all users
-[DEBUG] 2018-02-13 20:10:42.920 [main] UserDao - Searching for id: 381
+[DEBUG] 2018-02-15 19:49:31.329 [main] UserDao - Searching for id: 15
+[DEBUG] 2018-02-15 20:03:48.359 [main] UserDao - Searching for id: 16
+[DEBUG] 2018-02-15 20:06:48.261 [main] UserDao - Searching for id: 17
+[DEBUG] 2018-02-15 20:07:17.920 [main] UserDao - Searching for id: 18
+[DEBUG] 2018-02-15 20:09:47.388 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 20:10:02.230 [main] UserDao - Searching for id: 5
+[ERROR] 2018-02-15 20:10:53.758 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-02-15 20:10:53.759 [main] UserDao - Searching for user with firstName = ar
+[ERROR] 2018-02-15 20:11:45.259 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-02-15 20:11:45.260 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-15 20:12:36.442 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-02-15 20:12:36.443 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-15 20:13:27.605 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-02-15 20:13:27.605 [main] UserDao - Searching for id: 3
+[ERROR] 2018-02-15 20:14:18.778 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[INFO ] 2018-02-15 20:14:18.779 [main] UserDao - in get all users
+[ERROR] 2018-02-15 20:15:09.970 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-02-15 20:15:09.988 [main] UserDao - Searching for id: 20
+[DEBUG] 2018-02-15 20:23:17.856 [main] UserDao - Searching for id: 5

@@ -17,19 +17,22 @@ public class Connection {
     @Column(name = "connectionId")
     private int connectionId;
 
-
+    @ManyToOne
     private User user;
 
+    @Column(name = "linkedin_id")
     private int linkedInId;
 
+    @Column(name = "first_name")
     private String firstName;
 
+    @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "number
+    @Column(name = "number_connections")
     private int numberOfConnections;
 
-    @Column(name = "isUpdated")
+    @Column(name = "is_updated")
     private boolean isUpdated;
 
     /**
@@ -172,6 +175,8 @@ public class Connection {
     public void setUpdated(boolean updated) {
         isUpdated = updated;
     }
+
+
 
     @Override
     public String toString() {

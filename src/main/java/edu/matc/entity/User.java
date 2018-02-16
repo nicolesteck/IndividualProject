@@ -24,6 +24,7 @@ public class User {
     @Column(name = "email")
     private String email;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Connection> connections = new HashSet<>();
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key
@@ -142,6 +143,26 @@ public class User {
         this.connections = connections;
     }
 
+    /**
+     * Add connection.
+     *
+     * @param connection the connection
+     */
+    public void addConnection(Connection connection) {
+        connections.add(connection);
+        connection.setUser(this);
+    }
+
+    /**
+     * Remove connection.
+     *
+     * @param connection the connection
+     */
+    public void removeConnection(Connection connection) {
+        connections.remove(connection);
+        connection.setUser(null);
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -149,6 +170,7 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
+
 
 
 }
