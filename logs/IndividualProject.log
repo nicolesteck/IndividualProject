@@ -22,3 +22,25 @@
 [ERROR] 2018-02-15 21:42:16.685 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
 [DEBUG] 2018-02-15 21:42:16.711 [main] UserDao - Searching for id: 8
 [DEBUG] 2018-02-15 22:22:02.333 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:40:22.966 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:40:23.255 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:40:42.831 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:40:43.083 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:40:43.145 [main] UserDao - Searching for id: 9
+[DEBUG] 2018-02-15 22:40:43.171 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-15 22:40:43.564 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:40:43.589 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:40:43.606 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:40:43.622 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-15 22:40:43.641 [main] UserDao - in get all users
+[DEBUG] 2018-02-15 22:40:43.688 [main] UserDao - Searching for id: 10
+[DEBUG] 2018-02-15 22:43:35.118 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:43:35.352 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-15 22:43:35.416 [main] UserDao - Searching for id: 11
+[DEBUG] 2018-02-15 22:43:35.440 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-15 22:43:35.798 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:43:35.827 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:43:35.851 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-15 22:43:35.869 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-15 22:43:35.887 [main] UserDao - in get all users
+[DEBUG] 2018-02-15 22:43:35.961 [main] UserDao - Searching for id: 12

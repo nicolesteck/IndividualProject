@@ -67,7 +67,7 @@ class UserDaoTest {
 
         assertNotEquals(0,id);
         User insertedUser = dao.getUserById(id);
-        assertEquals("Joe", insertedUser.getFirstName());
+        assertEquals("John", insertedUser.getFirstName());
 
     }
 
