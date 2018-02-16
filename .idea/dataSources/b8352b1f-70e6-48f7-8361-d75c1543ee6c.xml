@@ -213,7 +213,7 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="60" parent="14" name="connection_user_id">
+    <column id="60" parent="14" name="connection_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
     </column>
@@ -238,7 +238,7 @@
       <DataType>tinyint(1)|0</DataType>
     </column>
     <index id="66" parent="14" name="FK_connection_user_id">
-      <ColNames>connection_user_id</ColNames>
+      <ColNames>connection_id</ColNames>
     </index>
     <index id="67" parent="14" name="connections_connection_id_uindex">
       <ColNames>id</ColNames>
@@ -254,7 +254,7 @@
       <UnderlyingIndexName>connections_connection_id_uindex</UnderlyingIndexName>
     </key>
     <foreign-key id="70" parent="14" name="FK_connection_user_id">
-      <ColNames>connection_user_id</ColNames>
+      <ColNames>connection_id</ColNames>
       <RefSchemaName>li_test</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>

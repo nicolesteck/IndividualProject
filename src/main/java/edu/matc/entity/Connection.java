@@ -14,7 +14,7 @@ public class Connection {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @Column(name = "connection_id")
+    @Column(name = "id")
     private int connectionId;
 
     @ManyToOne

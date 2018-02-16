@@ -21,7 +21,7 @@ create table connections(
   on delete CASCADE
 );
 
-create index FK_connection_user_id ON connections (connection_user_id);
+create index FK_connection_user_id ON connections (connection_id);
 
 create table connection_job(
   job_id int auto_increment primary key,
