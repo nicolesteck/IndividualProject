@@ -44,3 +44,240 @@
 [DEBUG] 2018-02-15 22:43:35.869 [main] UserDao - Searching for id: 3
 [INFO ] 2018-02-15 22:43:35.887 [main] UserDao - in get all users
 [DEBUG] 2018-02-15 22:43:35.961 [main] UserDao - Searching for id: 12
+[DEBUG] 2018-02-16 18:01:36.968 [main] UserDao - Searching for id: 13
+[DEBUG] 2018-02-16 18:02:08.670 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 18:02:08.943 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 18:02:09.018 [main] UserDao - Searching for id: 14
+[DEBUG] 2018-02-16 18:02:09.036 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 18:02:09.682 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 18:02:09.719 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 18:02:09.750 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 18:02:09.814 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 18:02:09.858 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 18:02:09.984 [main] UserDao - Searching for id: 15
+[DEBUG] 2018-02-16 18:16:03.042 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 18:16:03.507 [main] ConnectionDao - Searching for id: 5
+[DEBUG] 2018-02-16 18:49:28.157 [main] ConnectionDao - Searching for id: 5
+[DEBUG] 2018-02-16 18:49:28.427 [main] ConnectionDao - Searching for Connection with firstName = ar
+[DEBUG] 2018-02-16 18:49:28.813 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 18:49:28.839 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 18:49:28.866 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-16 18:49:28.921 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 18:49:28.969 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 18:49:29.047 [main] ConnectionDao - Searching for id: 6
+[INFO ] 2018-02-16 19:20:09.814 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 19:22:46.034 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 19:22:46.429 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 19:22:46.513 [main] UserDao - Searching for id: 16
+[DEBUG] 2018-02-16 19:22:46.553 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 19:22:47.443 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 19:22:47.537 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 19:22:47.614 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 19:22:47.626 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 19:22:47.649 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 19:22:47.713 [main] UserDao - Searching for id: 17
+[DEBUG] 2018-02-16 19:26:02.136 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 19:26:02.407 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:26:02.417 [main] UserDao - Searching for id: 2
+[INFO ] 2018-02-16 19:26:02.438 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 19:28:04.738 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 19:28:05.034 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:28:05.047 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:28:05.059 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:31:54.276 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 19:31:54.640 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:31:54.652 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:31:54.662 [main] ConnectionDao - Searching for id: 12
+[DEBUG] 2018-02-16 19:32:22.485 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 19:32:22.783 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:32:22.792 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 19:32:22.805 [main] ConnectionDao - Searching for id: 13
+[DEBUG] 2018-02-16 20:07:43.324 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:08:34.775 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:08:35.069 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:10:37.752 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:10:38.038 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:10:52.389 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:10:52.661 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:17:34.836 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 20:17:46.673 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 20:17:59.706 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:17:59.946 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:17:59.971 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 20:18:00.401 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 20:18:00.445 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:18:00.480 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:18:00.515 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 20:18:00.545 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 20:18:00.624 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 20:18:00.655 [main] ConnectionDao - Searching for id: 20
+[DEBUG] 2018-02-16 20:18:50.937 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 20:18:51.238 [main] ConnectionDao - Searching for id: 21
+[DEBUG] 2018-02-16 20:19:20.482 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:19:20.905 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:19:20.977 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 20:19:21.458 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 20:19:21.503 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:19:21.554 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:19:21.597 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 20:19:21.637 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 20:19:21.691 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 20:19:21.724 [main] ConnectionDao - Searching for id: 22
+[DEBUG] 2018-02-16 20:20:16.189 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 20:20:16.512 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 20:20:16.579 [main] UserDao - Searching for id: 18
+[DEBUG] 2018-02-16 20:20:16.605 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 20:20:17.059 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:20:17.094 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:20:17.136 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:20:17.189 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 20:20:17.212 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 20:20:17.294 [main] UserDao - Searching for id: 19
+[DEBUG] 2018-02-16 20:20:17.333 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:20:17.369 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:20:17.405 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 20:20:17.505 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 20:20:17.648 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:20:17.682 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:20:17.715 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 20:20:17.751 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 20:20:17.803 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 20:20:17.840 [main] ConnectionDao - Searching for id: 24
+[DEBUG] 2018-02-16 20:53:03.285 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 20:53:03.793 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 20:53:03.898 [main] UserDao - Searching for id: 20
+[DEBUG] 2018-02-16 20:53:03.925 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 20:53:04.510 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:53:04.552 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:53:04.583 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:53:04.621 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 20:53:04.666 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 20:53:04.921 [main] UserDao - Searching for id: 21
+[DEBUG] 2018-02-16 20:53:04.981 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:53:05.005 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 20:53:05.042 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 20:53:05.116 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 20:53:05.159 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 20:53:05.207 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 20:53:05.229 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 20:53:05.264 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 20:53:05.316 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 20:53:05.337 [main] ConnectionDao - Searching for id: 26
+[DEBUG] 2018-02-16 21:16:37.438 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:18:18.929 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:19:55.493 [main] UserDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:44:14.437 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:45:34.467 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:24.237 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:46:24.934 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:46:25.056 [main] UserDao - Searching for id: 22
+[DEBUG] 2018-02-16 21:46:25.078 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 21:46:26.014 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:26.062 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:26.080 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:26.100 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 21:46:26.119 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 21:46:26.214 [main] UserDao - Searching for id: 23
+[DEBUG] 2018-02-16 21:46:26.238 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:46:26.256 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:46:26.318 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 21:46:26.359 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 21:46:26.453 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:26.475 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:26.494 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:46:26.508 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 21:46:26.564 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 21:46:26.600 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 21:46:26.611 [main] ConnectionDao - Searching for id: 31
+[DEBUG] 2018-02-16 21:46:27.295 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:46:28.009 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:46:28.173 [main] UserDao - Searching for id: 24
+[DEBUG] 2018-02-16 21:46:28.202 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 21:46:28.972 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:29.051 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:29.096 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:29.120 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 21:46:29.150 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 21:46:29.238 [main] UserDao - Searching for id: 25
+[DEBUG] 2018-02-16 21:46:29.315 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:46:29.334 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:46:29.354 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 21:46:29.397 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 21:46:29.467 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:29.492 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:46:29.524 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:46:29.543 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 21:46:29.568 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 21:46:29.606 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 21:46:29.623 [main] ConnectionDao - Searching for id: 33
+[DEBUG] 2018-02-16 21:47:51.728 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:47:51.963 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:47:52.000 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 21:47:52.338 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 21:47:52.373 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:47:52.414 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:47:52.452 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:47:52.470 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 21:47:52.488 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 21:47:52.528 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 21:47:52.554 [main] ConnectionDao - Searching for id: 34
+[DEBUG] 2018-02-16 21:48:56.768 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:48:57.046 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:48:57.100 [main] UserDao - Searching for id: 26
+[DEBUG] 2018-02-16 21:48:57.122 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 21:48:57.469 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:48:57.490 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:48:57.517 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:48:57.533 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 21:48:57.561 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 21:48:57.608 [main] UserDao - Searching for id: 27
+[DEBUG] 2018-02-16 21:49:25.815 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:49:26.248 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:49:26.323 [main] UserDao - Searching for id: 28
+[DEBUG] 2018-02-16 21:49:26.355 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 21:49:26.842 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:49:26.868 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:49:26.890 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:49:26.909 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 21:49:26.936 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 21:49:26.994 [main] UserDao - Searching for id: 29
+[DEBUG] 2018-02-16 21:49:27.023 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:49:27.051 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:49:27.087 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 21:49:27.140 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 21:49:27.237 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:49:27.285 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:49:27.316 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:49:27.338 [main] ConnectionDao - Searching for id: 4
+[INFO ] 2018-02-16 21:49:27.364 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 21:49:27.414 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 21:49:27.427 [main] ConnectionDao - Searching for id: 37
+[DEBUG] 2018-02-16 21:52:49.819 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:55:51.630 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:14.664 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:22.873 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:49.529 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:57:49.925 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-16 21:57:49.993 [main] UserDao - Searching for id: 30
+[DEBUG] 2018-02-16 21:57:50.021 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-16 21:57:50.467 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:50.493 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:50.526 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:50.546 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-16 21:57:50.584 [main] UserDao - in get all users
+[DEBUG] 2018-02-16 21:57:50.644 [main] UserDao - Searching for id: 31
+[DEBUG] 2018-02-16 21:57:50.691 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:57:50.709 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-16 21:57:50.728 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-16 21:57:50.773 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-16 21:57:50.830 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:50.885 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:50.926 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-16 21:57:50.955 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:50.975 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:51.011 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-16 21:57:51.076 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-16 21:57:51.118 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-16 21:57:51.153 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-16 21:57:51.173 [main] ConnectionDao - Searching for id: 41
+[DEBUG] 2018-02-16 21:57:51.203 [main] ConnectionDao - Searching for id: 3

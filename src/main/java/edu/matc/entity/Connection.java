@@ -44,6 +44,12 @@ public class Connection {
         this.user = user;
     }
 
+    public Connection(User user, String firstName, String lastName) {
+        this.user = user;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     /**
      * Instantiates a new Connection.
      */

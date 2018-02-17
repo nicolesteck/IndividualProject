@@ -1,2 +1,4 @@
 delete from user;
+delete from connections;
 INSERT INTO user (id, first_name, last_name, email, password, li_password) VALUES (1, 'Joe','dCoyne','jcoyne@gmail.com','supersecret1','mypassword'), (2, 'Fred','Hensen','fhensen@gmail.com','supersecret2','myPassword'), (3, 'Barney','Curry','bcurry@gmail.com','supersecret3','mypassword'), (4, 'Karen','Mack','kmack@gmail.com','supersecret4','supersecret5'), (5,'Dianne','Klein','dklein@gmail.com','supersecret5','superSecrerPass'), (6,'Dawn','Tillman','dtillman@gmail.com','supersecret6','superSecretPassword');
+INSERT INTO `connections` (`id`, `user_id`, `linkedin_id`, `first_name`, `last_name`, `number_connections`, `is_updated`) VALUES (1,1,234543245,'Joanne','Turner',124,0),(2,2,746757245,'Jeannie','Potter',43,1),(3,2,753475775,'Julie','Carpenter',333,0),(4,3,345734573,'Sam','Gamgee',981,0);

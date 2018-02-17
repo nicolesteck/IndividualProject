@@ -68,6 +68,7 @@ class UserDaoTest {
         assertNotEquals(0,id);
         User insertedUser = dao.getUserById(id);
         assertEquals("John", insertedUser.getFirstName());
+        assertEquals(1, insertedUser.getConnections().size());
 
     }
 
