@@ -84,13 +84,13 @@ public class UserDao {
     public List<User> getByPropertyEqual(String propertyName, String value) {
         Session session = sessionFactory.openSession();
 
-        logger.debug("Searching for user with " + propertyName + " = " + value);
+        logger.debug("Searching for order with " + propertyName + " = " + value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<User> query = builder.createQuery(User.class);
-        Root<User> root = query.from(User.class);
+        CriteriaQuery<User> query = builder.createQuery( User.class );
+        Root<User> root = query.from( User.class );
         query.select(root).where(builder.equal(root.get(propertyName), value));
-        List<User> users = session.createQuery(query).getResultList();
+        List<User> users = session.createQuery( query ).getResultList();
 
         session.close();
         return users;

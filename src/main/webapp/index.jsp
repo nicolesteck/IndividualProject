@@ -1,27 +1,42 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="title" value="Search Results" />
 <%@include file="head.jsp"%>
-<%@ page import = "java.io.*,java.util.*,java.sql.*"%>
-<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
+
+<script type="text/javascript" class="init">
+    $(document).ready( function () {
+        $('#userTable').DataTable();
+    } );
+</script>
 <html>
 <body>
 
-<h2>Project - Users</h2>
-<%--<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-    url = "jdbc:mysql://localhost:3306/li_annotate"
-    user = "root" password = "password" /> --%>
+<div class="container-fluid">
+    <h2>Search Results: </h2>
+    <table id="userTable" class="display" cellspacing="0" width="100%">
+        <thead>
+        <th>Name</th>
+        <th>User Name</th>
+        <th>Age</th>
+        <th>Orders</th>
+        </thead>
+        <tbody>
+        <c:forEach var="user" items="${users}">
+            <tr>
+                <td>${user.firstName} ${user.lastName}</td>
+                <td>${user.userName}</td>
+                <td>${user.age}</td>
+                <td>
+                    <c:forEach var="order" items="${user.orders}">
+                        ${order.id} ${order.description}<br/>
+                    </c:forEach>
+                </td>
+            </tr>
 
-<sql:query dataSource = "${snapshot}" var = "result">
-    SELECT * FROM users;
-</sql:query>
-<table>
-<c:forEach var="row" items = "${results.rows}">
-    <tr>
-        <td><c:out value = "${row.first_name}"/></td>
-    </tr>
-</c:forEach>
-</table>
 
+        </c:forEach>
+        </tbody>
+    </table>
+</div>
 
 </body>
 </html>
