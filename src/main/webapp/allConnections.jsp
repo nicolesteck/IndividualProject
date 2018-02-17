@@ -4,7 +4,7 @@
 <html><body>
 
 <div class="container-fluid">
-    <h2>Search Results: </h2>
+    <h2>All Connections</h2>
     <%-- ${users} --%>
     <table>
         <c:forEach var="connection" items="${connections}">

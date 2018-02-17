@@ -14,9 +14,11 @@ class UserDaoTest {
 
     UserDao dao;
 
+
     @BeforeEach
     void setUp() {
         dao = new UserDao();
+
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -41,7 +43,7 @@ class UserDaoTest {
         thisUser.setLastName(newName);
         dao.saveOrUpdate(thisUser);
         User thatUser = dao.getUserById(3);
-        assertEquals(newName, thatUser.getLastName());
+        assertEquals(thisUser, thatUser);
     }
 
     @Test

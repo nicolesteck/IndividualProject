@@ -14,10 +14,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConnectionDaoTest {
 
     ConnectionDao dao;
+    GenericDao genericDao;
 
     @BeforeEach
     void setUp() {
         dao = new ConnectionDao();
+        genericDao = new GenericDao(Connection.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -30,20 +32,20 @@ class ConnectionDaoTest {
 
     @Test
     void getByIdSuccess() {
-        Connection retrievedConnection = dao.getConnectionById(3);
+        Connection retrievedConnection = (Connection)genericDao.getById(3);
         assertNotNull(retrievedConnection);
         assertEquals("Carpenter", retrievedConnection.getLastName());
     }
 
-    @Test
+    @Test // Genericized
     void saveOrUpdate() {
         String newName = "Wolfenstein";
         String newFirst = "Cattenberg";
-        Connection thisConnection = dao.getConnectionById(4);
+        Connection thisConnection = (Connection)genericDao.getById(4);
         thisConnection.setLastName(newName);
         thisConnection.setFirstName(newFirst);
-        dao.saveOrUpdate(thisConnection);
-        Connection thatConnection = dao.getConnectionById(4);
+        genericDao.saveOrUpdate(thisConnection);
+        Connection thatConnection = (Connection)genericDao.getById(4);
         assertEquals(newName, thatConnection.getLastName());
     }
 

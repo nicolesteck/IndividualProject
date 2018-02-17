@@ -704,3 +704,143 @@
 [DEBUG] 2018-02-17 14:17:14.834 [main] ConnectionDao - Searching for id: 3
 [INFO ] 2018-02-17 14:17:46.114 [http-nio-8080-exec-9] ConnectionDao - in get all Connections
 [INFO ] 2018-02-17 14:17:47.884 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
+[DEBUG] 2018-02-17 14:24:41.695 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:24:42.035 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:24:42.098 [main] UserDao - Searching for id: 65
+[DEBUG] 2018-02-17 14:24:42.122 [main] UserDao - Searching for order with lastName = Curry
+[DEBUG] 2018-02-17 14:24:42.512 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-17 14:24:42.555 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:24:42.590 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:24:42.613 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-17 14:24:42.630 [main] UserDao - in get all users
+[DEBUG] 2018-02-17 14:24:42.689 [main] UserDao - Searching for id: 66
+[DEBUG] 2018-02-17 14:24:42.751 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:24:42.775 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:24:42.787 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 14:24:42.823 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-17 14:24:42.869 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:24:42.898 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:24:42.922 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:24:42.955 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:24:42.969 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:24:42.992 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:24:43.016 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-17 14:24:43.050 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:24:43.081 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 14:24:43.124 [main] ConnectionDao - Searching for id: 93
+[DEBUG] 2018-02-17 14:24:43.151 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:25:16.774 [http-nio-8080-exec-8] UserDao - in get all users
+[INFO ] 2018-02-17 14:25:16.774 [http-nio-8080-exec-9] ConnectionDao - in get all Connections
+[INFO ] 2018-02-17 14:25:18.721 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
+[INFO ] 2018-02-17 14:25:18.722 [http-nio-8080-exec-8] AllUsers - In the doGet of allUsers
+[DEBUG] 2018-02-17 14:25:54.388 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:25:54.692 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:25:54.769 [main] UserDao - Searching for id: 67
+[DEBUG] 2018-02-17 14:25:54.795 [main] UserDao - Searching for order with lastName = Curry
+[DEBUG] 2018-02-17 14:25:55.215 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-17 14:25:55.244 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:25:55.267 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:25:55.283 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-17 14:25:55.303 [main] UserDao - in get all users
+[DEBUG] 2018-02-17 14:25:55.348 [main] UserDao - Searching for id: 68
+[DEBUG] 2018-02-17 14:25:55.412 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:25:55.425 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:25:55.440 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 14:25:55.480 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-17 14:25:55.508 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:25:55.527 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:25:55.550 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:25:55.567 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:25:55.591 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:25:55.606 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:25:55.634 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-17 14:25:55.659 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:25:55.676 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 14:25:55.685 [main] ConnectionDao - Searching for id: 96
+[DEBUG] 2018-02-17 14:25:55.711 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:26:28.825 [http-nio-8080-exec-10] ConnectionDao - in get all Connections
+[INFO ] 2018-02-17 14:26:28.825 [http-nio-8080-exec-9] UserDao - in get all users
+[INFO ] 2018-02-17 14:26:30.715 [http-nio-8080-exec-10] AllConnections - In the doGet of allConnections
+[INFO ] 2018-02-17 14:26:30.712 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[DEBUG] 2018-02-17 14:32:15.903 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:32:16.238 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:32:16.322 [main] UserDao - Searching for id: 69
+[DEBUG] 2018-02-17 14:32:16.353 [main] UserDao - Searching for order with lastName = Curry
+[DEBUG] 2018-02-17 14:32:16.736 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-17 14:32:16.776 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:32:16.796 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:32:16.817 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-17 14:32:16.834 [main] UserDao - in get all users
+[DEBUG] 2018-02-17 14:32:16.897 [main] UserDao - Searching for id: 70
+[DEBUG] 2018-02-17 14:32:16.964 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:32:16.988 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:32:17.008 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 14:32:17.047 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-17 14:32:17.078 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:32:17.136 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:32:17.191 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:32:17.241 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:32:17.254 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:32:17.269 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:32:17.299 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-17 14:32:17.365 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:32:17.383 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 14:32:17.393 [main] ConnectionDao - Searching for id: 99
+[DEBUG] 2018-02-17 14:32:17.408 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:32:46.353 [http-nio-8080-exec-10] UserDao - in get all users
+[DEBUG] 2018-02-17 14:34:57.190 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:34:57.513 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:34:57.592 [main] UserDao - Searching for id: 71
+[DEBUG] 2018-02-17 14:34:57.616 [main] UserDao - Searching for order with lastName = Curry
+[DEBUG] 2018-02-17 14:34:58.021 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-17 14:34:58.056 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:34:58.075 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:34:58.092 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-17 14:34:58.111 [main] UserDao - in get all users
+[DEBUG] 2018-02-17 14:34:58.161 [main] UserDao - Searching for id: 72
+[DEBUG] 2018-02-17 14:34:58.229 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:34:58.251 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:34:58.266 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 14:34:58.311 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-17 14:34:58.344 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:34:58.372 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:34:58.398 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:34:58.432 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:34:58.445 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:34:58.465 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:34:58.510 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-17 14:34:58.549 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:34:58.574 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 14:34:58.582 [main] ConnectionDao - Searching for id: 102
+[DEBUG] 2018-02-17 14:34:58.615 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:35:32.140 [http-nio-8080-exec-10] UserDao - in get all users
+[DEBUG] 2018-02-17 14:37:01.274 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:37:02.145 [main] UserDao - Searching for id: 5
+[DEBUG] 2018-02-17 14:37:02.374 [main] UserDao - Searching for id: 73
+[DEBUG] 2018-02-17 14:37:02.436 [main] UserDao - Searching for order with lastName = Curry
+[DEBUG] 2018-02-17 14:37:03.493 [main] UserDao - Searching for user with firstName = ar
+[DEBUG] 2018-02-17 14:37:03.657 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:37:03.682 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:37:03.732 [main] UserDao - Searching for id: 3
+[INFO ] 2018-02-17 14:37:03.779 [main] UserDao - in get all users
+[DEBUG] 2018-02-17 14:37:03.864 [main] UserDao - Searching for id: 74
+[DEBUG] 2018-02-17 14:37:04.034 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:37:04.075 [main] ConnectionDao - Searching for id: 2
+[DEBUG] 2018-02-17 14:37:04.095 [main] ConnectionDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 14:37:04.199 [main] ConnectionDao - Searching for Connection with firstName = Julie
+[DEBUG] 2018-02-17 14:37:04.347 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:37:04.394 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:37:04.424 [main] ConnectionDao - Searching for id: 3
+[DEBUG] 2018-02-17 14:37:04.459 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:37:04.538 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:37:04.597 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:37:04.651 [main] ConnectionDao - in get all Connections
+[DEBUG] 2018-02-17 14:37:04.727 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 14:37:04.749 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 14:37:04.830 [main] ConnectionDao - Searching for id: 105
+[DEBUG] 2018-02-17 14:37:04.873 [main] ConnectionDao - Searching for id: 3
+[INFO ] 2018-02-17 14:37:47.463 [http-nio-8080-exec-10] UserDao - in get all users
+[INFO ] 2018-02-17 14:37:48.481 [http-nio-8080-exec-10] AllUsers - In the doGet of allUsers
+[DEBUG] 2018-02-17 16:09:29.005 [main] ConnectionDao - Searching for id: 4
+[DEBUG] 2018-02-17 16:19:54.797 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 16:19:55.160 [main] UserDao - Searching for id: 3

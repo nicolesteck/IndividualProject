@@ -11,7 +11,7 @@
 <body>
 
 <div class="container-fluid">
-    <h2>View all users</h2>
+    <a href = "allUsers">View all Users</a>
     <a href = "allConnections">View all Connections</a>
 </div>
 
