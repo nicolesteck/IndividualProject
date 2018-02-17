@@ -79,24 +79,6 @@ public class ConnectionDao {
     }
 
 
-    /** Return a list of all Connections
-     *
-     * @return All Connections
-     */
-    public List<Connection> getAll() {
-
-        Session session = sessionFactory.openSession();
-
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Connection> query = builder.createQuery( Connection.class );
-        Root<Connection> root = query.from( Connection.class );
-        List<Connection> connections = session.createQuery( query ).getResultList();
-
-        logger.debug("The list of Connections " + connections);
-        session.close();
-
-        return connections;
-    }
 
     /**
      * Get Connection by property (exact match)
