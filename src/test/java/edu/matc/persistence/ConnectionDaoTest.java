@@ -49,15 +49,17 @@ class ConnectionDaoTest {
 
     @Test
     void insertSuccess() {
-        UserDao userDao = new UserDao();
-        User user = userDao.getUserById(1);
+        GenericDao genericDao = new GenericDao(User.class);
+        GenericDao genericConnectionDao = new GenericDao(Connection.class);
+        User user = (User)genericDao.getById(1);
         Connection newConnection = new Connection(user, "Woolf", "theCat");
         user.addConnection(newConnection);
 
-        int id = genericDao.insert(newConnection);
+
+        int id = genericConnectionDao.insert(newConnection);
         assertNotNull(newConnection);
         assertNotEquals(0,id);
-        Connection insertedConnection = (Connection)genericDao.getById(id);
+        Connection insertedConnection = (Connection)genericConnectionDao.getById(id);
         assertEquals("Woolf", insertedConnection.getFirstName());
         assertEquals("Joe", insertedConnection.getUser().getFirstName());
 
@@ -65,8 +67,8 @@ class ConnectionDaoTest {
 
     @Test
     void getConnectionIdSuccess() {
-        UserDao userDao = new UserDao();
-        User user = userDao.getUserById(3);
+        GenericDao genericDao = new GenericDao(User.class);
+        User user = (User)genericDao.getById(3);
         Connection newConnection = new Connection(user, "Major", "theDog");
         int connectionId = newConnection.getConnectionId();
         assertNotNull(connectionId);
