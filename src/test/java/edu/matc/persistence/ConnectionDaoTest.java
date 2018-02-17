@@ -13,12 +13,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ConnectionDaoTest {
 
-    ConnectionDao dao;
     GenericDao genericDao;
 
     @BeforeEach
     void setUp() {
-        dao = new ConnectionDao();
         genericDao = new GenericDao(Connection.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -26,7 +24,7 @@ class ConnectionDaoTest {
 
     @Test
     void getAllConnectionsSuccess() {
-        List<Connection> connections = dao.getAllConnections();
+        List<Connection> connections = (List<Connection>)genericDao.getAll();
         assertEquals(4, connections.size());
     }
 
@@ -56,10 +54,10 @@ class ConnectionDaoTest {
         Connection newConnection = new Connection(user, "Woolf", "theCat");
         user.addConnection(newConnection);
 
-        int id = dao.insert(newConnection);
+        int id = genericDao.insert(newConnection);
         assertNotNull(newConnection);
         assertNotEquals(0,id);
-        Connection insertedConnection = dao.getConnectionById(id);
+        Connection insertedConnection = (Connection)genericDao.getById(id);
         assertEquals("Woolf", insertedConnection.getFirstName());
         assertEquals("Joe", insertedConnection.getUser().getFirstName());
 
@@ -74,56 +72,56 @@ class ConnectionDaoTest {
         assertNotNull(connectionId);
         user.addConnection(newConnection);
 
-        int id = dao.insert(newConnection);
+        int id = genericDao.insert(newConnection);
 
 
     }
 
     @Test
     void getLinkedInIdSuccess() {
-        Connection connection = dao.getConnectionById(3);
+        Connection connection = (Connection)genericDao.getById(3);
         assertEquals(753475775, connection.getLinkedInId());
 
     }
 
     @Test
     void setLinkedInIdSuccess() {
-        Connection connection = dao.getConnectionById(4);
+        Connection connection = (Connection)genericDao.getById(4);
         connection.setLinkedInId(923459883);
         assertEquals(923459883, connection.getLinkedInId());
     }
 
     @Test
     void getNumberOfConnectionsSuccess() {
-        Connection connection = dao.getConnectionById(3);
+        Connection connection = (Connection)genericDao.getById(3);
         assertEquals(333, connection.getNumberOfConnections());
 
     }
 
     @Test
     void setNumberOfConnectionsSuccess() {
-        Connection connection = dao.getConnectionById(4);
+        Connection connection = (Connection)genericDao.getById(4);
         connection.setNumberOfConnections(99);
         assertEquals(99, connection.getNumberOfConnections());
     }
 
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getConnectionById(2));
-        assertNull(dao.getConnectionById(2));
+        genericDao.delete(genericDao.getById(2));
+        assertNull(genericDao.getById(2));
     }
 
 
     @Test
     void getByPropertyEqual() {
-        List<Connection> connections = dao.getByPropertyEqual("firstName", "Julie");
+        List<Connection> connections = (List<Connection>)genericDao.getByPropertyEqual("firstName", "Julie");
         assertNotNull(connections);
         assertEquals(1, connections.size());
     }
 
     @Test
     void getByPropertyLike() {
-        List<Connection> connections = dao.getByPropertyLike("firstName", "J");
+        List<Connection> connections = (List<Connection>)genericDao.getByPropertyLike("firstName", "J");
         assertEquals(3, connections.size());
     }
 

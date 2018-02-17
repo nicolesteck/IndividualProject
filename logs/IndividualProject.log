@@ -844,3 +844,12 @@
 [DEBUG] 2018-02-17 16:09:29.005 [main] ConnectionDao - Searching for id: 4
 [DEBUG] 2018-02-17 16:19:54.797 [main] UserDao - Searching for id: 3
 [DEBUG] 2018-02-17 16:19:55.160 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 17:09:37.661 [main] GenericDao - Searching for firstName = Julie
+[DEBUG] 2018-02-17 17:17:23.980 [main] GenericDao - Searching for lastName = Curry
+[DEBUG] 2018-02-17 17:17:35.334 [main] GenericDao - Searching for Connection with firstName = ar
+[DEBUG] 2018-02-17 17:24:13.142 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-17 17:24:13.581 [main] GenericDao - Searching for firstName = Julie
+[DEBUG] 2018-02-17 17:24:13.621 [main] UserDao - Searching for id: 3
+[DEBUG] 2018-02-17 17:24:14.063 [main] UserDao - Searching for id: 1
+[DEBUG] 2018-02-17 17:27:05.018 [main] GenericDao - Searching for lastName = Curry
+[DEBUG] 2018-02-17 17:27:05.452 [main] GenericDao - Searching for Connection with firstName = ar

@@ -7,6 +7,7 @@ import org.hibernate.Transaction;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
@@ -67,8 +68,8 @@ public class GenericDao<T> {
     }
 
     /**
-     * update Connection
-     * @param connection  Connection to be inserted or updated
+     * update entity
+     * @param entity  entity to be inserted or updated
      */
     public void saveOrUpdate(T entity) {
         Session session = getSession();
@@ -88,9 +89,45 @@ public class GenericDao<T> {
         return id;
     }
 
+    public List<T> getByPropertyEqual(String propertyName, String value) {
+        Session session = getSession();
+
+        logger.debug("Searching for " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        query.select(root).where(builder.equal(root.get(propertyName), value));
+        List<T> list = session.createQuery( query ).getResultList();
+        session.close();
+        return list;
+
+
+    }
+
+    /**
+     * Get Connection by property (like)
+     * sample usage: getByPropertyLike("lastname", "C")
+     */
+    public List<T> getByPropertyLike(String propertyName, String value) {
+        Session session = getSession();
+
+        logger.debug("Searching for Connection with {} = {}",  propertyName, value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(propertyName);
+
+        query.where(builder.like(propertyPath, "%" + value + "%"));
+
+        List<T> list = session.createQuery( query ).getResultList();
+
+        session.close();
+        return list;
+    }
+
     /*
-     Save or Update
-     Insert
      Get by property like
      Get by property equals
      */
