@@ -11,31 +11,8 @@
 <body>
 
 <div class="container-fluid">
-    <h2>Search Results: </h2>
-    <table id="userTable" class="display" cellspacing="0" width="100%">
-        <thead>
-        <th>Name</th>
-        <th>User Name</th>
-        <th>Age</th>
-        <th>Orders</th>
-        </thead>
-        <tbody>
-        <c:forEach var="user" items="${users}">
-            <tr>
-                <td>${user.firstName} ${user.lastName}</td>
-                <td>${user.userName}</td>
-                <td>${user.age}</td>
-                <td>
-                    <c:forEach var="order" items="${user.orders}">
-                        ${order.id} ${order.description}<br/>
-                    </c:forEach>
-                </td>
-            </tr>
-
-
-        </c:forEach>
-        </tbody>
-    </table>
+    <h2>View all users</h2>
+    <a href = "allConnections">View all Connections</a>
 </div>
 
 </body>

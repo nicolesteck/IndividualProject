@@ -1,10 +1,66 @@
+
+
+
+
+-- auto-generated definition
+CREATE TABLE user
+(
+  id          INT AUTO_INCREMENT
+    PRIMARY KEY,
+  first_name  VARCHAR(25) NULL,
+  last_name   VARCHAR(25) NULL,
+  email       VARCHAR(30) NULL,
+  password    VARCHAR(30) NULL,
+  li_password VARCHAR(30) NULL,
+  CONSTRAINT user_id_uindex
+  UNIQUE (id)
+);
+
+-- auto-generated definition
+CREATE TABLE connections
+(
+  id                 INT AUTO_INCREMENT
+    PRIMARY KEY,
+  user_id            INT         NULL,
+  linkedin_id        INT         NULL,
+  first_name         VARCHAR(30) NULL,
+  last_name          VARCHAR(30) NULL,
+  number_connections INT         NULL,
+  is_updated         TINYINT(1)  NULL,
+  CONSTRAINT connections_connection_id_uindex
+  UNIQUE (id),
+  CONSTRAINT FK_connection_user_id
+  FOREIGN KEY (user_id) REFERENCES user (id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+CREATE INDEX FK_connection_user_id
+  ON connections (user_id);
+
+-- auto-generated definition
+CREATE TABLE connection_updates
+(
+  id               INT          NOT NULL
+    PRIMARY KEY,
+  connection_id    INT          NULL,
+  relationship     VARCHAR(50)  NULL,
+  shared_interests VARCHAR(255) NULL,
+  background       VARCHAR(255) NULL,
+  notes            TEXT         NULL,
+  CONSTRAINT FK_updates_connection_id
+  FOREIGN KEY (connection_id) REFERENCES connections (id)
+
+);
+CREATE INDEX FK_updates_connection_id
+  ON connection_updates (connection_id);
+
 -- auto-generated definition
 CREATE TABLE action_items
 (
   id               INT AUTO_INCREMENT
     PRIMARY KEY,
-  connection_id    INT         NULL,
-  user_id          INT         NULL,
+  connection_id    INT         NOT NULL,
+  user_id          INT         NOT NULL,
   action_item_name VARCHAR(30) NULL,
   date_created     DATE        NULL,
   status           VARCHAR(15) NULL,
@@ -59,54 +115,3 @@ CREATE TABLE connection_job
 );
 CREATE INDEX FK_job_connection_id
   ON connection_job (connection_id);
-
--- auto-generated definition
-CREATE TABLE connection_updates
-(
-  id               INT          NOT NULL
-    PRIMARY KEY,
-  connection_id    INT          NULL,
-  relationship     VARCHAR(50)  NULL,
-  shared_interests VARCHAR(255) NULL,
-  background       VARCHAR(255) NULL,
-  notes            TEXT         NULL,
-  CONSTRAINT FK_updates_connection_id
-  FOREIGN KEY (connection_id) REFERENCES connections (id)
-);
-CREATE INDEX FK_updates_connection_id
-  ON connection_updates (connection_id);
-
--- auto-generated definition
-CREATE TABLE connections
-(
-  id                 INT AUTO_INCREMENT
-    PRIMARY KEY,
-  user_id            INT         NULL,
-  linkedin_id        INT         NULL,
-  first_name         VARCHAR(30) NULL,
-  last_name          VARCHAR(30) NULL,
-  number_connections INT         NULL,
-  is_updated         TINYINT(1)  NULL,
-  CONSTRAINT connections_connection_id_uindex
-  UNIQUE (id),
-  CONSTRAINT FK_connection_user_id
-  FOREIGN KEY (user_id) REFERENCES user (id)
-    ON UPDATE CASCADE
-    ON DELETE CASCADE
-);
-CREATE INDEX FK_connection_user_id
-  ON connections (user_id);
-
--- auto-generated definition
-CREATE TABLE user
-(
-  id          INT AUTO_INCREMENT
-    PRIMARY KEY,
-  first_name  VARCHAR(25) NULL,
-  last_name   VARCHAR(25) NULL,
-  email       VARCHAR(30) NULL,
-  password    VARCHAR(30) NULL,
-  li_password VARCHAR(30) NULL,
-  CONSTRAINT user_id_uindex
-  UNIQUE (id)
-);
