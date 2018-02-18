@@ -1,30 +1,29 @@
 # Project Plan
 
 ### Week 3: CHECKPOINT 1 
-- [ ] Design project plan 
+- [X] Design project plan 
 - [X] Review LinkedIn API
 - [X] Create initial screen design / wireframes
 - [X] Create project repository in Github
 - [X] Create local IJ project
 - [X] First draft of database design
-- [ ] Journal
+- [X] Journal
 
 ### Week 4: Hibernate, DAOs
-- [ ] Hibernate
-- [ ] DAOs
-- [ ] Hone database design
-- [ ] Create User edu.matc.entity class and annotate for hibernate
-- [ ] Create User dao
-- [ ] Create User dao unit tests
-- [ ] Create User table
-- [ ] Set up logging with log4j
-- [ ] Journal
+- [X] Hibernate
+- [X] DAOs
+- [X] Hone database design
+- [X] Create User edu.matc.entity class and annotate for hibernate
+- [X] Create User dao
+- [X] Create User dao unit tests
+- [X] Create User table
+- [X] Set up logging with log4j
+- [X] Journal
 
 ### Week 5: Hibernate
-- [ ] Create Connection Information edu.matc.entity and annotate for hibernate
-- [ ] Create Connection Information dao
-- [ ] Create Connection Information dao unit tests
-- [ ] Create Connection Information table
+- [X] Create Connection edu.matc.entity and annotate for hibernate
+- [X] Create Connection dao unit tests
+- [X] Create Connection  table
 - [ ] Create JSP template
 - [ ] Create user login JSP
 - [ ] Journal
@@ -33,9 +32,12 @@
 ### Week 6: AWS Deployment - CHECKPOINT 2
 - [ ] Deploy to AWS
 - [ ] Create Connection Updates edu.matc.entity and annotate for hibernate
-- [ ] Create Connection Updates dao
 - [ ] Create Connection Updates dao unit tests
 - [ ] Create Connection Updates table
+- [ ] Create Connection Information edu.matc.entity and annotate for hibernate
+- [ ] Create Connection Information dao
+- [ ] Create Connection Information dao unit tests
+- [ ] Create Connection Information table
 - [ ] Create db on AWS
 - [ ] Create Connection table
 - [ ] Create Search JSP

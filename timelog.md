@@ -18,7 +18,7 @@ a hibernate issue.
 <br /><br />2/7: 2 hours - worked on tests
 <br /><br />2/8: 1 hour - database design
 <br /><br />2/9: 5 hours - videos, ERD/database design
-<br /><br />2/10: 2 hours - existential crisis
+<br /><br />2/10: 2 hours - existential crisis (some videos) (mostly existential crisis)
 <br /><br />2/11: 1 hour - videos 
 <br /><br />2/12: 2 hours - videos
 <br /><br />2/13: 0 hours - all work was completed in class
