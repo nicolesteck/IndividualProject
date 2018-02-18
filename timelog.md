@@ -25,7 +25,7 @@ a hibernate issue.
 <br /><br />2/14: 3 hours - videos and debugging, DAO
 <br /><br />2/15: 4.5 hours - some videos, mostly debugging
 <br /><br />2/16: 4 hours - videos, adjusting naming conventions in all tables
-<br /><br />2/17: 4 hours so far - videos, generifying DAOs and ensuring JSP-DAO connection
+<br /><br />2/17: 8 - videos, generifying DAOs and ensuring JSP-DAO connection, videos, pre-AWS deployment prep
 
 
 <br /><br />
