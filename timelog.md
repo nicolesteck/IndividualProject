@@ -26,6 +26,14 @@ a hibernate issue.
 <br /><br />2/15: 4.5 hours - some videos, mostly debugging
 <br /><br />2/16: 4 hours - videos, adjusting naming conventions in all tables
 <br /><br />2/17: 8 - videos, generifying DAOs and ensuring JSP-DAO connection, videos, pre-AWS deployment prep
-
+<br /><br />2/18: 5-6 - debugging
+<br /><br />2/19: 2 - videos
+<br /><br />2/20: 0 - all work done during class time, not counted here
+<br /><br />2/21: 0
+<br /><br />2/22: 3 - looking at bootstrap templates, trying to find a good one (failing)
+<br /><br />2/23: 2 - bootstrap, thinking through flow
+<br /><br />2/24: 6 - all of it spent debugging an aws access issue
+<br /><br />2/25: 4 - thinking through project flow, researching uml
+<br /><br />2/26: 3 - project flow
 
 <br /><br />
