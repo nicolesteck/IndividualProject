@@ -127,10 +127,6 @@ public class GenericDao<T> {
         return list;
     }
 
-    /*
-     Get by property like
-     Get by property equals
-     */
 
 
 

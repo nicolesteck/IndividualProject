@@ -3,6 +3,8 @@ package edu.matc.persistence;
 import edu.matc.entity.Connection;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,12 +13,14 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class UserDaoTest {
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
 
     GenericDao genericDao;
 
     @BeforeEach
     void setUp() {
+        logger.info("BeforeEach");
         genericDao = new GenericDao(User.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -82,9 +86,9 @@ class UserDaoTest {
 
     @Test
     void getByPropertyEqualSuccess() {
-        List<User> users = (List<User>) genericDao.getByPropertyEqual("lastName", "Curry");
+        List<User> users = (List<User>) genericDao.getByPropertyEqual("lastName", "Hensen");
         assertEquals(1, users.size());
-        assertEquals(3, users.get(0).getId());
+        assertEquals(2, users.get(0).getId());
     }
 
     @Test

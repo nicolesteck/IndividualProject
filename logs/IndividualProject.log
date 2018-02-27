@@ -1,6 +1,254 @@
-[DEBUG] 2018-02-17 17:45:42.629 [main] GenericDao - Searching for lastName = Curry
-[DEBUG] 2018-02-17 17:45:43.180 [main] GenericDao - Searching for Connection with firstName = ar
-[DEBUG] 2018-02-17 17:45:43.568 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-02-17 17:45:43.603 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-02-17 17:46:24.623 [http-nio-8080-exec-1] AllConnections - In the doGet of allConnections
-[INFO ] 2018-02-17 17:46:24.628 [http-nio-8080-exec-10] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 13:59:12.871 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:13.598 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 13:59:16.956 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:16.961 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 13:59:17.067 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.080 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 13:59:17.089 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 13:59:17.492 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.499 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 13:59:17.504 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 13:59:17.548 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.551 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 13:59:17.587 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.595 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 13:59:17.710 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.719 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 13:59:17.906 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 13:59:17.915 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:49.558 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:49.897 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:52.027 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.032 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:52.115 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.129 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:00:52.130 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 14:00:52.434 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.438 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:00:52.441 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 14:00:52.467 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.470 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:52.484 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.487 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:52.535 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.538 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:00:52.628 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:00:52.632 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.729 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.755 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:00:52.755 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-24 14:00:52.797 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:00:52.798 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-24 14:00:52.817 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.839 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.859 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.873 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.927 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:52.964 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:53.099 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:53.116 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:00:53.159 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:18.655 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:21.546 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:01:21.556 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-24 14:01:22.246 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2018-02-24 14:01:22.248 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-24 14:01:22.276 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.358 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.455 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.553 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.750 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.813 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:22.991 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:23.026 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2018-02-24 14:01:23.219 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:14:36.457 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-24 14:14:37.058 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ] 2018-02-24 14:16:51.671 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:28.139 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:31.311 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:31.396 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:17:31.411 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 14:17:31.826 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:17:31.852 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 14:17:31.883 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:31.915 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:32.050 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:17:32.137 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:17:32.534 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 14:17:32.618 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 14:18:19.476 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:18:25.566 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:18:25.658 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:18:25.672 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 14:18:26.344 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:18:26.378 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 14:18:26.458 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:18:26.585 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:18:26.696 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:18:26.764 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:18:26.958 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 14:18:27.036 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 14:19:45.434 [http-nio-8080-exec-5] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 14:19:51.884 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
+[INFO ] 2018-02-24 14:20:04.601 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:20:07.591 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:20:07.648 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:20:07.657 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 14:20:07.965 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:20:07.977 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 14:20:08.003 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:20:08.022 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:20:08.061 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 14:20:08.113 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 14:20:08.239 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 14:20:08.326 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:19:20.685 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:19:23.883 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:19:23.933 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:19:23.943 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:19:24.261 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:19:24.277 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:19:24.301 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:19:24.320 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:19:24.359 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:19:24.406 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:19:24.536 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:19:24.653 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:20:41.147 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:20:44.477 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:20:44.540 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:20:44.550 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:20:45.026 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:20:45.038 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:20:45.060 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:20:45.081 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:20:45.124 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:20:45.179 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:20:45.329 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:20:45.371 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:35:24.690 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:35:30.882 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:35:31.021 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:35:31.054 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:35:31.756 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:35:31.785 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:35:31.843 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:35:31.898 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:35:32.074 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:35:32.229 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:35:32.489 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:35:32.563 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:36:10.006 [http-nio-8080-exec-1] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 15:38:54.816 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:39:01.320 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:39:01.456 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:39:01.484 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:39:02.698 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:39:02.757 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:39:02.839 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:39:02.891 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:39:03.038 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:39:03.153 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:39:03.433 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:39:03.499 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:43:00.759 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:43:05.160 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:43:05.256 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:43:05.278 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:43:05.802 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:43:05.828 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:43:05.867 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:43:05.893 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:43:05.948 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:43:06.029 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:43:06.188 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:43:06.251 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:44:27.111 [http-nio-8080-exec-3] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 15:49:07.090 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:49:11.433 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:49:11.532 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:49:11.554 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:49:12.054 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:49:12.079 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:49:12.125 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:49:12.153 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:49:12.230 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:49:12.371 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:49:12.540 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:49:12.597 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:50:27.963 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:50:32.914 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:50:32.985 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:50:32.999 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:50:33.497 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:50:33.517 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:50:33.553 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:50:33.587 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:50:33.645 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:50:33.719 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:50:33.876 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:50:33.926 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:55:11.407 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:55:15.495 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:55:15.570 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:55:15.585 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:55:16.043 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:55:16.064 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:55:16.107 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:55:16.146 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:55:16.223 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:55:16.380 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:55:16.569 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:55:16.625 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:56:09.983 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 15:56:18.008 [http-nio-8080-exec-7] AllConnections - In the doGet of allConnections
+[INFO ] 2018-02-24 15:58:48.597 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:58:53.052 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:58:53.136 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:58:53.179 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 15:58:53.835 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:58:53.862 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 15:58:54.018 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:58:54.074 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:58:54.190 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 15:58:54.325 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 15:58:54.505 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 15:58:54.565 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-24 15:59:35.906 [http-nio-8080-exec-2] AllUsers - In the doGet of allUsers
+[INFO ] 2018-02-24 16:15:13.805 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 16:15:16.722 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 16:15:16.770 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 16:15:16.780 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-24 16:15:17.157 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 16:15:17.169 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-24 16:15:17.191 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 16:15:17.211 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 16:15:17.254 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-24 16:15:17.306 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-24 16:15:17.419 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-24 16:15:17.471 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-26 20:44:31.477 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:44:36.172 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:44:36.293 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:44:36.316 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-26 20:44:37.038 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:44:37.054 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-26 20:44:37.091 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:44:37.111 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:44:37.179 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:44:37.276 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:44:37.432 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-26 20:44:37.465 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-26 20:45:41.434 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:45:45.747 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:45:45.859 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:45:45.879 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-26 20:45:46.875 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:45:46.894 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-26 20:45:46.926 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:45:46.959 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:45:47.038 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:45:47.107 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:45:47.543 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-26 20:45:47.695 [main] GenericDao - Searching for firstName = Julie
