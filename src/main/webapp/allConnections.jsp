@@ -62,6 +62,12 @@
                                         <td>${connection.firstName}</td>
                                         <td>${connection.lastName}</td>
                                         <td>${connection.numberOfConnections}</td>
+                                        <td>${connection.summary}</td>
+                                        <td>${connection.headline}</td>
+                                        <td>${connection.location}</td>
+                                        <td>${connection.industry}</td>
+                                        <td>${connection.specialties}</td>
+                                        <td>${connection.background}</td>
                                     </tr>
 
                                 </c:forEach>

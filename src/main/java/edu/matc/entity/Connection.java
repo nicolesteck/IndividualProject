@@ -35,6 +35,36 @@ public class Connection {
     @Column(name = "is_updated")
     private boolean isUpdated;
 
+    @Column(name = "relationship")
+    private String relationship;
+
+    @Column(name = "shared_interests")
+    private String sharedInterests;
+
+    @Column(name = "background")
+    private String background;
+
+    @Column(name = "notes")
+    private String notes;
+
+    @Column(name = "headline")
+    private String headline;
+
+    @Column(name = "location")
+    private String location;
+
+    @Column(name = "industry")
+    private String industry;
+
+    @Column(name = "summary")
+    private String summary;
+
+    @Column(name = "specialties")
+    private String specialties;
+
+    @Column(name = "profile")
+    private String profile;
+
     /**
      * Instantiates a new Connection.
      *
@@ -182,7 +212,85 @@ public class Connection {
         isUpdated = updated;
     }
 
+    public String getRelationship() {
+        return relationship;
+    }
 
+    public void setRelationship(String relationship) {
+        this.relationship = relationship;
+    }
+
+    public String getSharedInterests() {
+        return sharedInterests;
+    }
+
+    public void setSharedInterests(String sharedInterests) {
+        this.sharedInterests = sharedInterests;
+    }
+
+    public String getBackground() {
+        return background;
+    }
+
+    public void setBackground(String background) {
+        this.background = background;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public String getHeadline() {
+        return headline;
+    }
+
+    public void setHeadline(String headline) {
+        this.headline = headline;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getIndustry() {
+        return industry;
+    }
+
+    public void setIndustry(String industry) {
+        this.industry = industry;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public String getSpecialties() {
+        return specialties;
+    }
+
+    public void setSpecialties(String specialties) {
+        this.specialties = specialties;
+    }
+
+    public String getProfile() {
+        return profile;
+    }
+
+    public void setProfile(String profile) {
+        this.profile = profile;
+    }
 
     @Override
     public String toString() {

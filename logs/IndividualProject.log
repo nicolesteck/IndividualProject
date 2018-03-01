@@ -252,3 +252,229 @@
 [INFO ] 2018-02-26 20:45:47.107 [main] UserDaoTest - BeforeEach
 [DEBUG] 2018-02-26 20:45:47.543 [main] GenericDao - Searching for Connection with firstName = J
 [DEBUG] 2018-02-26 20:45:47.695 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-26 20:57:53.623 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:57:59.664 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:57:59.753 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:57:59.790 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-26 20:58:00.652 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:58:00.680 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-26 20:58:00.719 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:58:00.752 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:58:00.837 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-26 20:58:00.923 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-26 20:58:01.072 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-26 20:58:01.121 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-27 19:37:30.708 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-27 19:37:36.090 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-27 19:37:36.167 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-27 19:37:36.184 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-27 19:37:36.715 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-27 19:37:36.745 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-27 19:37:36.786 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-27 19:37:36.810 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-27 19:37:36.872 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-27 19:37:36.943 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-27 19:37:37.043 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-27 19:37:37.095 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 21:50:00.106 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:03.605 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:03.663 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:03.676 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:50:04.005 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:04.020 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:50:04.039 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:04.064 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:04.103 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:04.156 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:04.240 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 21:50:04.274 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 21:50:16.928 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:19.838 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:19.934 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:19.962 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:50:20.476 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:20.510 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:50:20.551 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:20.579 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:20.633 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 21:50:20.725 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 21:50:20.924 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 21:50:21.010 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 21:52:56.079 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:56.600 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:52:59.252 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.267 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:52:59.314 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.334 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:52:59.335 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:52:59.695 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.710 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:52:59.717 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:52:59.742 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.757 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:52:59.767 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.780 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:52:59.821 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.843 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:52:59.871 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:52:59.882 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:52:59.929 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:52:59.994 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:52:59.997 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-28 21:53:00.055 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:53:00.059 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-28 21:53:00.090 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.119 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.165 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.204 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.233 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.252 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.280 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.334 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:53:00.377 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:29.722 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:30.311 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:33.017 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.033 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:33.085 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.114 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:54:33.115 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:54:33.551 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.567 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:54:33.574 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:54:33.625 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.641 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:33.662 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.689 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:33.725 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.743 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:54:33.791 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:54:33.805 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:33.856 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:33.931 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:54:33.932 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-28 21:54:33.979 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:54:33.983 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-28 21:54:34.047 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.099 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.129 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.185 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.238 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.283 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.370 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.469 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:54:34.535 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:39.598 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:40.102 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:42.330 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:42.349 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:42.423 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:42.475 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:55:42.477 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:55:42.865 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:42.883 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:55:42.892 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:55:42.913 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:42.921 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:42.942 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:42.958 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:43.000 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:43.008 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:55:43.055 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:55:43.073 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.122 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.145 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:55:43.146 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-28 21:55:43.195 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:55:43.196 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-28 21:55:43.281 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.306 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.342 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.373 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.432 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.444 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.506 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.548 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:55:43.584 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:32.290 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:32.886 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:34.816 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:34.854 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:34.901 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:34.928 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:56:34.932 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 21:56:35.304 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:35.315 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:56:35.328 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 21:56:35.365 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:35.372 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:35.394 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:35.421 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:35.451 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:35.459 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 21:56:35.506 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-02-28 21:56:35.514 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.571 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.602 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:56:35.605 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-02-28 21:56:35.631 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-02-28 21:56:35.632 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-02-28 21:56:35.669 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.705 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.734 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.770 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.853 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.886 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.935 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:35.975 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-02-28 21:56:36.011 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[INFO ] 2018-02-28 22:03:41.839 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:03:44.444 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:03:44.510 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:03:44.521 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 22:03:44.947 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:03:44.971 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 22:03:44.991 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:03:45.024 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:03:45.085 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:03:45.142 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:03:45.262 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 22:03:45.294 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 22:04:22.243 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:04:26.642 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:04:26.747 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:04:26.755 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 22:04:27.157 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:04:27.181 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 22:04:27.215 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:04:27.253 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:04:27.318 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:04:27.393 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:04:27.573 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 22:04:27.627 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 22:08:10.287 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:08:14.061 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:08:14.155 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:08:14.167 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 22:08:14.631 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:08:14.651 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 22:08:14.678 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:08:14.716 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:08:14.787 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:08:14.863 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:08:15.024 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 22:08:15.076 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 22:08:55.385 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
+[INFO ] 2018-02-28 22:15:28.279 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:15:32.593 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:15:32.704 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:15:32.723 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-02-28 22:15:33.223 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:15:33.248 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-02-28 22:15:33.279 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:15:33.310 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:15:33.384 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-02-28 22:15:33.465 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-02-28 22:15:33.666 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-02-28 22:15:33.723 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-02-28 22:16:10.083 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections

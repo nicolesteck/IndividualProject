@@ -24,10 +24,8 @@
 - [X] Create Connection edu.matc.entity and annotate for hibernate
 - [X] Create Connection dao unit tests
 - [X] Create Connection  table
-- [ ] Create JSP template
-- [ ] Create user login JSP
-- [ ] Journal
-
+- [X] Create JSP template
+- [X] Journal
 
 ### Week 6: AWS Deployment - CHECKPOINT 2
 - [ ] Deploy to AWS
@@ -43,12 +41,12 @@
 - [ ] Create Search JSP
 - [ ] Journal
 
-
 ### Week 7: Security Authentication
 - [ ] Implement security authentication (username, password)
 - [ ] Create Action Items table
 - [ ] Create Connections to Leverage table
 - [ ] Create Add Annotation JSP
+- [ ] Create user login JSP
 - [ ] Journal
 
 ### Week 8: Web Services (SOAP) - CHECKPOINT 3
