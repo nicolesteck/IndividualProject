@@ -35,7 +35,8 @@ a hibernate issue.
 <br /><br />2/24: 6 - all of it spent debugging an aws access issue
 <br /><br />2/25: 4 - thinking through project flow, researching uml
 <br /><br />2/26: 3 - project flow
-
+<br /><br />2/27: 0 - in class time
+<br /><br />2/28: 2 - updated Connection entity to incorporate elements from ConnectionUpdate and ConnectionDetail entity tables; updated JSP
 <br /><br />
 
 
