@@ -478,3 +478,202 @@
 [DEBUG] 2018-02-28 22:15:33.666 [main] GenericDao - Searching for Connection with firstName = J
 [DEBUG] 2018-02-28 22:15:33.723 [main] GenericDao - Searching for firstName = Julie
 [INFO ] 2018-02-28 22:16:10.083 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-01 19:28:57.253 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:28:57.740 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:29:01.671 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:01.689 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:29:01.766 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:01.782 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:29:01.785 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-01 19:29:02.325 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:02.336 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:29:02.341 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-01 19:29:02.380 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:02.393 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:29:02.409 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:02.421 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:29:02.478 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:02.486 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:29:02.555 [main] UserDaoTest - BeforeEach
+[ERROR] 2018-03-01 19:29:02.564 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:02.661 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:02.711 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:29:02.713 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-03-01 19:29:02.779 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:29:02.780 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-03-01 19:29:02.835 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:02.869 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:02.913 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:02.945 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:03.008 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:03.045 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:03.132 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:03.168 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:29:03.210 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:03.942 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:06.190 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:30:06.202 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-03-01 19:30:06.605 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:30:06.607 [main] GenericDao - Searching for firstName = Julie
+[ERROR] 2018-03-01 19:30:06.665 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:06.748 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:06.795 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:06.826 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:06.974 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:07.005 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:07.086 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:07.142 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:07.201 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:30:26.247 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:31:27.535 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-01 19:31:27.542 [main] GenericDao - Searching for Connection with firstName = J
+[ERROR] 2018-03-01 19:31:46.271 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:32:41.312 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:33:17.568 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:34:59.251 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:35:20.676 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-01 19:37:29.215 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`li_test`.`role`, CONSTRAINT `role_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[INFO ] 2018-03-01 19:38:34.401 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 19:38:38.220 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 19:38:38.308 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 19:38:38.357 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-01 19:38:38.815 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 19:38:38.840 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-01 19:38:38.887 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 19:38:38.960 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 19:38:39.041 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 19:38:39.145 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 19:38:39.617 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-01 19:38:39.748 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-01 20:08:33.857 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 20:08:36.740 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 20:08:36.802 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 20:08:36.813 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-01 20:08:37.160 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 20:08:37.175 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-01 20:08:37.199 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 20:08:37.221 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 20:08:37.261 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-01 20:08:37.316 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-01 20:08:37.443 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-01 20:08:37.491 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-02 18:33:10.184 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:33:15.810 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:33:15.938 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:33:15.959 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-02 18:33:16.552 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:33:16.577 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-02 18:33:16.622 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:33:16.653 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:33:16.724 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:33:16.867 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:33:17.134 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-02 18:33:17.222 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-02 18:35:44.070 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:35:49.877 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:35:49.998 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:35:50.022 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-02 18:35:50.699 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:35:50.728 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-02 18:35:50.775 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:35:50.819 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:35:50.981 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:35:51.185 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:35:51.388 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-02 18:35:51.490 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-02 18:53:23.416 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:53:30.607 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:53:30.735 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:53:30.758 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-02 18:53:31.351 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:53:31.374 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-02 18:53:31.410 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:53:31.450 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:53:31.547 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-02 18:53:31.675 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-02 18:53:31.885 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-02 18:53:31.953 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 18:44:34.975 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:44:38.888 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:44:38.955 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:44:38.969 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 18:44:39.348 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:44:39.363 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 18:44:39.386 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:44:39.407 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:44:39.453 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:44:39.504 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:44:39.689 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 18:44:39.728 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 18:51:19.971 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:51:23.267 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:51:23.338 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:51:23.349 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 18:51:23.700 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:51:23.713 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 18:51:23.735 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:51:23.754 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:51:23.794 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:51:23.845 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:51:24.000 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 18:51:24.069 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 18:52:22.885 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:25.202 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:28.154 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:30.404 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:30.610 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:30.634 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 18:52:31.289 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:31.431 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 18:52:31.513 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:31.536 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:31.620 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:31.750 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:32.024 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 18:52:32.143 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 18:52:33.080 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:33.171 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:33.217 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 18:52:34.080 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:34.104 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 18:52:34.134 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:34.161 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:34.315 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:34.371 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:34.690 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 18:52:34.729 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 18:52:36.226 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:36.281 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:36.292 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 18:52:37.054 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:37.115 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 18:52:37.143 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:37.178 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:37.382 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 18:52:37.540 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 18:52:37.777 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 18:52:37.819 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 20:36:03.982 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:36:07.137 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:36:07.200 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:36:07.212 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 20:36:07.550 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:36:07.563 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 20:36:07.585 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:36:07.604 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:36:07.638 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:36:07.686 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:36:07.783 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 20:36:07.820 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-03 20:50:11.330 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:50:15.708 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:50:15.793 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:50:15.812 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-03 20:50:16.304 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:50:16.324 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-03 20:50:16.357 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:50:16.382 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:50:16.437 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-03 20:50:16.503 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-03 20:50:16.712 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-03 20:50:16.762 [main] GenericDao - Searching for firstName = Julie

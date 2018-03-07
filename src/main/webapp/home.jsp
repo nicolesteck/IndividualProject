@@ -54,11 +54,6 @@
                 tool created by Nicole Steck for Madison Area Technical College's
                 Enterprise Java class, taught by Paula Waite. Spring 2018.
                 .</p>
-            <section class="wrapper style2 container special-alt">
-                <ul class="buttons">
-                    <li><a href="home.jsp" class="button special">Log In</a></li>
-                </ul>
-            </section>
           <!--
             <footer>
                 <ul class="buttons vertical">
@@ -72,7 +67,50 @@
     </section>
 
     <!-- Main -->
+    <article id="main">
 
+
+        <!-- One -->
+        <section class="wrapper style2 container special-alt">
+            <ul class="buttons">
+                <li><a href="allUsers" class="button special">View All Users</a></li>
+                <li><a href="allConnections" class="button">View All Connections</a></li>
+            </ul>
+        </section>
+
+        <!-- Two -->
+        <section class="wrapper style1 container special">
+            <ul class="buttons">
+                <li><a href="allUsers" class="button special">View All Users</a></li>
+                <li><a href="allConnections" class="button">View All Connections</a></li>
+            </ul>
+        </section>
+
+        <!-- Three -->
+        <section class="wrapper style3 container special">
+            <ul class="buttons">
+                <li><a href="allUsers" class="button special">View All Users</a></li>
+                <li><a href="allConnections" class="button">View All Connections</a></li>
+            </ul>
+        </section>
+
+    </article>
+
+    <!-- CTA -->
+    <section id="cta">
+
+        <header>
+            <h2>Ready to do <strong>something</strong>?</h2>
+            <p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+        </header>
+        <footer>
+            <ul class="buttons">
+                <li><a href="allUsers" class="button special">View All Users</a></li>
+                <li><a href="allConnections" class="button">View All Connections</a></li>
+            </ul>
+        </footer>
+
+    </section>
 
     <!-- Footer -->
     <footer id="footer">
