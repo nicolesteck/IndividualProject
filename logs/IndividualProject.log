@@ -677,3 +677,201 @@
 [INFO ] 2018-03-03 20:50:16.503 [main] UserDaoTest - BeforeEach
 [DEBUG] 2018-03-03 20:50:16.712 [main] GenericDao - Searching for Connection with firstName = J
 [DEBUG] 2018-03-03 20:50:16.762 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 19:30:27.915 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:30:33.995 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:30:34.116 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:30:34.137 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 19:30:34.934 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:30:34.956 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 19:30:34.994 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:30:35.096 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:30:35.448 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:30:35.613 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:30:35.878 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 19:30:35.952 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 19:32:01.661 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-08 19:43:34.466 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:43:38.177 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:43:38.257 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:43:38.278 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 19:43:38.669 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:43:38.689 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 19:43:38.721 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:43:38.753 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:43:38.801 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:43:38.858 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:43:38.981 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 19:43:39.035 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 19:46:17.157 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:46:20.805 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:46:20.879 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:46:20.901 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 19:46:21.297 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:46:21.319 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 19:46:21.342 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:46:21.365 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:46:21.412 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:46:21.465 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:46:21.596 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 19:46:21.654 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 19:50:58.456 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:51:01.994 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:51:02.068 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:51:02.085 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 19:51:02.502 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:51:02.521 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 19:51:02.553 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:51:02.586 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:51:02.645 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 19:51:02.711 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 19:51:02.848 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 19:51:02.896 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:24:51.226 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:24:54.935 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:24:55.015 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:24:55.037 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:24:55.429 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:24:55.447 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:24:55.477 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:24:55.504 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:24:55.544 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:24:55.616 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:24:55.755 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:24:55.804 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:33:51.233 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:33:54.772 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:33:54.850 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:33:54.875 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:33:55.359 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:33:55.375 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:33:55.407 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:33:55.435 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:33:55.493 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:33:55.558 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:33:55.693 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:33:55.741 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:44:35.850 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:44:39.372 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:44:39.455 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:44:39.481 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:44:39.942 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:44:39.963 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:44:39.988 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:44:40.010 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:44:40.061 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:44:40.123 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:44:40.249 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:44:40.307 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:46:20.819 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:46:25.100 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:46:25.178 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:46:25.193 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:46:25.656 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:46:25.675 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:46:25.710 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:46:25.738 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:46:25.794 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:46:25.873 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:46:26.042 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:46:26.092 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:50:33.225 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:50:38.400 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:50:38.497 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:50:38.511 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:50:38.885 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:50:38.902 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:50:38.924 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:50:38.949 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:50:38.993 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:50:39.044 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:50:39.169 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:50:39.216 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:53:08.037 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:12.120 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:12.256 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:12.278 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:53:12.773 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:12.793 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:53:12.898 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:12.922 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:12.987 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:13.064 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:13.216 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:53:13.260 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:53:48.984 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:53.970 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:54.178 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:54.190 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:53:55.074 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:55.131 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:53:55.173 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:55.234 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:55.392 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:53:55.486 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:53:55.754 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:53:55.837 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 20:59:37.173 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:59:40.801 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:59:40.908 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:59:40.921 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 20:59:41.332 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:59:41.351 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 20:59:41.390 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:59:41.417 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:59:41.469 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 20:59:41.529 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 20:59:41.665 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 20:59:41.720 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 21:01:38.739 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:01:43.328 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:01:43.411 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:01:43.427 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 21:01:44.147 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:01:44.166 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 21:01:44.210 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:01:44.258 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:01:44.410 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:01:44.577 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:01:44.743 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 21:01:44.794 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 21:03:33.113 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:03:36.593 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:03:36.669 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:03:36.687 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 21:03:37.107 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:03:37.135 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 21:03:37.161 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:03:37.188 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:03:37.237 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:03:37.302 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:03:37.479 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 21:03:37.531 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 21:04:18.621 [http-nio-8080-exec-3] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-08 21:04:29.191 [http-nio-8080-exec-8] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-08 21:06:25.927 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:06:29.058 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:06:29.126 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:06:29.146 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-08 21:06:29.595 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:06:29.611 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-08 21:06:29.644 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:06:29.678 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:06:29.734 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-08 21:06:29.808 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-08 21:06:29.980 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-08 21:06:30.027 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-08 21:09:59.648 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-09 19:53:24.229 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-09 19:53:27.894 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-09 19:53:27.977 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-09 19:53:27.990 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-09 19:53:28.372 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-09 19:53:28.389 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-09 19:53:28.412 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-09 19:53:28.437 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-09 19:53:28.484 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-09 19:53:28.545 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-09 19:53:28.660 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-09 19:53:28.701 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-09 19:54:34.664 [http-nio-8080-exec-3] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-09 19:54:40.467 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections

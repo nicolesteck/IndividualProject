@@ -24,25 +24,7 @@
                             <header>
                                 <h3>LEFT SIDEBAR</h3>
                             </header>
-                            <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-                            <footer>
-                                <ul class="buttons">
-                                    <li><a href="#" class="button small">Learn More</a></li>
-                                </ul>
-                            </footer>
-                        </section>
-
-                        <section>
-                            <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-                            <header>
-                                <h3>Amet Lorem Tempus</h3>
-                            </header>
-                            <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                            <footer>
-                                <ul class="buttons">
-                                    <li><a href="#" class="button small">Learn More</a></li>
-                                </ul>
-                            </footer>
+                            <%@include file="actionItems.jsp"%>
                         </section>
                     </div>
 
@@ -80,7 +62,8 @@
             </div>
         </section>
 
-        <!-- Two -->
+        <!-- Two --
+
         <section class="wrapper style1 container special">
             <div class="row">
                 <div class="4u 12u(narrower)">
@@ -129,7 +112,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </article>
 

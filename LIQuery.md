@@ -1,0 +1,1 @@
+https://api.linkedin.com/v1/people/~:(id,num-connections,picture-url,first-name,last-name,formatted-name,headline,location,industry,current-share,num-connections-capped,summary,specialties,positions,public-profile-url,email-address)?format=json

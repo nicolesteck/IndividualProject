@@ -8,7 +8,7 @@
 
     <!-- Header -->
     <header id="header" class="alt">
-        <h1 id="logo"><a href="indexOld.html">Connection Annotation Tool</a></h1>
+        <h1 id="logo">Connection Annotation Tool</a></h1>
         <nav id="nav">
             <ul>
                 <li class="current"><a href="indexOld.html">Welcome</a></li>
@@ -54,6 +54,7 @@
                 tool created by Nicole Steck for Madison Area Technical College's
                 Enterprise Java class, taught by Paula Waite. Spring 2018.
                 .</p>
+
           <!--
             <footer>
                 <ul class="buttons vertical">
