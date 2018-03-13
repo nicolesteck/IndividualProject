@@ -24,7 +24,7 @@
                             <header>
                                 <h3>LEFT SIDEBAR</h3>
                             </header>
-                            <%@include file="actionItems.jsp"%>
+                            <c:import url="/actionItems"/>
                         </section>
                     </div>
 
@@ -39,17 +39,20 @@
                                 <h3>Connections</h3>
                             </header>
                             <table>
+                                <tr>
+                                    <th>
+                                        <td>First</td>
+                                        <td>Last</td>
+                                        <td>Connections</td>
+                                        <td>Summary</td>
+                                    </th>
+                                </tr>
                                 <c:forEach var="connection" items="${connections}">
                                     <tr>
                                         <td>${connection.firstName}</td>
                                         <td>${connection.lastName}</td>
                                         <td>${connection.numberOfConnections}</td>
                                         <td>${connection.summary}</td>
-                                        <td>${connection.headline}</td>
-                                        <td>${connection.location}</td>
-                                        <td>${connection.industry}</td>
-                                        <td>${connection.specialties}</td>
-                                        <td>${connection.background}</td>
                                     </tr>
 
                                 </c:forEach>

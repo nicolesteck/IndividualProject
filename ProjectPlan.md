@@ -28,35 +28,29 @@
 - [X] Journal
 
 ### Week 6: AWS Deployment - CHECKPOINT 2
-- [ ] Deploy to AWS
-- [ ] Create Connection Updates edu.matc.entity and annotate for hibernate
-- [ ] Create Connection Updates dao unit tests
-- [ ] Create Connection Updates table
-- [ ] Create Connection Information edu.matc.entity and annotate for hibernate
-- [ ] Create Connection Information dao
-- [ ] Create Connection Information dao unit tests
-- [ ] Create Connection Information table
-- [ ] Create db on AWS
-- [ ] Create Connection table
+- [X] Deploy to AWS
+- [X] Combine the three "Connection" tables (Detail, Updates, and -) into one
+- [X] Create db on AWS
+- [X] Create Connection table
 - [ ] Create Search JSP
-- [ ] Journal
+- [X] Journal
 
 ### Week 7: Security Authentication
-- [ ] Implement security authentication (username, password)
-- [ ] Create Action Items table
+- [X] Implement security authentication (username, password)
+- [X] Create Action Items table
 - [ ] Create Connections to Leverage table
 - [ ] Create Add Annotation JSP
 - [ ] Create user login JSP
 - [ ] Journal
 
 ### Week 8: Web Services (SOAP) - CHECKPOINT 3
-- [ ] Create All Connections JSP
+- [X] Create All Connections JSP
 - [ ] Integrate with LinkedIn API
-- [ ] Journal
+- [X] Journal
 
 ### Week 9: REST
 - [ ] Create Refresh Network JSP
-- [ ] Create relationships between tables (Connection Info to Connection Update, etc.)
+- [X] Create relationships between tables (Connection Info to Connection Update, etc.)
 - [ ] Test relationships
 - [ ] Journal
 

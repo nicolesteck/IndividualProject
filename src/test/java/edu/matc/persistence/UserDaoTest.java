@@ -12,12 +12,21 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type User dao test.
+ */
 class UserDaoTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
 
+    /**
+     * The Generic dao.
+     */
     GenericDao genericDao;
 
+    /**
+     * Sets up.
+     */
     @BeforeEach
     void setUp() {
         logger.info("BeforeEach");
@@ -26,12 +35,19 @@ class UserDaoTest {
         database.runSQL("cleandb.sql");
 
     }
+
+    /**
+     * Gets all users success.
+     */
     @Test
     void getAllUsersSuccess() {
         List<User> users = (List<User>)genericDao.getAll();
         assertEquals(6, users.size());
     }
 
+    /**
+     * Gets by id success.
+     */
     @Test
     void getByIdSuccess() {
         User retrievedUser = (User)genericDao.getById(3);
@@ -39,6 +55,9 @@ class UserDaoTest {
         assertEquals("Curry", retrievedUser.getLastName());
     }
 
+    /**
+     * Save or update.
+     */
     @Test
     void saveOrUpdate() {
         String newName = "Wolfenstein";
@@ -49,16 +68,22 @@ class UserDaoTest {
         assertEquals(thisUser, thatUser);
     }
 
+    /**
+     * Insert success.
+     */
     @Test
     void insertSuccess() {
         User newUser = new User("Joe", "Trebek");
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = (User)genericDao.getById(id);
-        assertEquals("Joe", insertedUser.getFirstName());
+        assertEquals(newUser, insertedUser);
 
     }
 
+    /**
+     * Insert with connection success.
+     */
     @Test
     void insertWithConnectionSuccess() {
         User newUser = new User("John", "TrebekConnect");
@@ -72,11 +97,13 @@ class UserDaoTest {
 
         assertNotEquals(0,id);
         User insertedUser = (User)genericDao.getById(id);
-        assertEquals("John", insertedUser.getFirstName());
-        assertEquals(1, insertedUser.getConnections().size());
+        assertEquals(newUser, insertedUser);
 
     }
 
+    /**
+     * Delete success.
+     */
     @Test
     void deleteSuccess() {
         genericDao.delete(genericDao.getById(5));
@@ -84,6 +111,9 @@ class UserDaoTest {
     }
 
 
+    /**
+     * Gets by property equal success.
+     */
     @Test
     void getByPropertyEqualSuccess() {
         List<User> users = (List<User>) genericDao.getByPropertyEqual("lastName", "Hensen");
@@ -91,6 +121,9 @@ class UserDaoTest {
         assertEquals(2, users.get(0).getId());
     }
 
+    /**
+     * Gets by property like.
+     */
     @Test
     void getByPropertyLike() {
         List<User> users = (List<User>) genericDao.getByPropertyLike("firstName", "ar");

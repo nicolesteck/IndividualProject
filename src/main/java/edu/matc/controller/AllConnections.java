@@ -14,6 +14,10 @@ import java.io.IOException;
 
 
 import edu.matc.persistence.GenericDao;
+
+/**
+ * The type All connections.
+ */
 @WebServlet(
         urlPatterns = {"/allConnections"}
 )

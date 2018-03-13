@@ -1,10 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 IN ACTIONITEMS
-<c:forEach var="connection" items="${connections}">
+
+<c:forEach var="actionItem" items="${actionItems}">
+    <tr><td>SOME STUFF!</td></tr>
     <tr>
-        <td>${connection.firstName}</td>
-        <td>${connection.lastName}</td>
-        <td>${connection.numberOfConnections}</td>
+        <td>${actionItem.actionItemName}</td>
+        <td>${actionItem.dateCreated}</td>
     </tr>
 
 </c:forEach>

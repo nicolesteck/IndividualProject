@@ -74,7 +74,7 @@ CREATE TABLE action_items
   FOREIGN KEY (user_id) REFERENCES user (id)
 );
 CREATE INDEX FK_item_connectionid
-  ON action_items (connection_id);
+  ON action_items (connections_id);
 CREATE INDEX FK_item_user_id
   ON action_items (user_id);
 
@@ -114,4 +114,4 @@ CREATE TABLE connection_job
   FOREIGN KEY (connection_id) REFERENCES connections (id)
 );
 CREATE INDEX FK_job_connection_id
-  ON connection_job (connection_id);
+  ON connection_job (connections_id);

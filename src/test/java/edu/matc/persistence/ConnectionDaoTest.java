@@ -11,10 +11,19 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Connection dao test.
+ */
 class ConnectionDaoTest {
 
+    /**
+     * The Generic dao.
+     */
     GenericDao genericDao;
 
+    /**
+     * Sets up.
+     */
     @BeforeEach
     void setUp() {
         genericDao = new GenericDao(Connection.class);
@@ -22,12 +31,18 @@ class ConnectionDaoTest {
         database.runSQL("cleandb.sql");
     }
 
+    /**
+     * Gets all connections success.
+     */
     @Test
     void getAllConnectionsSuccess() {
         List<Connection> connections = (List<Connection>)genericDao.getAll();
         assertEquals(4, connections.size());
     }
 
+    /**
+     * Gets by id success.
+     */
     @Test
     void getByIdSuccess() {
         Connection retrievedConnection = (Connection)genericDao.getById(3);
@@ -35,6 +50,9 @@ class ConnectionDaoTest {
         assertEquals("Carpenter", retrievedConnection.getLastName());
     }
 
+    /**
+     * Save or update.
+     */
     @Test // Genericized
     void saveOrUpdate() {
         String newName = "Wolfenstein";
@@ -44,9 +62,12 @@ class ConnectionDaoTest {
         thisConnection.setFirstName(newFirst);
         genericDao.saveOrUpdate(thisConnection);
         Connection thatConnection = (Connection)genericDao.getById(4);
-        assertEquals(newName, thatConnection.getLastName());
+        assertEquals(thisConnection, thatConnection);
     }
 
+    /**
+     * Insert success.
+     */
     @Test
     void insertSuccess() {
         GenericDao genericDao = new GenericDao(User.class);
@@ -60,11 +81,13 @@ class ConnectionDaoTest {
         assertNotNull(newConnection);
         assertNotEquals(0,id);
         Connection insertedConnection = (Connection)genericConnectionDao.getById(id);
-        assertEquals("Woolf", insertedConnection.getFirstName());
-        assertEquals("Joe", insertedConnection.getUser().getFirstName());
+        assertEquals(newConnection, insertedConnection);
 
     }
 
+    /**
+     * Gets connection id success.
+     */
     @Test
     void getConnectionIdSuccess() {
         GenericDao genericDao = new GenericDao(User.class);
@@ -79,6 +102,9 @@ class ConnectionDaoTest {
 
     }
 
+    /**
+     * Gets linked in id success.
+     */
     @Test
     void getLinkedInIdSuccess() {
         Connection connection = (Connection)genericDao.getById(3);
@@ -86,6 +112,9 @@ class ConnectionDaoTest {
 
     }
 
+    /**
+     * Sets linked in id success.
+     */
     @Test
     void setLinkedInIdSuccess() {
         Connection connection = (Connection)genericDao.getById(4);
@@ -93,6 +122,9 @@ class ConnectionDaoTest {
         assertEquals(923459883, connection.getLinkedInId());
     }
 
+    /**
+     * Gets number of connections success.
+     */
     @Test
     void getNumberOfConnectionsSuccess() {
         Connection connection = (Connection)genericDao.getById(3);
@@ -100,6 +132,9 @@ class ConnectionDaoTest {
 
     }
 
+    /**
+     * Sets number of connections success.
+     */
     @Test
     void setNumberOfConnectionsSuccess() {
         Connection connection = (Connection)genericDao.getById(4);
@@ -107,6 +142,9 @@ class ConnectionDaoTest {
         assertEquals(99, connection.getNumberOfConnections());
     }
 
+    /**
+     * Delete success.
+     */
     @Test
     void deleteSuccess() {
         genericDao.delete(genericDao.getById(2));
@@ -114,6 +152,9 @@ class ConnectionDaoTest {
     }
 
 
+    /**
+     * Gets by property equal.
+     */
     @Test
     void getByPropertyEqual() {
         List<Connection> connections = (List<Connection>)genericDao.getByPropertyEqual("firstName", "Julie");
@@ -121,6 +162,9 @@ class ConnectionDaoTest {
         assertEquals(1, connections.size());
     }
 
+    /**
+     * Gets by property like.
+     */
     @Test
     void getByPropertyLike() {
         List<Connection> connections = (List<Connection>)genericDao.getByPropertyLike("firstName", "J");

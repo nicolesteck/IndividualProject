@@ -8,13 +8,15 @@
 
     <!-- Header -->
     <header id="header" class="alt">
-        <h1 id="logo">Connection Annotation Tool</a></h1>
+        <h1 id="logo">Connection Annotation Tool</h1>
         <nav id="nav">
             <ul>
-                <li class="current"><a href="indexOld.html">Welcome</a></li>
+                <li class="current"><a href="index.jsp">Welcome</a></li>
                 <li class="submenu">
-                    <a href="#">Layouts</a>
-                    <ul>
+                <li><a href="allUsers" class="button special">View All Users</a></li>
+                <li><a href="allConnections" class="button">View All Connections</a></li>
+
+                <ul>
                         <li><a href="left-sidebar.html">Left Sidebar</a></li>
                         <li><a href="right-sidebar.html">Right Sidebar</a></li>
                         <li><a href="no-sidebar.html">No Sidebar</a></li>
@@ -73,10 +75,7 @@
 
         <!-- One -->
         <section class="wrapper style2 container special-alt">
-            <ul class="buttons">
-                <li><a href="allUsers" class="button special">View All Users</a></li>
-                <li><a href="allConnections" class="button">View All Connections</a></li>
-            </ul>
+            <c:import url="/randomConnection"/>
         </section>
 
         <!-- Two -->

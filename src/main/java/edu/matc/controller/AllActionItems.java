@@ -1,5 +1,6 @@
 package edu.matc.controller;
 
+import edu.matc.entity.ActionItem;
 import edu.matc.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,19 +17,18 @@ import java.io.IOException;
 import edu.matc.persistence.GenericDao;
 
 /**
- * The type All users.
+ * The type All Action Items.
  */
 @WebServlet(
-        urlPatterns = {"/allUsers"}
+        urlPatterns = {"/actionItems"}
 )
 
 /**
- * A simple servlet to welcome the user.
- * @author pwaite
+ *  Displays action items
  */
 
 
-public class AllUsers extends HttpServlet {
+public class AllActionItems extends HttpServlet {
 
 
 
@@ -37,11 +37,11 @@ public class AllUsers extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        GenericDao dao = new GenericDao(User.class);
-        req.setAttribute("users", dao.getAll());
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/allUsers.jsp");
+        GenericDao dao = new GenericDao(ActionItem.class);
+        req.setAttribute("actionItems", dao.getAll());
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/actionItems.jsp");
         dispatcher.forward(req, resp);
-        logger.info("In the doGet of allUsers");
+        logger.info("In the doGet of actionItems");
     }
 
 }

@@ -3,6 +3,9 @@ package edu.matc.entity;
 
 import javax.persistence.Id;
 import org.hibernate.annotations.GenericGenerator;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -14,6 +17,8 @@ import java.util.Set;
  */
 @Entity(name = "User")
 @Table(name = "user") /// case sensitive
+@Getter
+@Setter
 public class User {
     @Column(name = "first_name")
     private String firstName;
@@ -21,11 +26,37 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        User user = (User) o;
+
+        if (id != user.id) return false;
+        if (firstName != null ? !firstName.equals(user.firstName) : user.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(user.lastName) : user.lastName != null) return false;
+        return email != null ? email.equals(user.email) : user.email == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = firstName != null ? firstName.hashCode() : 0;
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + id;
+        return result;
+    }
+
     @Column(name = "email")
     private String email;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Connection> connections = new HashSet<>();
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private Set<ActionItem> actionItems = new HashSet<>();
+
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key
     @GeneratedValue(strategy=GenerationType.AUTO, generator="native")
@@ -51,79 +82,6 @@ public class User {
         this.lastName = lastName;
     }
 
-
-    /**
-     * Gets first name.
-     *
-     * @return the first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * Sets first name.
-     *
-     * @param firstName the first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    /**
-     * Gets last name.
-     *
-     * @return the last name
-     */
-    public String getLastName() {
-        return lastName;
-    }
-
-    /**
-     * Sets last name.
-     *
-     * @param lastName the last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Gets email.
-     *
-     * @return email email
-     */
-    public String getEmail() {
-        return email;
-    }
-
-    /**
-     * Sets email.
-     *
-     * @param string the string
-     */
-    public void setEmail(String string) {
-        this.email = email;
-    }
-
-
-    /**
-     * Gets id.
-     *
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * Sets id.
-     *
-     * @param id the id
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
 
     /**
      * Gets connections.
@@ -171,25 +129,4 @@ public class User {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        User user = (User) o;
-
-        if (id != user.id) return false;
-        if (firstName != null ? !firstName.equals(user.firstName) : user.firstName != null) return false;
-        if (lastName != null ? !lastName.equals(user.lastName) : user.lastName != null) return false;
-        return email != null ? email.equals(user.email) : user.email == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = firstName != null ? firstName.hashCode() : 0;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + id;
-        return result;
-    }
 }

@@ -1,14 +1,20 @@
 package edu.matc.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The type Connection.
  */
 @Entity(name = "Connection")
 @Table(name = "connections")
+@Getter
+@Setter
 public class Connection {
 
     @Id
@@ -65,6 +71,9 @@ public class Connection {
     @Column(name = "profile")
     private String profile;
 
+    @OneToMany(mappedBy = "connection", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<ActionItem> actionItems = new HashSet<>();
+
     /**
      * Instantiates a new Connection.
      *
@@ -74,6 +83,13 @@ public class Connection {
         this.user = user;
     }
 
+    /**
+     * Instantiates a new Connection.
+     *
+     * @param user      the user
+     * @param firstName the first name
+     * @param lastName  the last name
+     */
     public Connection(User user, String firstName, String lastName) {
         this.user = user;
         this.firstName = firstName;
@@ -86,211 +102,6 @@ public class Connection {
     public Connection() {
     }
 
-    /**
-     * Gets connection id.
-     *
-     * @return the connection id
-     */
-    public int getConnectionId() {
-        return connectionId;
-    }
-
-    /**
-     * Sets connection id.
-     *
-     * @param connectionId the connection id
-     */
-    public void setConnectionId(int connectionId) {
-        this.connectionId = connectionId;
-    }
-
-    /**
-     * Gets user.
-     *
-     * @return the user
-     */
-    public User getUser() {
-        return user;
-    }
-
-    /**
-     * Sets user.
-     *
-     * @param user the user
-     */
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    /**
-     * Gets linked in id.
-     *
-     * @return the linked in id
-     */
-    public int getLinkedInId() {
-        return linkedInId;
-    }
-
-    /**
-     * Sets linked in id.
-     *
-     * @param linkedInId the linked in id
-     */
-    public void setLinkedInId(int linkedInId) {
-        this.linkedInId = linkedInId;
-    }
-
-    /**
-     * Gets first name.
-     *
-     * @return the first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * Sets first name.
-     *
-     * @param firstName the first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    /**
-     * Gets last name.
-     *
-     * @return the last name
-     */
-    public String getLastName() {
-        return lastName;
-    }
-
-    /**
-     * Sets last name.
-     *
-     * @param lastName the last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Gets number of connections.
-     *
-     * @return the number of connections
-     */
-    public int getNumberOfConnections() {
-        return numberOfConnections;
-    }
-
-    /**
-     * Sets number of connections.
-     *
-     * @param numberOfConnections the number of connections
-     */
-    public void setNumberOfConnections(int numberOfConnections) {
-        this.numberOfConnections = numberOfConnections;
-    }
-
-    /**
-     * Is updated boolean.
-     *
-     * @return the boolean
-     */
-    public boolean isUpdated() {
-        return isUpdated;
-    }
-
-    /**
-     * Sets updated.
-     *
-     * @param updated the updated
-     */
-    public void setUpdated(boolean updated) {
-        isUpdated = updated;
-    }
-
-    public String getRelationship() {
-        return relationship;
-    }
-
-    public void setRelationship(String relationship) {
-        this.relationship = relationship;
-    }
-
-    public String getSharedInterests() {
-        return sharedInterests;
-    }
-
-    public void setSharedInterests(String sharedInterests) {
-        this.sharedInterests = sharedInterests;
-    }
-
-    public String getBackground() {
-        return background;
-    }
-
-    public void setBackground(String background) {
-        this.background = background;
-    }
-
-    public String getNotes() {
-        return notes;
-    }
-
-    public void setNotes(String notes) {
-        this.notes = notes;
-    }
-
-    public String getHeadline() {
-        return headline;
-    }
-
-    public void setHeadline(String headline) {
-        this.headline = headline;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public String getIndustry() {
-        return industry;
-    }
-
-    public void setIndustry(String industry) {
-        this.industry = industry;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public String getSpecialties() {
-        return specialties;
-    }
-
-    public void setSpecialties(String specialties) {
-        this.specialties = specialties;
-    }
-
-    public String getProfile() {
-        return profile;
-    }
-
-    public void setProfile(String profile) {
-        this.profile = profile;
-    }
 
     @Override
     public String toString() {
@@ -303,5 +114,54 @@ public class Connection {
                 ", numberOfConnections=" + numberOfConnections +
                 ", isUpdated=" + isUpdated +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Connection that = (Connection) o;
+
+        if (connectionId != that.connectionId) return false;
+        if (linkedInId != that.linkedInId) return false;
+        if (numberOfConnections != that.numberOfConnections) return false;
+        if (isUpdated != that.isUpdated) return false;
+        if (user != null ? !user.equals(that.user) : that.user != null) return false;
+        if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
+        if (relationship != null ? !relationship.equals(that.relationship) : that.relationship != null) return false;
+        if (sharedInterests != null ? !sharedInterests.equals(that.sharedInterests) : that.sharedInterests != null)
+            return false;
+        if (background != null ? !background.equals(that.background) : that.background != null) return false;
+        if (notes != null ? !notes.equals(that.notes) : that.notes != null) return false;
+        if (headline != null ? !headline.equals(that.headline) : that.headline != null) return false;
+        if (location != null ? !location.equals(that.location) : that.location != null) return false;
+        if (industry != null ? !industry.equals(that.industry) : that.industry != null) return false;
+        if (summary != null ? !summary.equals(that.summary) : that.summary != null) return false;
+        if (specialties != null ? !specialties.equals(that.specialties) : that.specialties != null) return false;
+        return profile != null ? profile.equals(that.profile) : that.profile == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = connectionId;
+        result = 31 * result + (user != null ? user.hashCode() : 0);
+        result = 31 * result + linkedInId;
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + numberOfConnections;
+        result = 31 * result + (isUpdated ? 1 : 0);
+        result = 31 * result + (relationship != null ? relationship.hashCode() : 0);
+        result = 31 * result + (sharedInterests != null ? sharedInterests.hashCode() : 0);
+        result = 31 * result + (background != null ? background.hashCode() : 0);
+        result = 31 * result + (notes != null ? notes.hashCode() : 0);
+        result = 31 * result + (headline != null ? headline.hashCode() : 0);
+        result = 31 * result + (location != null ? location.hashCode() : 0);
+        result = 31 * result + (industry != null ? industry.hashCode() : 0);
+        result = 31 * result + (summary != null ? summary.hashCode() : 0);
+        result = 31 * result + (specialties != null ? specialties.hashCode() : 0);
+        result = 31 * result + (profile != null ? profile.hashCode() : 0);
+        return result;
     }
 }

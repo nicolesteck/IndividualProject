@@ -24,12 +24,7 @@
                         <header>
                             <h3>LEFT SIDEBAR</h3>
                         </header>
-                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-                        <footer>
-                            <ul class="buttons">
-                                <li><a href="#" class="button small">Learn More</a></li>
-                            </ul>
-                        </footer>
+                        <c:import url="/actionItems"/>
                     </section>
 
                     <section>
@@ -59,13 +54,14 @@
 
                         <%-- ${users} --%>
                         <table>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Email</th>
+                                <th>Connections</th>
+                            </tr>
                             <c:forEach var="user" items="${users}">
-                                <tr>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Email</th>
-                                    <th>Connections</th>
-                                </tr>
+
                                 <tr>
                                     <td>${user.firstName}</td>
                                     <td>${user.lastName}</td>
