@@ -58,7 +58,7 @@
                 <ul class="buttons">
                     <li><a href="home.jsp" class="button special">Log In</a></li>
                     <li><a href="https://api.linkedin.com/v1/people/~:(id,num-connections,picture-url,first-name,last-name,formatted-name,headline,location,industry,current-share,num-connections-capped,summary,specialties,positions,public-profile-url,email-address)?format=json">Return info</a></li>
-                    <li><a class = "button special" href="nsindieproject/importConnections">Import Connections</a></li>
+                    <li><a class = "button special" href="importConnections">Import Connections</a></li>
 
                 </ul>
             </section>

@@ -58,8 +58,8 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         final OAuth20Service service = new ServiceBuilder(clientId)
                 .apiSecret(clientSecret)
                 .scope("r_basicprofile r_emailaddress") // replace with desired scope
-               // .callback("http://example.com/callback")
-               // .state("some_params")
+                .callback("http://localhost:8080/nsindieproject/")
+                .state("13378675309")
                 .build(LinkedInApi20.instance());
         final Scanner in = new Scanner(System.in);
 
