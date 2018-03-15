@@ -83,7 +83,7 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         final OAuth2AccessToken accessToken = service.getAccessToken(code);
         logger.info("Got the Access Token!");
         logger.info("(The raw response looks like this: " + accessToken.getRawResponse() + "')");
-        logger.info("");
+        logger.info("[newline]");
 
         // Now let's go and ask for a protected resource!
         logger.info("Now we're going to access a protected resource...");
