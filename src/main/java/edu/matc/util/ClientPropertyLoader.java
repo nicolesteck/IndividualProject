@@ -1,4 +1,4 @@
-package edu.matc.persistence;
+package edu.matc.util;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -24,5 +24,5 @@ public class ClientPropertyLoader {
         }
 
     }
-    }
+
 }
