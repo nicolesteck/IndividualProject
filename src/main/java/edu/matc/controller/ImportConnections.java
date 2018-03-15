@@ -45,14 +45,14 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
     private static final String PROTECTED_RESOURCE_URL = "https://api.linkedin.com/v1/people/~:(%s)";
     Properties properties;
 
-    public ImportConnections() throws ServletException {
-        properties = loadProperties("/resources/clientKey.properties");
+    public ImportConnections() throws ServletException, IOException, InterruptedException, ExecutionException {
+        properties = loadProperties("/clientKey.properties");
+        completeImport();
 
     }
 
 
-    public void doGet() throws IOException, InterruptedException, ExecutionException {
-        // Replace these with your client id and secret
+    public void completeImport() throws IOException, InterruptedException, ExecutionException {
         final String clientId = properties.getProperty("clientKey");
         final String clientSecret = properties.getProperty("clientSecret");
         final OAuth20Service service = new ServiceBuilder(clientId)
@@ -71,10 +71,11 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         final String authorizationUrl = service.getAuthorizationUrl();
         logger.info("Got the Authorization URL!");
         logger.info("Now go and authorize ScribeJava here:");
-        logger.info(authorizationUrl);
+        logger.info("auth URL: " + authorizationUrl);
         logger.info("And paste the authorization code here");
-        System.out.print(">>");
-        final String code = in.nextLine();
+        // REPLACING the in.nextLine() for code with the auth URL again
+        final String code = authorizationUrl;
+       // final String code = in.nextLine();
         logger.info("");
 
         // Trade the Request Token and Verifier for the Access Token
@@ -88,8 +89,8 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         logger.info("Now we're going to access a protected resource...");
         while (true) {
             logger.info("Paste profile query for fetch (firstName, lastName, etc) or 'exit' to stop example");
-            System.out.print(">>");
-            final String query = in.nextLine();
+            final String query = "https://api.linkedin.com/v1/people/~:(id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions)?format=json";
+          //  final String query = in.nextLine();
             logger.info("");
 
             if ("exit".equals(query)) {

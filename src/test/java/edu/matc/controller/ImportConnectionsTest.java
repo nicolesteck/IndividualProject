@@ -15,7 +15,7 @@ import java.util.Properties;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ImportConnectionsTest implements PropertiesLoaderInterface {
-
+/*
     @BeforeEach
     void setUp() {
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -38,5 +38,6 @@ class ImportConnectionsTest implements PropertiesLoaderInterface {
                 // .state("some_params")
                 .build(LinkedInApi20.instance());
     }
+    */
 
 }
