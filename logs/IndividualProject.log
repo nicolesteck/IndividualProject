@@ -943,3 +943,58 @@
 [INFO ] 2018-03-15 20:04:37.576 [http-nio-8080-exec-10] ImportConnections - authorization code: the authorization code here
 [INFO ] 2018-03-15 20:04:37.591 [http-nio-8080-exec-10] ImportConnections - 
 [INFO ] 2018-03-15 20:04:37.591 [http-nio-8080-exec-10] ImportConnections - Trading the Request Token for an Access Token...
+[INFO ] 2018-03-15 20:06:24.104 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-15 20:06:28.535 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-15 20:06:29.568 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-15 20:06:34.775 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-15 20:06:34.777 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-15 20:06:39.360 [http-nio-8080-exec-5] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-15 20:06:39.374 [http-nio-8080-exec-5] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-15 20:37:52.502 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:38:02.395 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:38:02.589 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:38:02.717 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-15 20:38:03.592 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:38:03.725 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-15 20:38:03.827 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:38:03.909 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:38:04.224 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:38:04.452 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:38:04.835 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-15 20:38:04.975 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-15 20:39:00.526 [http-nio-8080-exec-10] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-15 20:39:00.579 [http-nio-8080-exec-10] ImportConnections - /nsindieproject/importConnections
+[INFO ] 2018-03-15 20:39:00.585 [http-nio-8080-exec-10] ImportConnections - Trading the Request Token for an Access Token...
+[INFO ] 2018-03-15 20:41:11.039 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:41:17.690 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:41:17.872 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:41:17.904 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-15 20:41:18.888 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:41:18.964 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-15 20:41:19.053 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:41:19.112 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:41:19.252 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:41:19.481 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:41:19.783 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-15 20:41:19.907 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-15 20:42:07.136 [http-nio-8080-exec-7] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-15 20:45:25.316 [http-nio-8080-exec-7] ImportConnections - THE CODE IS: /nsindieproject/importConnections
+[INFO ] 2018-03-15 20:45:25.321 [http-nio-8080-exec-7] ImportConnections - Trading the Request Token for an Access Token...
+[INFO ] 2018-03-15 20:46:07.842 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:46:19.317 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:46:19.759 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:46:19.803 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-15 20:46:21.632 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:46:21.801 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-15 20:46:21.980 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:46:22.094 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:46:22.207 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-15 20:46:22.476 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-15 20:46:22.770 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-15 20:46:22.968 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-15 20:47:15.220 [http-nio-8080-exec-6] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-15 20:49:11.449 [http-nio-8080-exec-6] ImportConnections - THE CODE IS: /nsindieproject
+[INFO ] 2018-03-15 20:49:12.141 [http-nio-8080-exec-6] ImportConnections - context path: /nsindieproject
+[INFO ] 2018-03-15 20:49:12.932 [http-nio-8080-exec-6] ImportConnections - authtypenull
+[INFO ] 2018-03-15 20:49:13.903 [http-nio-8080-exec-6] ImportConnections - pathInfonull
+[INFO ] 2018-03-15 20:49:17.935 [http-nio-8080-exec-6] ImportConnections - servlet path/importConnections

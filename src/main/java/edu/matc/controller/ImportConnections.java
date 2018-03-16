@@ -43,12 +43,11 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
 
     public ImportConnections() throws ServletException, IOException, InterruptedException, ExecutionException {
         properties = loadProperties("/clientKey.properties");
-        completeImport();
 
     }
 
 
-    public void completeImport() throws IOException, InterruptedException, ExecutionException {
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         final String clientId = properties.getProperty("clientKey");
         final String clientSecret = properties.getProperty("clientSecret");
         final OAuth20Service service = new ServiceBuilder(clientId)
@@ -71,44 +70,62 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         logger.info("auth URL: " + authorizationUrl); */
         logger.info("authorization code: the authorization code here");
         // REPLACING the in.nextLine() for code with the auth URL again
-       // final String code = authorizationUrl;
-        OAuth2Authorization authorization = new OAuth2Authorization();
+        final String code = req.getContextPath();
+        final String contextPath = code;
+        final String authType = req.getAuthType();
+        final String pathInfo = req.getPathInfo();
 
-        final String code = authorization.getCode();
 
-
-        logger.info("");
+        logger.info("THE CODE IS: " + code);
+        logger.info("context path: " + contextPath);
+        logger.info("authtype" + authType);
+        logger.info("pathInfo" + pathInfo);
+        logger.info("servlet path" + req.getServletPath());
 
         // Trade the Request Token and Verifier for the Access Token
         logger.info("Trading the Request Token for an Access Token...");
-        final OAuth2AccessToken accessToken = service.getAccessToken(code);
-        logger.info("Got the Access Token!");
-        logger.info("(The raw response looks like this: " + accessToken.getRawResponse() + "')");
-        logger.info("[newline]");
+        getAccessTokenHandled(service, code);
 
-        // Now let's go and ask for a protected resource!
-        logger.info("Now we're going to access a protected resource...");
-        while (true) {
-            logger.info("Paste profile query for fetch (firstName, lastName, etc) or 'exit' to stop example");
-            final String query = "https://api.linkedin.com/v1/people/~:(id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions)?format=json";
-          //  final String query = in.nextLine();
-            logger.info("");
+    }
 
-            if ("exit".equals(query)) {
-                break;
+    public void getAccessTokenHandled(OAuth20Service service, String code) {
+        try {
+            final OAuth2AccessToken accessToken = service.getAccessToken(code);
+            logger.info("Got the Access Token!");
+            logger.info("(The raw response looks like this: " + accessToken.getRawResponse() + "')");
+            logger.info("[newline]");
+
+            // Now let's go and ask for a protected resource!
+            logger.info("Now we're going to access a protected resource...");
+            while (true) {
+                logger.info("Paste profile query for fetch (firstName, lastName, etc) or 'exit' to stop example");
+                final String query = "id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions";
+                //  final String query = in.nextLine();
+                logger.info("");
+
+                if ("exit".equals(query)) {
+                    break;
+                }
+
+                final OAuthRequest request = new OAuthRequest(Verb.GET, String.format(PROTECTED_RESOURCE_URL, query));
+                request.addHeader("x-li-format", "json");
+                request.addHeader("Accept-Language", "ru-RU");
+                service.signRequest(accessToken, request);
+                final Response response = service.execute(request);
+                logger.info("");
+                logger.info(response.getCode());
+                logger.info(response.getBody());
+
+                logger.info("");
             }
-
-            final OAuthRequest request = new OAuthRequest(Verb.GET, String.format(PROTECTED_RESOURCE_URL, query));
-            request.addHeader("x-li-format", "json");
-            request.addHeader("Accept-Language", "ru-RU");
-            service.signRequest(accessToken, request);
-            final Response response = service.execute(request);
-            logger.info("");
-            logger.info(response.getCode());
-            logger.info(response.getBody());
-
-            logger.info("");
+        } catch (InterruptedException ie) {
+            logger.error("Interrupted exception");
+        } catch (IOException io) {
+            logger.error("IO exception");
+        } catch (ExecutionException ee) {
+            logger.error("execution exception");
         }
+
     }
 
 }
