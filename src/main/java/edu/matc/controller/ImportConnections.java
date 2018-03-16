@@ -2,17 +2,13 @@ package edu.matc.controller;
 
 import com.github.scribejava.apis.LinkedInApi;
 import com.github.scribejava.core.builder.ServiceBuilder;
-import com.github.scribejava.core.model.OAuth1RequestToken;
+import com.github.scribejava.core.model.*;
 import com.github.scribejava.core.oauth.OAuth10aService;
 import com.github.scribejava.core.oauth.OAuthService;
 import edu.matc.util.PropertiesLoaderInterface;
 import java.util.Scanner;
 import com.github.scribejava.core.builder.ServiceBuilder;
 import com.github.scribejava.apis.LinkedInApi20;
-import com.github.scribejava.core.model.OAuth2AccessToken;
-import com.github.scribejava.core.model.OAuthRequest;
-import com.github.scribejava.core.model.Response;
-import com.github.scribejava.core.model.Verb;
 import com.github.scribejava.core.oauth.OAuth20Service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -57,12 +53,13 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         final String clientSecret = properties.getProperty("clientSecret");
         final OAuth20Service service = new ServiceBuilder(clientId)
                 .apiSecret(clientSecret)
-                .scope("r_basicprofile r_emailaddress") // replace with desired scope
+                .scope("r_basicprofile") // replace with desired scope
                 .callback("http://localhost:8080/nsindieproject/")
                 .state("13378675309")
+                .debug()
                 .build(LinkedInApi20.instance());
         final Scanner in = new Scanner(System.in);
-
+/*
         logger.info("=== OAuth Workflow ===");
         logger.info("");
 
@@ -71,11 +68,15 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         final String authorizationUrl = service.getAuthorizationUrl();
         logger.info("Got the Authorization URL!");
         logger.info("Now go and authorize ScribeJava here:");
-        logger.info("auth URL: " + authorizationUrl);
-        logger.info("And paste the authorization code here");
+        logger.info("auth URL: " + authorizationUrl); */
+        logger.info("authorization code: the authorization code here");
         // REPLACING the in.nextLine() for code with the auth URL again
-        final String code = authorizationUrl;
-       // final String code = in.nextLine();
+       // final String code = authorizationUrl;
+        OAuth2Authorization authorization = new OAuth2Authorization();
+
+        final String code = authorization.getCode();
+
+
         logger.info("");
 
         // Trade the Request Token and Verifier for the Access Token
