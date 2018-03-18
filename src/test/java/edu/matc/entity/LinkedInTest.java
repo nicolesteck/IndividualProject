@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+import com.github.scribejava.core.oauth.OAuth20Service;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -42,6 +43,13 @@ assertEquals("https://www.linkedin.com/oauth/v2/authorization?response_type=code
         assertEquals("???", linkedIn.getProfile("Result from access token"));
     }
     */
+
+    @Test
+    void getServiceSuccess() {
+
+        OAuth20Service service = linkedIn.getService();
+        assertNotNull(service);
+    }
 
 
 }

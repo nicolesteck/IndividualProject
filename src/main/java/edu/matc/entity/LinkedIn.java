@@ -59,7 +59,6 @@ public class LinkedIn implements PropertiesLoaderInterface {
                 .state("13378675309")
                 .debug()
                 .build(LinkedInApi20.instance());
-        final Scanner in = new Scanner(System.in);
     }
 
     /**
@@ -69,6 +68,7 @@ public class LinkedIn implements PropertiesLoaderInterface {
      */
     public String getAuthorizationUrl() {
         final String authorizationUrl = service.getAuthorizationUrl();
+        logger.info("authorization url: " + authorizationUrl);
         return authorizationUrl;
     }
 
@@ -93,9 +93,9 @@ public class LinkedIn implements PropertiesLoaderInterface {
                     logger.info("Paste profile query for fetch (firstName, lastName, etc) or 'exit' to stop example");
                     final String query = "id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions";
                     getProfile(accessToken, query);
-
+                    return accessToken;
                 }
-                return accessToken;
+
             } catch (InterruptedException ie) {
                 logger.error("Interrupted exception");
             } catch (IOException io) {
@@ -130,7 +130,7 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @throws ExecutionException   the execution exception
      * @throws IOException          the io exception
      */
-    public String getProfile(OAuth2AccessToken accessToken, String query) throws InterruptedException, ExecutionException, IOException {
+    public Response getProfile(OAuth2AccessToken accessToken, String query) throws InterruptedException, ExecutionException, IOException {
         final OAuthRequest request = new OAuthRequest(Verb.GET, String.format(PROTECTED_RESOURCE_URL, query));
         request.addHeader("x-li-format", "json");
         request.addHeader("Accept-Language", "ru-RU");
@@ -141,5 +141,6 @@ public class LinkedIn implements PropertiesLoaderInterface {
         logger.info(response.getBody());
 
         logger.info("");
+        return response;
     }
 }

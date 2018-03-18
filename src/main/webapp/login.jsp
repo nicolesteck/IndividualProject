@@ -15,7 +15,7 @@
     <TABLE>
         <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
         <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-        <tr><td><a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http://localhost:8080/nsindieproject/importConnections&state=13378675309&scope=r_basicprofile">Sign In with LI</a></td></tr>
+        <tr><td><a href="https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id=XXX&scope=r_basicprofile&state=13378675309&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F">Sign In with LI</a></td></tr>
         <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
     </TABLE>
 </FORM>

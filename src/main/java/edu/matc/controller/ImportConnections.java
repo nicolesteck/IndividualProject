@@ -5,7 +5,6 @@ import edu.matc.util.PropertiesLoaderInterface;
 import com.github.scribejava.core.oauth.OAuth20Service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import javax.servlet.ServletException;
@@ -13,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 import static org.hibernate.boot.model.source.internal.hbm.CommaSeparatedStringHelper.split;
 
