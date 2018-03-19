@@ -29,6 +29,7 @@ public class LinkedIn implements PropertiesLoaderInterface {
     private static final String NETWORK_NAME = "LinkedIn";
     private static final String PROTECTED_RESOURCE_URL = "https%3A%2F%2Fapi.linkedin.com%2Fv1%2Fpeople%2F~%3A%28%25s%29%22%0D%0A";
     private Properties properties;
+    String query;
     /**
      * The Client id.
      */
@@ -49,13 +50,14 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @throws IOException the io exception
      */
     public LinkedIn() throws IOException {
+        query = "id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions";
         properties = loadProperties("/clientKey.properties");
         clientSecret = properties.getProperty("clientSecret");
         clientId = properties.getProperty("clientKey");
         service = new ServiceBuilder(clientId)
                 .apiSecret(clientSecret)
                 .scope("r_basicprofile") // replace with desired scope
-                .callback("http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F")
+                .callback("http://localhost:8080/nsindieproject/")
                 .state("13378675309")
                 .debug()
                 .build(LinkedInApi20.instance());
@@ -72,6 +74,13 @@ public class LinkedIn implements PropertiesLoaderInterface {
         return authorizationUrl;
     }
 
+    // after clicking on the link returned by the getAuthorizationUrl, the user will be redirected to
+    // the callback url with a code appended to it. This method takes that code as a param here and returns the access token.
+    public String retrieveAccessToken(String code) throws InterruptedException, ExecutionException, IOException {
+        OAuth2AccessToken accessToken = service.getAccessToken(code);
+        return accessToken.getRawResponse();
+    }
+
     /**
      * Gets access token handled.
      *
@@ -80,6 +89,7 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @return the access token handled
      */
     public OAuth2AccessToken getAccessTokenHandled(OAuth20Service service, String code) {
+
 
             try {
                 OAuth2AccessToken accessToken = service.getAccessToken(code);
@@ -91,7 +101,6 @@ public class LinkedIn implements PropertiesLoaderInterface {
                 logger.info("Now we're going to access a protected resource...");
                 while (true) {
                     logger.info("Paste profile query for fetch (firstName, lastName, etc) or 'exit' to stop example");
-                    final String query = "id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions";
                     getProfile(accessToken, query);
                     return accessToken;
                 }
@@ -133,7 +142,7 @@ public class LinkedIn implements PropertiesLoaderInterface {
     public Response getProfile(OAuth2AccessToken accessToken, String query) throws InterruptedException, ExecutionException, IOException {
         final OAuthRequest request = new OAuthRequest(Verb.GET, String.format(PROTECTED_RESOURCE_URL, query));
         request.addHeader("x-li-format", "json");
-        request.addHeader("Accept-Language", "ru-RU");
+        request.addHeader("Accept-Language", "en-US");
         service.signRequest(accessToken, request);
         final Response response = service.execute(request);
         logger.info("");

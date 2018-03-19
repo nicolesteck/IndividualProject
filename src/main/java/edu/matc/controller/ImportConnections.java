@@ -61,7 +61,14 @@ public class ImportConnections extends HttpServlet implements PropertiesLoaderIn
         // Trade the Request Token and Verifier for the Access Token
         logger.info("Trading the Request Token for an Access Token...");
         OAuth20Service service = linkedIn.getService();
-        linkedIn.getAccessTokenHandled(service, code);
+        try {
+            linkedIn.retrieveAccessToken(code);
+        } catch (InterruptedException ie) {
+            logger.error("ERROR: INterrupted exception " + ie);
+        } catch (ExecutionException ee) {
+            logger.error("ERROR: Execution Exception " + ee);
+        }
+
 
     }
 
