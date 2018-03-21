@@ -8,11 +8,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import com.github.scribejava.core.model.Response;
 
 
 import static org.hibernate.boot.model.source.internal.hbm.CommaSeparatedStringHelper.split;
@@ -41,11 +44,17 @@ public class LinkedInLogin extends HttpServlet implements PropertiesLoaderInterf
         try {
             OAuth2AccessToken accessToken = linkedIn.retrieveAccessToken(code);
             String query = linkedIn.getQuery();
-            linkedIn.getProfile(accessToken, query);
+            Response profile = linkedIn.getProfile(accessToken, query);
+
+            req.setAttribute("profile", profile);
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/linkedInLogin.jsp");
+            dispatcher.forward(req, resp);
         } catch (InterruptedException ie) {
             logger.error("ERROR: Interrupted exception " + ie);
         } catch (ExecutionException ee) {
             logger.error("ERROR: Execution Exception " + ee);
+        } catch (ServletException se) {
+            logger.error("ERROR: Servlet Exception " + se);
         }
 
 
