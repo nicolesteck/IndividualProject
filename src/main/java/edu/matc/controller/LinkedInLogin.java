@@ -32,15 +32,16 @@ public class LinkedInLogin extends HttpServlet implements PropertiesLoaderInterf
 
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         LinkedIn linkedIn = new LinkedIn();
-        OAuth20Service service = linkedIn.getService();
+       // OAuth20Service service = linkedIn.getService();
         String authorizationUrl = linkedIn.getAuthorizationUrl();
         final String prelimCode = req.getQueryString();
         String code = linkedIn.parseCode(prelimCode);
+        logger.info(code);
 
         try {
-            String accessToken = linkedIn.retrieveAccessToken(code);
+            OAuth2AccessToken accessToken = linkedIn.retrieveAccessToken(code);
             String query = linkedIn.getQuery();
-         //   linkedIn.getProfile(accessToken, query);
+            linkedIn.getProfile(accessToken, query);
         } catch (InterruptedException ie) {
             logger.error("ERROR: Interrupted exception " + ie);
         } catch (ExecutionException ee) {

@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutionException;
 public class LinkedIn implements PropertiesLoaderInterface {
     private final Logger logger = LogManager.getLogger(this.getClass());
     private static final String NETWORK_NAME = "LinkedIn";
-    private static final String PROTECTED_RESOURCE_URL = "https%3A%2F%2Fapi.linkedin.com%2Fv1%2Fpeople%2F~%3A%28%25s%29%22%0D%0A";
+    private static final String PROTECTED_RESOURCE_URL = "https://api.linkedin.com/v1/people/~:(%s)";
     private Properties properties;
     String query;
     /**
@@ -50,14 +50,14 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @throws IOException the io exception
      */
     public LinkedIn() throws IOException {
-        query = "id,num-connections,picture-url,first-name,last-name,summary,specialties,industry,location,headline,positions";
+        query = "firstName,lastName,headline,id,location,industry,currentShare,numConnections,summary,specialties,positions";
         properties = loadProperties("/clientKey.properties");
         clientSecret = properties.getProperty("clientSecret");
         clientId = properties.getProperty("clientKey");
         service = new ServiceBuilder(clientId)
                 .apiSecret(clientSecret)
                 .scope("r_basicprofile") // replace with desired scope
-                .callback("http://localhost:8080/nsindieproject/")
+                .callback("http://localhost:8080/nsindieproject/linkedInLogin")
                 .state("13378675309")
                 .debug()
                 .build(LinkedInApi20.instance());
@@ -76,9 +76,9 @@ public class LinkedIn implements PropertiesLoaderInterface {
 
     // after clicking on the link returned by the getAuthorizationUrl, the user will be redirected to
     // the callback url with a code appended to it. This method takes that code as a param here and returns the access token.
-    public String retrieveAccessToken(String code) throws InterruptedException, ExecutionException, IOException {
+    public OAuth2AccessToken retrieveAccessToken(String code) throws InterruptedException, ExecutionException, IOException {
         OAuth2AccessToken accessToken = service.getAccessToken(code);
-        return accessToken.getRawResponse();
+        return accessToken;
     }
 
     /**
