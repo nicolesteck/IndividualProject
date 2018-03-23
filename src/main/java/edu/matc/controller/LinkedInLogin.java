@@ -1,7 +1,10 @@
 package edu.matc.controller;
 
 import com.github.scribejava.core.model.OAuth2AccessToken;
+import edu.matc.entity.Connection;
 import edu.matc.entity.LinkedIn;
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import edu.matc.util.PropertiesLoaderInterface;
 import com.github.scribejava.core.oauth.OAuth20Service;
 import org.apache.logging.log4j.LogManager;
@@ -38,15 +41,19 @@ public class LinkedInLogin extends HttpServlet implements PropertiesLoaderInterf
        // OAuth20Service service = linkedIn.getService();
         String authorizationUrl = linkedIn.getAuthorizationUrl();
         final String prelimCode = req.getQueryString();
-        String code = linkedIn.parseCode(prelimCode);
+        Object objectCode = (Object)prelimCode;
+        String code = linkedIn.parseCode(objectCode);
         logger.info(code);
 
         try {
             OAuth2AccessToken accessToken = linkedIn.retrieveAccessToken(code);
             String query = linkedIn.getQuery();
             Response profile = linkedIn.getProfile(accessToken, query);
-
             req.setAttribute("profile", profile);
+            String profileContents = profile.getBody();
+            User user = linkedIn.buildUser(profileContents);
+            GenericDao genericDao = new GenericDao(User.class);
+            genericDao.insert(user);
             RequestDispatcher dispatcher = req.getRequestDispatcher("/linkedInLogin.jsp");
             dispatcher.forward(req, resp);
         } catch (InterruptedException ie) {

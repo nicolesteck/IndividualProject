@@ -488,3 +488,271 @@
   }
 }
 [INFO ] 2018-03-20 21:12:41.304 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-21 12:44:54.692 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-21 12:44:54.699 [http-nio-8080-exec-10] LinkedInLogin - AQSQOYfJLFQudbkqHZ_NXFe3I5QlGRhAtt7jfIyW_9pFOX9f_P1omQJo6L8TdVH3nU7RszRKSxfmHsmCsFTC3WkPkQrYC1sQcH6Y7D1KCk-6IEs1Db2EC-XWis4TdOIJcSGSQvaeWRe_kK-5TfJhVRQEVlm25Q
+[INFO ] 2018-03-21 12:45:11.312 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-21 12:45:11.319 [http-nio-8080-exec-9] LinkedInLogin - AQTCG8kmiScQadZuQmBgnOp62kAeBDm37uC6YnZTqxuO6Km3rEnyrl9ztU-dOi4lswPb61ssLye6BTnrFoCG6N8TgqcQ28y6KPiY5EfK6MZNJKlseSnx11STp5EwMMzx2THvFdXbCrq5YUohu5GkRVp-6n7pUg
+[INFO ] 2018-03-21 12:45:12.265 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-21 12:45:12.265 [http-nio-8080-exec-9] LinkedIn - 200
+[INFO ] 2018-03-21 12:45:12.266 [http-nio-8080-exec-9] LinkedIn - {
+  "currentShare": {
+    "attribution": {"share": {
+      "author": {
+        "firstName": "Sasha Ariel",
+        "id": "4abp0YAoJ_",
+        "lastName": "Alston"
+      },
+      "comment": "So excited to be selected as a 2018 Young Futurist by The Root!\n\n\"Since 2011, The Root has proudly honored the best and brightest African Americans between the ages of 15 and 22, the brilliant and inspirational leaders who are already charting their own paths in the worlds of business, science and tech, the arts, social justice and the environment..\u201d #STEM #Diversity #Tech",
+      "id": "s6381541139438137345"
+    }},
+    "author": {
+      "firstName": "Nicole",
+      "id": "9s0KEVxQfd",
+      "lastName": "Steck"
+    },
+    "comment": "Awesome! Like many of us, I have mixed feelings about Lyft and Uber \u2014 but this is hands down a fantastic initiative.",
+    "id": "s6368926362677362688",
+    "source": {"serviceProvider": {"name": "FLAGSHIP"}},
+    "timestamp": 1518470373793,
+    "visibility": {"code": "anyone"}
+  },
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-21 12:45:12.267 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-22 20:11:59.621 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:11:59.643 [http-nio-8080-exec-2] LinkedInLogin - AQTPQCnM-Jo0Ahz_Im8CdopCa50P98BprImZfWKjqQg80ZyD3Wk_mv4HtBq6ar8mOe79qehIPmshopnLaPFBwYt59tTerh0IFE7g-Kvvf6hwn0almp9wwjuVaggjLXSOWOeR40XNjO24sHesoKYgaTLwVPaFXA
+[INFO ] 2018-03-22 20:12:01.656 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-22 20:12:01.658 [http-nio-8080-exec-2] LinkedIn - 200
+[INFO ] 2018-03-22 20:12:01.669 [http-nio-8080-exec-2] LinkedIn - {
+  "currentShare": {
+    "attribution": {"share": {
+      "author": {
+        "firstName": "Sasha Ariel",
+        "id": "4abp0YAoJ_",
+        "lastName": "Alston"
+      },
+      "comment": "JP Morgan Chase today announced a $1 million investment to help Black and Hispanic women-led startups thrive. ",
+      "id": "s6382704200375111680"
+    }},
+    "author": {
+      "firstName": "Nicole",
+      "id": "9s0KEVxQfd",
+      "lastName": "Steck"
+    },
+    "comment": "Awesome! Like many of us, I have mixed feelings about Lyft and Uber \u2014 but this is hands down a fantastic initiative.",
+    "id": "s6368926362677362688",
+    "source": {"serviceProvider": {"name": "FLAGSHIP"}},
+    "timestamp": 1518470373793,
+    "visibility": {"code": "anyone"}
+  },
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-22 20:12:01.670 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-22 20:16:59.020 [http-nio-8080-exec-4] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:16:59.038 [http-nio-8080-exec-4] LinkedInLogin - AQTaKtwepqGrNFRUW5fvwn5Jb_cnLV6p4rdvJpEoLpzLbPpy88J7QYoPz71mvXS0gEzZBhMlZ6YKJW2n8wVCqZBfvkvLmZAW1jwcr4etiphBVhKd4wAzhuO2agh2Fz7k8s9GAEirhEapkAVADzOKLNS6plI8yg
+[INFO ] 2018-03-22 20:17:00.186 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-22 20:17:00.189 [http-nio-8080-exec-4] LinkedIn - 200
+[INFO ] 2018-03-22 20:17:00.196 [http-nio-8080-exec-4] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-22 20:17:00.197 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-22 20:18:39.925 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:18:39.949 [http-nio-8080-exec-7] LinkedInLogin - AQSEIQuadGfK9QZFjkZD_cwJLhfIOhL3ya7o3JpH_1HA2dN2A_lMVIdVepXDGpkedxZQvUGjpoQ00F4c2SR7SqQs539pVb2TZ-CSgioKxvcI2sozofp9eAyUABKqL3m2Jtzi488n0fqjP6t53bLZ2CMWx8xjGA
+[INFO ] 2018-03-22 20:18:41.020 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - 200
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-22 20:25:52.048 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:25:52.069 [http-nio-8080-exec-10] LinkedInLogin - AQQovPUaYArtu_7jE8tgcCQOju-PkYhW4-7snKpurVaFGqeL6Iwaqx-yGt4j3tWY5pYnY6ku9XhDoPath7v0ww9tHk0tm9bZRIJ7v-mvXhC9x1D8yacHHsoeuq1zi3_7faK-Rjk3bdfKHvoV7G1FrRE-M8W-xg
+[INFO ] 2018-03-22 20:25:54.038 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-22 20:25:54.040 [http-nio-8080-exec-10] LinkedIn - 200
+[INFO ] 2018-03-22 20:25:54.048 [http-nio-8080-exec-10] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:25:54.048 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-22 20:27:35.895 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:27:35.919 [http-nio-8080-exec-1] LinkedInLogin - AQRcBEZnrVjpvmYQ6ZijCukSa3M0lwula03ifZhSKCZjIuHxK5Od84MJeyQkVqS9PtHoKo2nuPSbdF8W-zg7Xl_IzJwFl9Uoian8bmZazOmWku3jAwQCPBuB5ytJddIG4MpWzFYWHhmEXrr281XKhKbRhEQ9Lw
+[INFO ] 2018-03-22 20:27:37.368 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-22 20:27:37.370 [http-nio-8080-exec-1] LinkedIn - 200
+[INFO ] 2018-03-22 20:27:37.383 [http-nio-8080-exec-1] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:27:37.383 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-22 20:30:35.494 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:30:35.511 [http-nio-8080-exec-3] LinkedInLogin - AQSodFLTuDJ3dYAonj-sMptZulQfrDqYvTSby7p1bhyJpKUq6gGCXfuUSIglPAxDtO4Qwk9xFCrdqcY092exaOYc8lWDsp1hKUU0tPzcwGvLbsNBt_nUF-qrQlw6rhO7J8CuWh5mq47cuAxfeWJJpTZajebyWw
+[INFO ] 2018-03-22 20:30:37.127 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-22 20:30:37.128 [http-nio-8080-exec-3] LinkedIn - 200
+[INFO ] 2018-03-22 20:30:37.129 [http-nio-8080-exec-3] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:30:37.129 [http-nio-8080-exec-3] LinkedIn - 

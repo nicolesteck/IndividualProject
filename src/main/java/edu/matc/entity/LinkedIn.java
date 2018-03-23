@@ -1,6 +1,8 @@
 package edu.matc.entity;
 
 
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.scribejava.apis.LinkedInApi20;
 import com.github.scribejava.core.builder.ServiceBuilder;
 import com.github.scribejava.core.model.OAuth2AccessToken;
@@ -50,7 +52,8 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @throws IOException the io exception
      */
     public LinkedIn() throws IOException {
-        query = "firstName,lastName,headline,id,location,industry,currentShare,numConnections,summary,specialties,positions";
+        //query = "firstName,lastName,headline,id,location,industry,currentShare,numConnections,summary,specialties,positions";
+        query = "firstName,lastName";
         properties = loadProperties("/clientKey.properties");
         clientSecret = properties.getProperty("clientSecret");
         clientId = properties.getProperty("clientKey");
@@ -122,11 +125,28 @@ public class LinkedIn implements PropertiesLoaderInterface {
      * @param prelimCode the prelim code
      * @return the string
      */
-    public String parseCode(String prelimCode) {
+    public String parseCode(Object prelimValue) {
+        String stringCode = (String)prelimValue;
         String delims = "[ &=]+";
-        String[] stringItems = prelimCode.split(delims);
-        String code = stringItems[1];
-        return code;
+        String[] stringItems = stringCode.split(delims);
+        if (prelimValue instanceof String) {
+            String code = stringItems[1];
+            return code;
+        } else if (prelimValue instanceof Response) {
+            String profileContents = stringItems[1];
+            return profileContents;
+        }
+        return null;
+    }
+
+    public User buildUser(String profileContents) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonInString = "{'name' : 'mkyong'}";
+
+    //JSON from String to Object
+        User user = mapper.readValue(profileContents, User.class);
+
+        return user;
     }
 
     /**
