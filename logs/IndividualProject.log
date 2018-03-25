@@ -1,347 +1,870 @@
-[INFO ] 2018-03-10 13:39:30.958 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:39:35.326 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:39:35.428 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:39:35.444 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 13:39:35.934 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:39:35.959 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 13:39:36.000 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:39:36.034 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:39:36.142 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:39:36.268 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:39:36.497 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 13:39:36.554 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 13:58:17.992 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:58:21.410 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:58:21.487 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:58:21.506 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 13:58:21.926 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:58:21.953 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 13:58:21.981 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:58:22.024 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:58:22.120 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 13:58:22.271 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 13:58:22.520 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 13:58:22.659 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 14:16:19.858 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 14:16:24.006 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 14:16:24.127 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 14:16:24.146 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 14:16:24.710 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 14:16:24.733 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 14:16:24.779 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 14:16:24.831 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 14:16:24.912 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 14:16:25.028 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 14:16:25.277 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 14:16:25.377 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 14:17:44.354 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 14:17:58.048 [http-nio-8080-exec-2] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 14:18:03.740 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-10 14:18:15.672 [http-nio-8080-exec-4] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 14:23:20.264 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:20.896 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[INFO ] 2018-03-10 14:23:23.548 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:23.575 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[INFO ] 2018-03-10 14:23:23.619 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:23.628 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[DEBUG] 2018-03-10 14:23:23.630 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 14:23:24.067 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:24.092 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[DEBUG] 2018-03-10 14:23:24.102 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 14:23:24.180 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:24.198 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[INFO ] 2018-03-10 14:23:24.220 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:24.241 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[INFO ] 2018-03-10 14:23:24.313 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:24.326 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[INFO ] 2018-03-10 14:23:24.428 [main] UserDaoTest - BeforeEach
-[ERROR] 2018-03-10 14:23:24.444 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[ERROR] 2018-03-10 14:23:24.600 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`li_test`.`action_items`, CONSTRAINT `FK_item_connectionid` FOREIGN KEY (`connection_id`) REFERENCES `connections` (`id`))
-[DEBUG] 2018-03-10 14:23:24.719 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 14:23:24.809 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:36:36.938 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:36:42.603 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:36:42.782 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:36:42.802 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:36:43.199 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:36:43.215 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:36:43.245 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:36:43.269 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:36:43.321 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:36:43.392 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:36:43.547 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:36:43.606 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:40:31.374 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:40:35.702 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:40:35.841 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:40:35.869 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:40:36.335 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:40:36.357 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:40:36.404 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:40:36.441 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:40:36.516 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:40:36.622 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:40:36.830 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:40:36.918 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:41:42.010 [http-nio-8080-exec-2] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 15:41:47.429 [http-nio-8080-exec-4] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 15:43:27.285 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:43:31.294 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:43:31.389 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:43:31.409 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:43:31.908 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:43:31.933 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:43:31.971 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:43:32.005 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:43:32.084 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:43:32.198 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:43:32.392 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:43:32.469 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:44:18.952 [http-nio-8080-exec-1] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 15:44:23.803 [http-nio-8080-exec-6] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 15:48:52.169 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:48:57.508 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:48:57.661 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:48:57.686 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:48:58.159 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:48:58.188 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:48:58.237 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:48:58.282 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:48:58.365 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:48:58.515 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:48:58.727 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:48:58.794 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:52:02.203 [http-nio-8080-exec-2] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 15:52:14.768 [http-nio-8080-exec-4] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 15:54:34.610 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:54:41.953 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:54:42.087 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:54:42.103 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:54:43.346 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:54:43.378 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:54:43.444 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:54:43.474 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:54:43.597 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:54:43.725 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:54:44.089 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:54:44.196 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:55:44.064 [http-nio-8080-exec-10] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 15:55:44.122 [http-nio-8080-exec-5] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 15:58:05.883 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:58:13.231 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:58:13.777 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:58:13.826 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 15:58:14.739 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:58:14.780 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 15:58:14.900 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:58:15.093 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:58:15.363 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 15:58:15.690 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 15:58:16.125 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 15:58:16.222 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 15:59:27.467 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 15:59:38.449 [http-nio-8080-exec-10] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-10 16:08:03.138 [http-nio-8080-exec-5] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 16:12:59.931 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:13:09.000 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:13:09.212 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:13:09.241 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 16:13:09.882 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:13:09.903 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 16:13:09.958 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:13:10.017 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:13:10.108 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:13:10.243 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:13:10.481 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 16:13:10.554 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 16:14:06.291 [http-nio-8080-exec-2] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-10 16:14:06.314 [http-nio-8080-exec-2] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-10 16:14:49.863 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:14:53.452 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:14:53.537 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:14:53.549 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-10 16:14:54.003 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:14:54.019 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-10 16:14:54.070 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:14:54.101 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:14:54.162 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-10 16:14:54.252 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-10 16:14:54.436 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-10 16:14:54.506 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-10 16:15:50.417 [http-nio-8080-exec-2] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-10 16:15:50.441 [http-nio-8080-exec-2] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-12 19:28:26.807 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:28:31.753 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:28:31.851 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:28:31.861 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 19:28:32.405 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:28:32.423 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 19:28:32.459 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:28:32.492 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:28:32.555 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:28:32.670 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:28:32.852 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 19:28:32.915 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 19:30:12.640 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:30:16.679 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:30:16.784 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:30:16.798 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 19:30:17.207 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:30:17.231 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 19:30:17.271 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:30:17.309 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:30:17.386 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:30:17.479 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:30:17.664 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 19:30:17.728 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 19:30:58.244 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:30:58.251 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:05.387 [http-nio-8080-exec-2] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:05.388 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:06.838 [http-nio-8080-exec-4] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:06.838 [http-nio-8080-exec-4] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:08.178 [http-nio-8080-exec-5] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:08.179 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:10.415 [http-nio-8080-exec-6] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:10.416 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:15.052 [http-nio-8080-exec-10] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:15.053 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:16.042 [http-nio-8080-exec-5] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:16.042 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:17.415 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:17.415 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:19.357 [http-nio-8080-exec-1] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:19.357 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:20.965 [http-nio-8080-exec-10] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:20.966 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:31:22.070 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 19:31:22.071 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:46:57.204 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:47:01.134 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:47:01.229 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:47:01.247 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 19:47:01.744 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:47:01.774 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 19:47:01.820 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:47:01.855 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:47:01.918 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:47:02.019 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:47:02.213 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 19:47:02.287 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 19:49:13.484 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:52:43.802 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:52:47.850 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:52:47.940 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:52:47.956 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 19:52:48.438 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:52:48.458 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 19:52:48.504 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:52:48.537 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:52:48.610 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:52:48.711 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:52:48.894 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 19:52:48.956 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 19:53:32.153 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:35.270 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:47.186 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:48.647 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:50.673 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:51.791 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:53.534 [http-nio-8080-exec-4] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:55.160 [http-nio-8080-exec-4] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:56.987 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:53:57.981 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:54:00.153 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:56:21.875 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:56:23.738 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:56:26.254 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:56:27.488 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:56:29.611 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:57:25.671 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:57:30.037 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:57:30.126 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:57:30.144 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 19:57:30.644 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:57:30.669 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 19:57:30.712 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:57:30.750 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:57:30.818 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 19:57:30.957 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 19:57:31.182 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 19:57:31.297 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 19:58:28.652 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:30.936 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:38.958 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:40.346 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:41.396 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:43.227 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 19:58:44.206 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:02:08.550 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:02:14.098 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:02:14.188 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:02:14.204 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 20:02:14.709 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:02:14.732 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 20:02:14.780 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:02:14.819 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:02:14.903 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:02:15.013 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:02:15.242 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 20:02:15.318 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 20:06:09.796 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:23:37.045 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:23:41.392 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:23:41.533 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:23:41.562 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 20:23:42.219 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:23:42.242 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 20:23:42.284 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:23:42.342 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:23:42.470 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:23:42.629 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:23:42.825 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 20:23:42.896 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 20:24:26.590 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:24:28.985 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:33:11.949 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:33:16.549 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:33:16.647 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:33:16.669 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 20:33:17.188 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:33:17.206 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 20:33:17.261 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:33:17.310 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:33:17.410 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:33:17.530 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:33:17.727 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 20:33:17.800 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 20:33:55.517 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:34:49.646 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:34:56.178 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:34:56.435 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:34:56.445 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 20:34:57.365 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:34:57.416 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 20:34:57.489 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:34:57.696 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:34:57.866 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:34:58.010 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:34:58.559 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 20:34:58.736 [main] GenericDao - Searching for firstName = Julie
-[INFO ] 2018-03-12 20:35:35.210 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
-[INFO ] 2018-03-12 20:36:22.040 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 20:36:22.047 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers
-[INFO ] 2018-03-12 20:36:28.198 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
-[INFO ] 2018-03-12 20:36:28.200 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
-[INFO ] 2018-03-12 20:40:52.289 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:40:56.631 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:40:56.733 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:40:56.759 [main] GenericDao - Searching for lastName = Hensen
-[INFO ] 2018-03-12 20:40:57.281 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:40:57.310 [main] GenericDao - Searching for Connection with firstName = ar
-[INFO ] 2018-03-12 20:40:57.353 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:40:57.396 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:40:57.467 [main] UserDaoTest - BeforeEach
-[INFO ] 2018-03-12 20:40:57.597 [main] UserDaoTest - BeforeEach
-[DEBUG] 2018-03-12 20:40:57.775 [main] GenericDao - Searching for Connection with firstName = J
-[DEBUG] 2018-03-12 20:40:57.838 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-17 21:02:12.592 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-17 21:02:20.233 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-17 21:02:20.435 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-17 21:02:20.469 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-17 21:02:21.248 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-17 21:02:21.284 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-17 21:02:21.536 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-17 21:02:21.589 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-17 21:02:21.785 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-17 21:02:21.955 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-17 21:02:22.205 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-17 21:02:22.354 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-17 21:09:34.624 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-17 21:09:46.668 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-17 21:10:16.945 [http-nio-8080-exec-4] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-17 21:10:16.959 [http-nio-8080-exec-4] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-18 11:09:28.184 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%253A%252F%252Flocalhost%253A8080%252Fnsindieproject%252F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 11:36:42.916 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%253A%252F%252Flocalhost%253A8080%252Fnsindieproject%252F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 11:47:31.866 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:06:46.825 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:12:08.219 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:15:32.252 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:15:32.323 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:15:36.358 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:15:36.427 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:15:36.445 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 12:15:36.811 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:15:36.828 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 12:15:36.864 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:15:36.889 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:15:36.946 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:15:37.029 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:15:37.173 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 12:15:37.225 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 12:17:05.690 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:17:10.887 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:17:11.041 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:17:11.055 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 12:17:11.624 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:17:11.648 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 12:17:11.699 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:17:11.732 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:17:11.798 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:17:11.913 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:17:12.037 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 12:17:12.084 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 12:21:17.401 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:21:21.196 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:21:21.280 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:21:21.292 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 12:21:21.746 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:21:21.762 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 12:21:21.792 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:21:21.816 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:21:21.864 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 12:21:21.933 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 12:21:22.088 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 12:21:22.130 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 12:22:25.157 [http-nio-8080-exec-4] ImportConnections - === OAuth Workflow ===
+[INFO ] 2018-03-18 12:22:25.222 [http-nio-8080-exec-4] ImportConnections - 
+[INFO ] 2018-03-18 12:22:25.223 [http-nio-8080-exec-4] ImportConnections - Fetching the Authorization URL...
+[INFO ] 2018-03-18 12:22:25.244 [http-nio-8080-exec-4] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:22:25.245 [http-nio-8080-exec-4] ImportConnections - Got the Authorization URL!
+[INFO ] 2018-03-18 12:22:25.246 [http-nio-8080-exec-4] ImportConnections - Now go and authorize ScribeJava here:
+[INFO ] 2018-03-18 12:22:25.248 [http-nio-8080-exec-4] ImportConnections - auth URL: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 12:22:25.249 [http-nio-8080-exec-4] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-18 15:07:19.339 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:07:24.373 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:07:24.498 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:07:24.527 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:07:25.116 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:07:25.144 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:07:25.211 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:07:25.277 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:07:25.400 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:07:25.541 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:07:25.804 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:07:25.878 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:18:43.021 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:18:47.368 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:18:47.470 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:18:47.487 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:18:48.225 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:18:48.244 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:18:48.294 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:18:48.322 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:18:48.400 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:18:48.602 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:18:48.786 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:18:48.863 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:27:35.176 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:27:39.828 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:27:39.925 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:27:39.940 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:27:40.505 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:27:40.526 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:27:40.574 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:27:40.602 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:27:40.671 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:27:40.753 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:27:40.938 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:27:41.074 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:30:35.863 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:30:40.548 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:30:40.645 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:30:40.665 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:30:41.246 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:30:41.267 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:30:41.319 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:30:41.346 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:30:41.429 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:30:41.543 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:30:41.718 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:30:41.795 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:33:13.585 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:33:18.236 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:33:18.326 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:33:18.343 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:33:18.839 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:33:18.859 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:33:18.891 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:33:18.924 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:33:18.992 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:33:19.096 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:33:19.278 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:33:19.341 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:35:19.372 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:35:26.550 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:35:26.672 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:35:26.704 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:35:27.711 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:35:27.760 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:35:27.849 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:35:27.901 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:35:28.004 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:35:28.292 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:35:28.619 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:35:28.697 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:36:08.088 [http-nio-8080-exec-6] ImportConnections - === OAuth Workflow ===
+[INFO ] 2018-03-18 15:36:08.109 [http-nio-8080-exec-6] ImportConnections - 
+[INFO ] 2018-03-18 15:36:08.109 [http-nio-8080-exec-6] ImportConnections - Fetching the Authorization URL...
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - Got the Authorization URL!
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - Now go and authorize ScribeJava here:
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - auth URL: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - CODE:AQSQVmoQcja6NC-o08ESx-MGv3OMU_mWNSLsUzMq-AjvZJiTxdmLxjXtCJeoy9WXjexaq1Q74nFffIL5c7pfQY5Lcfs3C0lE5Yl-RQyHCgKxpEuT449b5VP6X-SJv6G1CYR9IMEtzaiYxOYiEcogjz-73miZUg
+[INFO ] 2018-03-18 15:36:08.116 [http-nio-8080-exec-6] ImportConnections - Trading the Request Token for an Access Token...
+[INFO ] 2018-03-18 15:43:04.933 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:43:10.609 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:43:10.728 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:43:10.743 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:43:11.305 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:43:11.328 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:43:11.376 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:43:11.418 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:43:11.501 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:43:11.657 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:43:11.849 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:43:11.958 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:44:33.802 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:44:39.038 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:44:39.168 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:44:39.208 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:44:39.868 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:44:39.890 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:44:39.951 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:44:39.984 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:44:40.081 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:44:40.222 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:44:40.440 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:44:40.536 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 15:45:59.330 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:46:07.771 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:46:07.902 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:46:07.917 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 15:46:09.449 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:46:09.464 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 15:46:09.560 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:46:09.740 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:46:09.832 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 15:46:10.018 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 15:46:10.334 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 15:46:10.413 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 16:34:07.896 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:34:12.902 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:34:13.011 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:34:13.028 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 16:34:13.511 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:34:13.531 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 16:34:13.582 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:34:13.624 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:34:13.692 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:34:13.812 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:34:14.011 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 16:34:14.096 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 16:37:02.191 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:37:07.598 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:37:07.691 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:37:07.707 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 16:37:08.223 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:37:08.241 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 16:37:08.300 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:37:08.348 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:37:08.422 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:37:08.565 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:37:08.729 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 16:37:08.791 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 16:39:07.426 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:30.724 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:35.413 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:35.523 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:39:35.541 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 16:39:36.068 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:39:36.080 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 16:39:36.137 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:36.163 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:36.246 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:39:36.356 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:39:36.538 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 16:39:36.584 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 16:51:38.875 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:51:43.369 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:51:43.457 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:51:43.469 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 16:51:43.964 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:51:43.986 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 16:51:44.026 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:51:44.060 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:51:44.128 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 16:51:44.266 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 16:51:44.458 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 16:51:44.518 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 16:53:50.868 [http-nio-8080-exec-2] ImportConnections - === OAuth Workflow ===
+[INFO ] 2018-03-18 16:53:50.899 [http-nio-8080-exec-2] ImportConnections - 
+[INFO ] 2018-03-18 16:53:50.899 [http-nio-8080-exec-2] ImportConnections - Fetching the Authorization URL...
+[INFO ] 2018-03-18 16:53:50.908 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 16:53:50.908 [http-nio-8080-exec-2] ImportConnections - Got the Authorization URL!
+[INFO ] 2018-03-18 16:53:50.909 [http-nio-8080-exec-2] ImportConnections - Now go and authorize ScribeJava here:
+[INFO ] 2018-03-18 16:53:50.910 [http-nio-8080-exec-2] ImportConnections - auth URL: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 16:53:50.910 [http-nio-8080-exec-2] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-18 16:53:50.911 [http-nio-8080-exec-2] ImportConnections - CODE:AQQjgXoAci8rmizVBGb0gtXCOh3hBBhVYli3vFWvrZB3bqIzWFaI4HKuse_Y_mqEdlxeClaOcfcBuObXEq2FaR9e67Gz0K_GEKVM5cMNKgqmJ4QgD_QdQUbe3aVYTZNPiq2FT32vtgEx1OrXxSA16q9vT7O58w
+[INFO ] 2018-03-18 16:53:50.911 [http-nio-8080-exec-2] ImportConnections - Trading the Request Token for an Access Token...
+[INFO ] 2018-03-18 17:12:37.312 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:12:41.914 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:12:41.999 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:12:42.017 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 17:12:42.608 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:12:42.634 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 17:12:42.680 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:12:42.715 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:12:42.790 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:12:42.886 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:12:43.043 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 17:12:43.106 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 17:17:07.889 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:17:12.736 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:17:12.827 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:17:12.845 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 17:17:13.441 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:17:13.460 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 17:17:13.505 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:17:13.538 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:17:13.601 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:17:13.711 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:17:13.924 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 17:17:14.086 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 17:18:16.678 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 17:18:33.807 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 17:19:16.692 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:19:22.011 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:19:22.154 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:19:22.179 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-18 17:19:22.811 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:19:22.831 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-18 17:19:22.878 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:19:22.928 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:19:23.008 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-18 17:19:23.116 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-18 17:19:23.356 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-18 17:19:23.508 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-18 17:20:05.659 [http-nio-8080-exec-5] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 17:23:23.323 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-18 17:23:49.013 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:39.847 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:45.235 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:45.370 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:15:45.396 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-20 17:15:45.947 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:15:45.967 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-20 17:15:46.016 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:46.053 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:46.128 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:15:46.210 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:15:46.414 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-20 17:15:46.495 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-20 17:17:29.760 [http-nio-8080-exec-3] ImportConnections - === OAuth Workflow ===
+[INFO ] 2018-03-20 17:17:29.760 [http-nio-8080-exec-2] ImportConnections - === OAuth Workflow ===
+[INFO ] 2018-03-20 17:17:29.811 [http-nio-8080-exec-3] ImportConnections - 
+[INFO ] 2018-03-20 17:17:29.811 [http-nio-8080-exec-2] ImportConnections - 
+[INFO ] 2018-03-20 17:17:29.811 [http-nio-8080-exec-3] ImportConnections - Fetching the Authorization URL...
+[INFO ] 2018-03-20 17:17:29.811 [http-nio-8080-exec-2] ImportConnections - Fetching the Authorization URL...
+[INFO ] 2018-03-20 17:17:29.818 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:17:29.818 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:17:29.819 [http-nio-8080-exec-2] ImportConnections - Got the Authorization URL!
+[INFO ] 2018-03-20 17:17:29.819 [http-nio-8080-exec-3] ImportConnections - Got the Authorization URL!
+[INFO ] 2018-03-20 17:17:29.820 [http-nio-8080-exec-2] ImportConnections - Now go and authorize ScribeJava here:
+[INFO ] 2018-03-20 17:17:29.820 [http-nio-8080-exec-3] ImportConnections - Now go and authorize ScribeJava here:
+[INFO ] 2018-03-20 17:17:29.820 [http-nio-8080-exec-2] ImportConnections - auth URL: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:17:29.821 [http-nio-8080-exec-2] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-20 17:17:29.821 [http-nio-8080-exec-3] ImportConnections - auth URL: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:17:29.822 [http-nio-8080-exec-3] ImportConnections - authorization code: the authorization code here
+[INFO ] 2018-03-20 17:17:44.707 [http-nio-8080-exec-5] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:18:21.794 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:21:22.991 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:21:27.630 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:21:27.719 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:21:27.731 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-20 17:21:28.180 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:21:28.198 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-20 17:21:28.241 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:21:28.269 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:21:28.333 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:21:28.438 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:21:28.618 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-20 17:21:28.673 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-20 17:22:20.914 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:22:25.118 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:22:25.202 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:22:25.216 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-20 17:22:25.568 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:22:25.591 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-20 17:22:25.632 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:22:25.669 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:22:25.741 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:22:25.841 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:22:26.036 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-20 17:22:26.091 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-20 17:22:58.265 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:23:02.409 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:23:02.862 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:23:02.892 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-20 17:23:04.020 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:23:04.046 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-20 17:23:04.101 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:23:04.146 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:23:04.233 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 17:23:04.370 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 17:23:04.541 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-20 17:23:04.646 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-20 17:23:35.670 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:23:35.689 [http-nio-8080-exec-10] LinkedInLogin - AQSrjVQkSsO0ynRcc2D5w0_iNybUGsY224SywIqee1GpEr35iC8TNw8dBPAv7d0wyBV9PQjKxdYaa2N9EDpVSXD3dG67JAO4q_MS9S7qI-IRuakKBsmCIForSirhxhyL1HUheDgJvp3w_VVSONF18k-5H2I8jQ
+[INFO ] 2018-03-20 17:29:19.910 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:33:55.299 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:34:32.844 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 17:37:27.931 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 18:25:08.031 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 18:27:33.813 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:01:43.666 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:02:49.686 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:06:49.104 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2F&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:08:21.985 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:11:24.990 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:14:09.216 [main] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:14:09.281 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 20:14:14.246 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 20:14:14.353 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 20:14:14.369 [main] GenericDao - Searching for lastName = Hensen
+[INFO ] 2018-03-20 20:14:14.872 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 20:14:14.894 [main] GenericDao - Searching for Connection with firstName = ar
+[INFO ] 2018-03-20 20:14:14.938 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 20:14:14.979 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 20:14:15.044 [main] UserDaoTest - BeforeEach
+[INFO ] 2018-03-20 20:14:15.153 [main] UserDaoTest - BeforeEach
+[DEBUG] 2018-03-20 20:14:15.492 [main] GenericDao - Searching for Connection with firstName = J
+[DEBUG] 2018-03-20 20:14:15.588 [main] GenericDao - Searching for firstName = Julie
+[INFO ] 2018-03-20 20:15:38.559 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:15:44.816 [http-nio-8080-exec-6] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78xr28vhhone46&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:15:44.818 [http-nio-8080-exec-6] LinkedInLogin - AQTmxFtVMKzJ47bmWp5FDIMAZTUDC9Itz9tGUikbEme-7QMdhqgZYel6-WQdOlLsGyvBTa-mlJi1Wmqy1J0ROKDwkv5gNYiGqTWga3MeqqUSlioppW0Ov_pCQ9DxpvkO6UenboC2J7VMGHGbF4dXEaZ0ChrDhg
+[INFO ] 2018-03-20 20:47:12.014 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:47:12.043 [http-nio-8080-exec-9] LinkedInLogin - AQSdk-LJ_a2A2NEIy0ErzdDLtEcd1zfXjvpHEZ2U_ztF3oF6f_2nL7r40KnB73mBhYyCSYjcjlXP-DsWXu-FxDC6dlhUkbR2IMjTh7Oc5I97nEi9CMuE8-3DBNwBzOAqmSWiF8H-Ii8rNdq46NFQGEXNjU1GNg
+[INFO ] 2018-03-20 20:49:36.990 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:49:37.026 [http-nio-8080-exec-7] LinkedInLogin - AQQTm1Q87XjZQN_Q1F1gOa11b5f6kAOhvbz-gjyrjoiU9y6cCz5_fa-Px9jBqNUA5iigbGIT8lmDQLZ10X5KdJyKZ3tTxIX0OZEheMUa5SEH0AOFDmxt_vpQBk7z9BHf9F-FdCukuDB4qvYNV5waO2wScaS1cA
+[INFO ] 2018-03-20 20:51:30.217 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:51:30.233 [http-nio-8080-exec-1] LinkedInLogin - AQSFmwkmJJuMkNmen1wDbsZ_JTIoVkpSuwlISUTgSCeZLWqX99UhvIOayWHydXn4gE7ZNEYMQMe-ndBAeFtYNy6sx2n8B6pntcOGMB2dhQiEd_8nVM0q3YoingeZdL62kfCh_i4VtaiVLcxTQuMIjM11jDVyAQ
+[INFO ] 2018-03-20 20:53:36.739 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:53:36.753 [http-nio-8080-exec-2] LinkedInLogin - AQQ5x_aakpA9FoLx7j738hlI51skEEW6csO7EvgpEdPYKrv1WVXpIhlauyG1T_E-Ugvyb64flVZ9f9QXFns02DTZtc2XKVNfayhtuC-mUJeskmQ3SEf8jrvOpoXk6Ks20jkjZoy8VDIsLNsRn7rHf4rvqSWcAA
+[INFO ] 2018-03-20 20:58:05.694 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 20:58:05.710 [http-nio-8080-exec-1] LinkedInLogin - AQTXzXyzExX4f2nt1Jp3mEfZ_90wImBkqjMTF9_F_cXO41l8I-G4KAHdEyjiphlhjqU94PRF12V62ipDw_dVk-wxG-GShR_c9VYFigIsSjUMA96Hn0gGIeb5mrLHFGNPPtQTkRYJQ9w6JbanVqlDiRdiO_VH-g
+[INFO ] 2018-03-20 21:01:42.506 [http-nio-8080-exec-4] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 21:01:42.523 [http-nio-8080-exec-4] LinkedInLogin - AQTLFCkRJg62lx7o4fenNk0q-Vhq52qoxB7Pgq2GdnyVBcSApKRcfWNwVCGEIIjoUIAQu8kPA_jXU2-2gTZeEP0a05wTQTV86WwiYsk5ERF5sY8nnJA7pefiBbYVpCRFJqxJhZMVpmQFPE6Iy7JuWi8wfOeBxg
+[INFO ] 2018-03-20 21:01:44.289 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-20 21:01:44.292 [http-nio-8080-exec-4] LinkedIn - 200
+[INFO ] 2018-03-20 21:01:44.301 [http-nio-8080-exec-4] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "pictureUrl": "https://media.licdn.com/dms/image/C5603AQG9FulONmz6hw/profile-displayphoto-shrink_100_100/0?e=1526785200&v=alpha&t=N96rioFrG_XqE-RzijbtsOJgREJ5C21zrFMPhtpDTSE"
+}
+[INFO ] 2018-03-20 21:01:44.301 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-20 21:12:40.286 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-20 21:12:40.302 [http-nio-8080-exec-9] LinkedInLogin - AQSQOYfJLFQudbkqHZ_NXFe3I5QlGRhAtt7jfIyW_9pFOX9f_P1omQJo6L8TdVH3nU7RszRKSxfmHsmCsFTC3WkPkQrYC1sQcH6Y7D1KCk-6IEs1Db2EC-XWis4TdOIJcSGSQvaeWRe_kK-5TfJhVRQEVlm25Q
+[INFO ] 2018-03-20 21:12:41.294 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-20 21:12:41.296 [http-nio-8080-exec-9] LinkedIn - 200
+[INFO ] 2018-03-20 21:12:41.303 [http-nio-8080-exec-9] LinkedIn - {
+  "currentShare": {
+    "attribution": {"share": {
+      "author": {
+        "firstName": "Sasha Ariel",
+        "id": "4abp0YAoJ_",
+        "lastName": "Alston"
+      },
+      "comment": "So excited to be selected as a 2018 Young Futurist by The Root!\n\n\"Since 2011, The Root has proudly honored the best and brightest African Americans between the ages of 15 and 22, the brilliant and inspirational leaders who are already charting their own paths in the worlds of business, science and tech, the arts, social justice and the environment..\u201d #STEM #Diversity #Tech",
+      "id": "s6381541139438137345"
+    }},
+    "author": {
+      "firstName": "Nicole",
+      "id": "9s0KEVxQfd",
+      "lastName": "Steck"
+    },
+    "comment": "Awesome! Like many of us, I have mixed feelings about Lyft and Uber \u2014 but this is hands down a fantastic initiative.",
+    "id": "s6368926362677362688",
+    "source": {"serviceProvider": {"name": "FLAGSHIP"}},
+    "timestamp": 1518470373793,
+    "visibility": {"code": "anyone"}
+  },
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-20 21:12:41.304 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-21 12:44:54.692 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-21 12:44:54.699 [http-nio-8080-exec-10] LinkedInLogin - AQSQOYfJLFQudbkqHZ_NXFe3I5QlGRhAtt7jfIyW_9pFOX9f_P1omQJo6L8TdVH3nU7RszRKSxfmHsmCsFTC3WkPkQrYC1sQcH6Y7D1KCk-6IEs1Db2EC-XWis4TdOIJcSGSQvaeWRe_kK-5TfJhVRQEVlm25Q
+[INFO ] 2018-03-21 12:45:11.312 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-21 12:45:11.319 [http-nio-8080-exec-9] LinkedInLogin - AQTCG8kmiScQadZuQmBgnOp62kAeBDm37uC6YnZTqxuO6Km3rEnyrl9ztU-dOi4lswPb61ssLye6BTnrFoCG6N8TgqcQ28y6KPiY5EfK6MZNJKlseSnx11STp5EwMMzx2THvFdXbCrq5YUohu5GkRVp-6n7pUg
+[INFO ] 2018-03-21 12:45:12.265 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-21 12:45:12.265 [http-nio-8080-exec-9] LinkedIn - 200
+[INFO ] 2018-03-21 12:45:12.266 [http-nio-8080-exec-9] LinkedIn - {
+  "currentShare": {
+    "attribution": {"share": {
+      "author": {
+        "firstName": "Sasha Ariel",
+        "id": "4abp0YAoJ_",
+        "lastName": "Alston"
+      },
+      "comment": "So excited to be selected as a 2018 Young Futurist by The Root!\n\n\"Since 2011, The Root has proudly honored the best and brightest African Americans between the ages of 15 and 22, the brilliant and inspirational leaders who are already charting their own paths in the worlds of business, science and tech, the arts, social justice and the environment..\u201d #STEM #Diversity #Tech",
+      "id": "s6381541139438137345"
+    }},
+    "author": {
+      "firstName": "Nicole",
+      "id": "9s0KEVxQfd",
+      "lastName": "Steck"
+    },
+    "comment": "Awesome! Like many of us, I have mixed feelings about Lyft and Uber \u2014 but this is hands down a fantastic initiative.",
+    "id": "s6368926362677362688",
+    "source": {"serviceProvider": {"name": "FLAGSHIP"}},
+    "timestamp": 1518470373793,
+    "visibility": {"code": "anyone"}
+  },
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-21 12:45:12.267 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-22 20:11:59.621 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:11:59.643 [http-nio-8080-exec-2] LinkedInLogin - AQTPQCnM-Jo0Ahz_Im8CdopCa50P98BprImZfWKjqQg80ZyD3Wk_mv4HtBq6ar8mOe79qehIPmshopnLaPFBwYt59tTerh0IFE7g-Kvvf6hwn0almp9wwjuVaggjLXSOWOeR40XNjO24sHesoKYgaTLwVPaFXA
+[INFO ] 2018-03-22 20:12:01.656 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-22 20:12:01.658 [http-nio-8080-exec-2] LinkedIn - 200
+[INFO ] 2018-03-22 20:12:01.669 [http-nio-8080-exec-2] LinkedIn - {
+  "currentShare": {
+    "attribution": {"share": {
+      "author": {
+        "firstName": "Sasha Ariel",
+        "id": "4abp0YAoJ_",
+        "lastName": "Alston"
+      },
+      "comment": "JP Morgan Chase today announced a $1 million investment to help Black and Hispanic women-led startups thrive. ",
+      "id": "s6382704200375111680"
+    }},
+    "author": {
+      "firstName": "Nicole",
+      "id": "9s0KEVxQfd",
+      "lastName": "Steck"
+    },
+    "comment": "Awesome! Like many of us, I have mixed feelings about Lyft and Uber \u2014 but this is hands down a fantastic initiative.",
+    "id": "s6368926362677362688",
+    "source": {"serviceProvider": {"name": "FLAGSHIP"}},
+    "timestamp": 1518470373793,
+    "visibility": {"code": "anyone"}
+  },
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-22 20:12:01.670 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-22 20:16:59.020 [http-nio-8080-exec-4] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:16:59.038 [http-nio-8080-exec-4] LinkedInLogin - AQTaKtwepqGrNFRUW5fvwn5Jb_cnLV6p4rdvJpEoLpzLbPpy88J7QYoPz71mvXS0gEzZBhMlZ6YKJW2n8wVCqZBfvkvLmZAW1jwcr4etiphBVhKd4wAzhuO2agh2Fz7k8s9GAEirhEapkAVADzOKLNS6plI8yg
+[INFO ] 2018-03-22 20:17:00.186 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-22 20:17:00.189 [http-nio-8080-exec-4] LinkedIn - 200
+[INFO ] 2018-03-22 20:17:00.196 [http-nio-8080-exec-4] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "id": "9s0KEVxQfd",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "location": {
+    "country": {"code": "us"},
+    "name": "Madison, Wisconsin Area"
+  },
+  "numConnections": 500,
+  "positions": {
+    "_total": 2,
+    "values": [
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1183131967,
+        "isCurrent": true,
+        "location": {
+          "country": {
+            "code": "us",
+            "name": "United States"
+          },
+          "name": "Madison, Wisconsin Area"
+        },
+        "startDate": {
+          "month": 1,
+          "year": 2018
+        },
+        "title": "MS Dynamics Systems Administrator"
+      },
+      {
+        "company": {
+          "id": 24931,
+          "industry": "Insurance",
+          "name": "WPS Health Insurance",
+          "size": "1001-5000",
+          "type": "Non Profit"
+        },
+        "id": 1062021723,
+        "isCurrent": true,
+        "location": {"name": "Madison, Wisconsin"},
+        "startDate": {
+          "month": 9,
+          "year": 2017
+        },
+        "title": "Associate Developer (OnBase)"
+      }
+    ]
+  }
+}
+[INFO ] 2018-03-22 20:17:00.197 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-22 20:18:39.925 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:18:39.949 [http-nio-8080-exec-7] LinkedInLogin - AQSEIQuadGfK9QZFjkZD_cwJLhfIOhL3ya7o3JpH_1HA2dN2A_lMVIdVepXDGpkedxZQvUGjpoQ00F4c2SR7SqQs539pVb2TZ-CSgioKxvcI2sozofp9eAyUABKqL3m2Jtzi488n0fqjP6t53bLZ2CMWx8xjGA
+[INFO ] 2018-03-22 20:18:41.020 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - 200
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:18:41.022 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-22 20:25:52.048 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:25:52.069 [http-nio-8080-exec-10] LinkedInLogin - AQQovPUaYArtu_7jE8tgcCQOju-PkYhW4-7snKpurVaFGqeL6Iwaqx-yGt4j3tWY5pYnY6ku9XhDoPath7v0ww9tHk0tm9bZRIJ7v-mvXhC9x1D8yacHHsoeuq1zi3_7faK-Rjk3bdfKHvoV7G1FrRE-M8W-xg
+[INFO ] 2018-03-22 20:25:54.038 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-22 20:25:54.040 [http-nio-8080-exec-10] LinkedIn - 200
+[INFO ] 2018-03-22 20:25:54.048 [http-nio-8080-exec-10] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:25:54.048 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-22 20:27:35.895 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:27:35.919 [http-nio-8080-exec-1] LinkedInLogin - AQRcBEZnrVjpvmYQ6ZijCukSa3M0lwula03ifZhSKCZjIuHxK5Od84MJeyQkVqS9PtHoKo2nuPSbdF8W-zg7Xl_IzJwFl9Uoian8bmZazOmWku3jAwQCPBuB5ytJddIG4MpWzFYWHhmEXrr281XKhKbRhEQ9Lw
+[INFO ] 2018-03-22 20:27:37.368 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-22 20:27:37.370 [http-nio-8080-exec-1] LinkedIn - 200
+[INFO ] 2018-03-22 20:27:37.383 [http-nio-8080-exec-1] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:27:37.383 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-22 20:30:35.494 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-22 20:30:35.511 [http-nio-8080-exec-3] LinkedInLogin - AQSodFLTuDJ3dYAonj-sMptZulQfrDqYvTSby7p1bhyJpKUq6gGCXfuUSIglPAxDtO4Qwk9xFCrdqcY092exaOYc8lWDsp1hKUU0tPzcwGvLbsNBt_nUF-qrQlw6rhO7J8CuWh5mq47cuAxfeWJJpTZajebyWw
+[INFO ] 2018-03-22 20:30:37.127 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-22 20:30:37.128 [http-nio-8080-exec-3] LinkedIn - 200
+[INFO ] 2018-03-22 20:30:37.129 [http-nio-8080-exec-3] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-22 20:30:37.129 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-24 12:26:41.654 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 12:26:50.788 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 12:27:07.797 [http-nio-8080-exec-5] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-24 12:27:07.799 [http-nio-8080-exec-5] LinkedInLogin - AQQd2P2CZEYTTWGMCw72nYtZuqIB-hsmPKZPE4q2tFkxk2DVFxYKJ_oRq86qpXLaQ7xnMVImfkpX8n1dYlBi6bkt-P9XyCYSESwm0o3o7SyA-55rTr80idqSUdypie8zXtRMP5yK3WN7RE8D8lQIWRMhrzOsnw
+[INFO ] 2018-03-24 12:27:13.127 [http-nio-8080-exec-5] LinkedIn - 
+[INFO ] 2018-03-24 12:27:13.127 [http-nio-8080-exec-5] LinkedIn - 200
+[INFO ] 2018-03-24 12:27:14.337 [http-nio-8080-exec-5] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-24 12:27:14.338 [http-nio-8080-exec-5] LinkedIn - 
+[INFO ] 2018-03-24 17:05:41.872 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:05:41.872 [http-nio-8080-exec-4] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:05:45.415 [http-nio-8080-exec-9] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-24 17:05:45.416 [http-nio-8080-exec-9] LinkedInLogin - AQRqkePMezfd4waMoHCUvs7K0Jdzc9mXN9zc8pTLzLAIoW78WzshLkGrB_KRW37wDvB2E5cQG4sjrzXX2WrNtWfBjpb1EulIOL7ba52pE_mj5S4XgH4roZEU270uyXhMgghszwGJCBoLhGj-c0iaG9PNQJBr-A
+[INFO ] 2018-03-24 17:05:46.632 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-24 17:05:46.632 [http-nio-8080-exec-9] LinkedIn - 200
+[INFO ] 2018-03-24 17:05:46.641 [http-nio-8080-exec-9] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-24 17:05:46.641 [http-nio-8080-exec-9] LinkedIn - 
+[INFO ] 2018-03-24 17:12:44.246 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:12:48.262 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:14:23.872 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:14:31.847 [http-nio-8080-exec-1] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:14:31.865 [http-nio-8080-exec-1] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:15:01.798 [http-nio-8080-exec-9] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:19:07.324 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:19:14.567 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:19:14.573 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:19:39.198 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:19:42.461 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:19:42.468 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:21:01.026 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:21:03.851 [http-nio-8080-exec-2] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:21:03.854 [http-nio-8080-exec-2] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:22:28.786 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:22:33.022 [http-nio-8080-exec-2] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:22:37.323 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:23:29.624 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:23:50.626 [http-nio-8080-exec-6] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:23:54.396 [http-nio-8080-exec-1] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:23:54.408 [http-nio-8080-exec-1] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:24:08.547 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:24:08.548 [http-nio-8080-exec-8] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-24 17:35:59.078 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:36:19.182 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:36:22.049 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:36:22.059 [http-nio-8080-exec-8] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:36:26.144 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:36:27.810 [http-nio-8080-exec-4] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:36:27.812 [http-nio-8080-exec-4] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:37:13.309 [http-nio-8080-exec-4] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:37:13.311 [http-nio-8080-exec-4] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-24 17:38:25.310 [http-nio-8080-exec-5] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:47:03.076 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:47:07.171 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:47:07.195 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:47:11.356 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:47:12.918 [http-nio-8080-exec-8] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:47:12.920 [http-nio-8080-exec-8] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:51:43.435 [http-nio-8080-exec-1] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:51:54.617 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-24 17:51:54.618 [http-nio-8080-exec-1] LinkedInLogin - AQQ-8G1H3TQMxnSqd-Fq2oQnwqBKwVinziIiIN4modp2nS7ApOtt4pYO-aqYe_iDE7pKHYCelSB_id2OdfXJXy_JOczwyrDbdoUmbqAEOr0UpaHzorKUw3JmxMmvSGg_IhTbAWvGAl2x6p-hLyfKMvgEROPGcA
+[INFO ] 2018-03-24 17:51:56.292 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-24 17:51:56.293 [http-nio-8080-exec-1] LinkedIn - 200
+[INFO ] 2018-03-24 17:51:56.302 [http-nio-8080-exec-1] LinkedIn - {
+  "firstName": "Nicole",
+  "lastName": "Steck"
+}
+[INFO ] 2018-03-24 17:51:56.302 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-24 17:52:09.087 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:52:09.116 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:53:28.000 [http-nio-8080-exec-3] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:54:07.966 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-24 17:54:07.966 [http-nio-8080-exec-10] LinkedInLogin - AQSkWw1ZK2Y6ZcAsNZwZE_cm44cXfb6ssS9NEtcY5NSdEybGbouI-X9gyeKUrAnKfWGaoXP95qEeaO-K6Dvzvn8vChZwVYTWiL2wfQRcU2g4h-_MMxtoCqnQM6ROXQtXCRb4TyD6qS-kty0cQ18
+[INFO ] 2018-03-24 17:54:08.868 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-24 17:54:08.868 [http-nio-8080-exec-10] LinkedIn - 200
+[INFO ] 2018-03-24 17:54:08.876 [http-nio-8080-exec-10] LinkedIn - {
+  "firstName": "Ashley",
+  "lastName": "Byock"
+}
+[INFO ] 2018-03-24 17:54:08.876 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-24 17:54:30.739 [http-nio-8080-exec-4] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-24 17:54:33.520 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:54:33.525 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 17:55:02.640 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:55:02.642 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
+[INFO ] 2018-03-24 17:55:10.697 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-24 17:55:10.697 [http-nio-8080-exec-3] LinkedInLogin - AQTJZAb-hhXb5vdQo8VnO3uR-pwioC9M6vKQzhSl-U2ETwLjFcvHJvfBXkfMu-BlhPJiPZtiTB22q7naemeQi6UcuPIbd40_w83dZBAS4gsLx9snrR75oGaeQXXykMDsZcjTJupOL1AJgw5dzyc
+[INFO ] 2018-03-24 17:55:11.740 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-24 17:55:11.740 [http-nio-8080-exec-3] LinkedIn - 200
+[INFO ] 2018-03-24 17:55:11.740 [http-nio-8080-exec-3] LinkedIn - {
+  "firstName": "Ashley",
+  "lastName": "Byock"
+}
+[INFO ] 2018-03-24 17:55:11.740 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-24 17:55:15.902 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 17:55:15.909 [http-nio-8080-exec-9] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 18:24:18.891 [http-nio-8080-exec-8] NewUser - In the doGet of NewUser
+[INFO ] 2018-03-24 18:26:27.764 [http-nio-8080-exec-4] NewUser - (NEWUSER) USER INFO: null
+[INFO ] 2018-03-24 18:45:25.585 [http-nio-8080-exec-7] NewUser - (NEWUSER) USER INFO: null
+[INFO ] 2018-03-24 18:46:16.138 [http-nio-8080-exec-5] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 18:46:16.151 [http-nio-8080-exec-5] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 18:48:06.380 [http-nio-8080-exec-6] NewUser - (NEWUSER) USER INFO: User{firstName='Ashley', lastName='Byock'}
+[INFO ] 2018-03-24 18:48:21.709 [http-nio-8080-exec-4] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-24 18:48:21.735 [http-nio-8080-exec-4] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-24 20:31:14.258 [http-nio-8080-exec-4] NewUser - (NEWUSER) USER INFO: User{firstName='Ben', lastName='Rasmussen'}
+[INFO ] 2018-03-24 20:33:28.565 [http-nio-8080-exec-9] NewUser - (NEWUSER) USER INFO: User{firstName='Stein', lastName='Cat'}
+[INFO ] 2018-03-25 12:17:43.248 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-25 12:17:43.291 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers

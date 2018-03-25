@@ -26,6 +26,9 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "password")
+    private String password;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -64,6 +67,9 @@ public class User {
     private int id; // didn't need to specify a column name since the column in the DB
     // is the same as the prop name
 
+    // WARNING: only use EAGER if there will only ever be a very low number of "many" records
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+    @Getter @Setter private Set<Role> roles = new HashSet<Role>();
 
     /**
      * Instantiates a new User.
@@ -119,6 +125,22 @@ public class User {
     public void removeConnection(Connection connection) {
         connections.remove(connection);
         connection.setUser(null);
+    }
+
+
+    /**
+     * Add role.
+     *
+     * @param role the role
+     */
+    public void addRole(Role role) {
+        roles.add(role);
+        role.setUser(this);
+    }
+
+    public void removeRole(Role role) {
+        roles.remove(role);
+        role.setUser(null);
     }
 
     @Override
