@@ -1,0 +1,721 @@
+[DEBUG] 2018-03-24 20:31:14.344 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-03-24 20:31:14.351 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-03-24 20:31:14.366 [http-nio-8080-exec-4] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[TRACE] 2018-03-24 20:31:14.385 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+[TRACE] 2018-03-24 20:31:14.387 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+[TRACE] 2018-03-24 20:31:14.389 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+[TRACE] 2018-03-24 20:31:14.390 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+[TRACE] 2018-03-24 20:31:14.392 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+[TRACE] 2018-03-24 20:31:14.393 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+[TRACE] 2018-03-24 20:31:14.396 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+[TRACE] 2018-03-24 20:31:14.397 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+[TRACE] 2018-03-24 20:31:14.399 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+[TRACE] 2018-03-24 20:31:14.402 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+[TRACE] 2018-03-24 20:31:14.403 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+[TRACE] 2018-03-24 20:31:14.405 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+[TRACE] 2018-03-24 20:31:14.409 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+[TRACE] 2018-03-24 20:31:14.410 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+[TRACE] 2018-03-24 20:31:14.412 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+[TRACE] 2018-03-24 20:31:14.414 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+[TRACE] 2018-03-24 20:31:14.417 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+[TRACE] 2018-03-24 20:31:14.418 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+[TRACE] 2018-03-24 20:31:14.419 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+[TRACE] 2018-03-24 20:31:14.420 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+[TRACE] 2018-03-24 20:31:14.421 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+[TRACE] 2018-03-24 20:31:14.421 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+[TRACE] 2018-03-24 20:31:14.423 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+[TRACE] 2018-03-24 20:31:14.427 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+[TRACE] 2018-03-24 20:31:14.428 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+[TRACE] 2018-03-24 20:31:14.428 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+[TRACE] 2018-03-24 20:31:14.429 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+[TRACE] 2018-03-24 20:31:14.431 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+[TRACE] 2018-03-24 20:31:14.432 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+[TRACE] 2018-03-24 20:31:14.434 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+[TRACE] 2018-03-24 20:31:14.434 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+[TRACE] 2018-03-24 20:31:14.439 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+[TRACE] 2018-03-24 20:31:14.439 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+[TRACE] 2018-03-24 20:31:14.440 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+[TRACE] 2018-03-24 20:31:14.441 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+[TRACE] 2018-03-24 20:31:14.442 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+[TRACE] 2018-03-24 20:31:14.443 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+[TRACE] 2018-03-24 20:31:14.446 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+[TRACE] 2018-03-24 20:31:14.447 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+[TRACE] 2018-03-24 20:31:14.447 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+[TRACE] 2018-03-24 20:31:14.450 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+[TRACE] 2018-03-24 20:31:14.451 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+[TRACE] 2018-03-24 20:31:14.453 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+[TRACE] 2018-03-24 20:31:14.454 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+[TRACE] 2018-03-24 20:31:14.458 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+[TRACE] 2018-03-24 20:31:14.459 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+[TRACE] 2018-03-24 20:31:14.466 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.466 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.467 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.468 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.469 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.469 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.470 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.470 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.471 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.472 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.473 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.473 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.474 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-03-24 20:31:14.474 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-03-24 20:31:14.475 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.475 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.476 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.476 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.477 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.478 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.478 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.478 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.479 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.479 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.480 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.480 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.481 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.482 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.482 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.483 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-03-24 20:31:14.486 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-03-24 20:31:14.487 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-03-24 20:31:14.487 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-03-24 20:31:14.488 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-03-24 20:31:14.488 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-03-24 20:31:14.494 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+[TRACE] 2018-03-24 20:31:14.495 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-03-24 20:31:14.497 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-03-24 20:31:14.499 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+[TRACE] 2018-03-24 20:31:14.500 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+[TRACE] 2018-03-24 20:31:14.501 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+[TRACE] 2018-03-24 20:31:14.505 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-03-24 20:31:14.507 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-03-24 20:31:14.509 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+[TRACE] 2018-03-24 20:31:14.511 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+[TRACE] 2018-03-24 20:31:14.512 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+[TRACE] 2018-03-24 20:31:14.513 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+[TRACE] 2018-03-24 20:31:14.514 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+[TRACE] 2018-03-24 20:31:14.520 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [c3p0] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-03-24 20:31:14.520 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-03-24 20:31:14.521 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.connection.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-03-24 20:31:14.521 [http-nio-8080-exec-4] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[INFO ] 2018-03-24 20:31:14.602 [http-nio-8080-exec-4] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-03-24 20:31:14.606 [http-nio-8080-exec-4] Environment - HHH000206: hibernate.properties not found
+[TRACE] 2018-03-24 20:31:14.619 [http-nio-8080-exec-4] ClassLoaderServiceImpl - trying via [new URL("hibernate.cfg.xml")]
+[TRACE] 2018-03-24 20:31:14.619 [http-nio-8080-exec-4] ClassLoaderServiceImpl - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+[TRACE] 2018-03-24 20:31:14.766 [http-nio-8080-exec-4] LocalXmlResourceResolver - In resolveEntity(-//Hibernate/Hibernate Configuration DTD//EN, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, file:/Users/nicolesteck/Desktop/EnterpriseJava/TomCat/bin/, null)
+[DEBUG] 2018-03-24 20:31:14.767 [http-nio-8080-exec-4] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-03-24 20:31:14.767 [http-nio-8080-exec-4] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-03-24 20:31:14.815 [http-nio-8080-exec-4] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2018-03-24 20:31:15.100 [http-nio-8080-exec-4] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[TRACE] 2018-03-24 20:31:15.143 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+[TRACE] 2018-03-24 20:31:15.160 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+[DEBUG] 2018-03-24 20:31:15.163 [http-nio-8080-exec-4] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-03-24 20:31:15.189 [http-nio-8080-exec-4] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[TRACE] 2018-03-24 20:31:15.205 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+[DEBUG] 2018-03-24 20:31:15.268 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7322d640
+[DEBUG] 2018-03-24 20:31:15.268 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7322d640
+[DEBUG] 2018-03-24 20:31:15.268 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7322d640
+[DEBUG] 2018-03-24 20:31:15.274 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@9c5eab3
+[DEBUG] 2018-03-24 20:31:15.280 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7509babd
+[DEBUG] 2018-03-24 20:31:15.282 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@36d974a1
+[DEBUG] 2018-03-24 20:31:15.286 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@135f6037
+[DEBUG] 2018-03-24 20:31:15.286 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@135f6037
+[DEBUG] 2018-03-24 20:31:15.286 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@135f6037
+[DEBUG] 2018-03-24 20:31:15.292 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@329d1290
+[DEBUG] 2018-03-24 20:31:15.292 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@329d1290
+[DEBUG] 2018-03-24 20:31:15.292 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@329d1290
+[DEBUG] 2018-03-24 20:31:15.297 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@62c7e41d
+[DEBUG] 2018-03-24 20:31:15.297 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@62c7e41d
+[DEBUG] 2018-03-24 20:31:15.297 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@62c7e41d
+[DEBUG] 2018-03-24 20:31:15.299 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@513aa45
+[DEBUG] 2018-03-24 20:31:15.299 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@513aa45
+[DEBUG] 2018-03-24 20:31:15.299 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@513aa45
+[DEBUG] 2018-03-24 20:31:15.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5d830761
+[DEBUG] 2018-03-24 20:31:15.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5d830761
+[DEBUG] 2018-03-24 20:31:15.302 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5d830761
+[DEBUG] 2018-03-24 20:31:15.311 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7a173b35
+[DEBUG] 2018-03-24 20:31:15.311 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7a173b35
+[DEBUG] 2018-03-24 20:31:15.311 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7a173b35
+[DEBUG] 2018-03-24 20:31:15.315 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@33549917
+[DEBUG] 2018-03-24 20:31:15.316 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@33549917
+[DEBUG] 2018-03-24 20:31:15.316 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@33549917
+[DEBUG] 2018-03-24 20:31:15.319 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5b228efd
+[DEBUG] 2018-03-24 20:31:15.320 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5b228efd
+[DEBUG] 2018-03-24 20:31:15.329 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1dd00613
+[DEBUG] 2018-03-24 20:31:15.329 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1dd00613
+[DEBUG] 2018-03-24 20:31:15.332 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6b7e3331
+[DEBUG] 2018-03-24 20:31:15.332 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6b7e3331
+[DEBUG] 2018-03-24 20:31:15.336 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5c0f1cf9
+[DEBUG] 2018-03-24 20:31:15.339 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2dff1036
+[DEBUG] 2018-03-24 20:31:15.345 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@69a47c84
+[DEBUG] 2018-03-24 20:31:15.345 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@69a47c84
+[DEBUG] 2018-03-24 20:31:15.349 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@34121865
+[DEBUG] 2018-03-24 20:31:15.349 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@34121865
+[DEBUG] 2018-03-24 20:31:15.386 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@449db679
+[DEBUG] 2018-03-24 20:31:15.386 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@449db679
+[DEBUG] 2018-03-24 20:31:15.395 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@6f320cf3
+[DEBUG] 2018-03-24 20:31:15.395 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@6f320cf3
+[DEBUG] 2018-03-24 20:31:15.399 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@61acccd7
+[DEBUG] 2018-03-24 20:31:15.400 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@61acccd7
+[DEBUG] 2018-03-24 20:31:15.405 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@49a8387a
+[DEBUG] 2018-03-24 20:31:15.406 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@49a8387a
+[DEBUG] 2018-03-24 20:31:15.415 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d749c4f
+[DEBUG] 2018-03-24 20:31:15.415 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d749c4f
+[DEBUG] 2018-03-24 20:31:15.417 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6a443ff7
+[DEBUG] 2018-03-24 20:31:15.418 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6a443ff7
+[DEBUG] 2018-03-24 20:31:15.431 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4334bdd8
+[DEBUG] 2018-03-24 20:31:15.432 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4334bdd8
+[DEBUG] 2018-03-24 20:31:15.440 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@7a46582e
+[DEBUG] 2018-03-24 20:31:15.441 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7a46582e
+[DEBUG] 2018-03-24 20:31:15.444 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@2f868d90
+[DEBUG] 2018-03-24 20:31:15.445 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@2f868d90
+[DEBUG] 2018-03-24 20:31:15.448 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@35d818d9
+[DEBUG] 2018-03-24 20:31:15.449 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@35d818d9
+[DEBUG] 2018-03-24 20:31:15.449 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@35d818d9
+[DEBUG] 2018-03-24 20:31:15.451 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@53c9d576
+[DEBUG] 2018-03-24 20:31:15.455 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@752ff792
+[DEBUG] 2018-03-24 20:31:15.458 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@752ff792
+[DEBUG] 2018-03-24 20:31:15.459 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@752ff792
+[DEBUG] 2018-03-24 20:31:15.462 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@33be85b6
+[DEBUG] 2018-03-24 20:31:15.464 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@4cd920f6
+[DEBUG] 2018-03-24 20:31:15.464 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4cd920f6
+[DEBUG] 2018-03-24 20:31:15.467 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@2e300ec0
+[DEBUG] 2018-03-24 20:31:15.467 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2e300ec0
+[DEBUG] 2018-03-24 20:31:15.469 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@fc84105
+[DEBUG] 2018-03-24 20:31:15.469 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@fc84105
+[DEBUG] 2018-03-24 20:31:15.473 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@1bd8d8d3
+[DEBUG] 2018-03-24 20:31:15.474 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1bd8d8d3
+[DEBUG] 2018-03-24 20:31:15.479 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@599b0a68
+[DEBUG] 2018-03-24 20:31:15.480 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@599b0a68
+[DEBUG] 2018-03-24 20:31:15.481 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@47edd9b7
+[DEBUG] 2018-03-24 20:31:15.483 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@7a6ad115
+[DEBUG] 2018-03-24 20:31:15.484 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@7a6ad115
+[DEBUG] 2018-03-24 20:31:15.484 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@7a6ad115
+[DEBUG] 2018-03-24 20:31:15.487 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4a37c30b
+[DEBUG] 2018-03-24 20:31:15.487 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4a37c30b
+[DEBUG] 2018-03-24 20:31:15.487 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4a37c30b
+[DEBUG] 2018-03-24 20:31:15.493 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@62b09452
+[DEBUG] 2018-03-24 20:31:15.495 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@7b5cd3e4
+[DEBUG] 2018-03-24 20:31:15.498 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@60f575fc
+[DEBUG] 2018-03-24 20:31:15.499 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@60f575fc
+[DEBUG] 2018-03-24 20:31:15.499 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@60f575fc
+[DEBUG] 2018-03-24 20:31:15.501 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@29f4bf74
+[DEBUG] 2018-03-24 20:31:15.501 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@29f4bf74
+[DEBUG] 2018-03-24 20:31:15.501 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@29f4bf74
+[DEBUG] 2018-03-24 20:31:15.503 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@3fe67a54
+[DEBUG] 2018-03-24 20:31:15.510 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@77d8f2c6
+[DEBUG] 2018-03-24 20:31:15.526 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@3a03b978
+[DEBUG] 2018-03-24 20:31:15.527 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3a03b978
+[DEBUG] 2018-03-24 20:31:15.528 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@343e061a
+[DEBUG] 2018-03-24 20:31:15.543 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@46beaad
+[DEBUG] 2018-03-24 20:31:15.543 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@46beaad
+[DEBUG] 2018-03-24 20:31:15.552 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@3634c8a8
+[DEBUG] 2018-03-24 20:31:15.552 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3634c8a8
+[DEBUG] 2018-03-24 20:31:15.555 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@fff87dd
+[DEBUG] 2018-03-24 20:31:15.560 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6abe7bd
+[DEBUG] 2018-03-24 20:31:15.562 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@6b90b897
+[DEBUG] 2018-03-24 20:31:15.568 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@2c5ab2ef
+[DEBUG] 2018-03-24 20:31:15.568 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2c5ab2ef
+[DEBUG] 2018-03-24 20:31:15.569 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@8575c5
+[DEBUG] 2018-03-24 20:31:15.569 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@793162f0
+[DEBUG] 2018-03-24 20:31:15.569 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5683d2a3
+[DEBUG] 2018-03-24 20:31:15.569 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1e503e90
+[DEBUG] 2018-03-24 20:31:15.570 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@35d04bc2
+[DEBUG] 2018-03-24 20:31:15.570 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4784996a
+[DEBUG] 2018-03-24 20:31:15.571 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@f5a5df3
+[DEBUG] 2018-03-24 20:31:15.571 [http-nio-8080-exec-4] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@10614636
+[TRACE] 2018-03-24 20:31:15.572 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+[TRACE] 2018-03-24 20:31:15.579 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[TRACE] 2018-03-24 20:31:15.579 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+[TRACE] 2018-03-24 20:31:15.581 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+[TRACE] 2018-03-24 20:31:15.592 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+[INFO ] 2018-03-24 20:31:15.598 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/li_annotate
+[INFO ] 2018-03-24 20:31:15.598 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001001: Connection properties: {user=root, password=****}
+[INFO ] 2018-03-24 20:31:15.598 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2018-03-24 20:31:15.861 [http-nio-8080-exec-4] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2018-03-24 20:31:16.430 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.21
+      major : 5
+      minor : 7
+[DEBUG] 2018-03-24 20:31:16.430 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+[DEBUG] 2018-03-24 20:31:16.430 [http-nio-8080-exec-4] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-03-24 20:31:16.466 [http-nio-8080-exec-4] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-03-24 20:31:16.569 [http-nio-8080-exec-4] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-03-24 20:31:16.574 [http-nio-8080-exec-4] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[TRACE] 2018-03-24 20:31:16.579 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [li_annotate]
+[TRACE] 2018-03-24 20:31:16.580 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+[TRACE] 2018-03-24 20:31:16.671 [http-nio-8080-exec-4] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+[DEBUG] 2018-03-24 20:31:16.677 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-03-24 20:31:16.678 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-03-24 20:31:16.680 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-03-24 20:31:16.680 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-03-24 20:31:16.681 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-03-24 20:31:16.686 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-03-24 20:31:16.687 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-03-24 20:31:16.694 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-03-24 20:31:16.698 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-03-24 20:31:16.699 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-03-24 20:31:16.700 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-03-24 20:31:16.701 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-03-24 20:31:16.701 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-03-24 20:31:16.703 [http-nio-8080-exec-4] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-03-24 20:31:16.807 [http-nio-8080-exec-4] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-03-24 20:31:16.875 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.User
+[TRACE] 2018-03-24 20:31:16.948 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-03-24 20:31:16.949 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-03-24 20:31:16.966 [http-nio-8080-exec-4] EntityBinder - Import with entity name User
+[TRACE] 2018-03-24 20:31:16.966 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: User -> edu.matc.entity.User
+[TRACE] 2018-03-24 20:31:16.966 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: edu.matc.entity.User -> edu.matc.entity.User
+[TRACE] 2018-03-24 20:31:16.969 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-03-24 20:31:16.970 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[DEBUG] 2018-03-24 20:31:16.975 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.matc.entity.User on table user
+[TRACE] 2018-03-24 20:31:17.023 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.id
+[TRACE] 2018-03-24 20:31:17.033 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.033 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.033 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.041 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-03-24 20:31:17.045 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:id]
+[DEBUG] 2018-03-24 20:31:17.047 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for id
+[TRACE] 2018-03-24 20:31:17.050 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.050 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.050 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.051 [http-nio-8080-exec-4] PropertyBinder - Building property id
+[TRACE] 2018-03-24 20:31:17.058 [http-nio-8080-exec-4] PropertyBinder - Cascading id with null
+[TRACE] 2018-03-24 20:31:17.059 [http-nio-8080-exec-4] AnnotationBinder - Add generic generator with name: native
+[TRACE] 2018-03-24 20:31:17.062 [http-nio-8080-exec-4] AnnotationBinder - Bind @Id on id
+[TRACE] 2018-03-24 20:31:17.063 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.actionItems
+[DEBUG] 2018-03-24 20:31:17.065 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[TRACE] 2018-03-24 20:31:17.065 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems]
+[TRACE] 2018-03-24 20:31:17.065 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems]
+[DEBUG] 2018-03-24 20:31:17.065 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=actionItems, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.072 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.100 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[TRACE] 2018-03-24 20:31:17.101 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[DEBUG] 2018-03-24 20:31:17.101 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.102 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems_KEY]
+[DEBUG] 2018-03-24 20:31:17.102 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=actionItems_KEY, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.105 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems_KEY]
+[DEBUG] 2018-03-24 20:31:17.105 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='actionItems_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-03-24 20:31:17.107 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.108 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.110 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.matc.entity.User.actionItems
+[DEBUG] 2018-03-24 20:31:17.116 [http-nio-8080-exec-4] PropertyBinder - Building property actionItems
+[TRACE] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] PropertyBinder - Cascading actionItems with all,delete,delete-orphan
+[TRACE] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.connections
+[DEBUG] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[TRACE] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections]
+[TRACE] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections]
+[DEBUG] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=connections, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.117 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[TRACE] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[DEBUG] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections_KEY]
+[DEBUG] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=connections_KEY, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections_KEY]
+[DEBUG] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='connections_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-03-24 20:31:17.118 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.matc.entity.User.connections
+[DEBUG] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] PropertyBinder - Building property connections
+[TRACE] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] PropertyBinder - Cascading connections with all,delete,delete-orphan
+[TRACE] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.email
+[TRACE] 2018-03-24 20:31:17.119 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[TRACE] 2018-03-24 20:31:17.120 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[DEBUG] 2018-03-24 20:31:17.120 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.121 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2018-03-24 20:31:17.121 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:email]
+[DEBUG] 2018-03-24 20:31:17.121 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for email
+[TRACE] 2018-03-24 20:31:17.121 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[DEBUG] 2018-03-24 20:31:17.121 [http-nio-8080-exec-4] PropertyBinder - Building property email
+[TRACE] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] PropertyBinder - Cascading email with null
+[TRACE] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.firstName
+[TRACE] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[TRACE] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:firstName]
+[DEBUG] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for firstName
+[TRACE] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-03-24 20:31:17.122 [http-nio-8080-exec-4] PropertyBinder - Building property firstName
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] PropertyBinder - Cascading firstName with null
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.lastName
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:lastName]
+[DEBUG] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for lastName
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] PropertyBinder - Building property lastName
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] PropertyBinder - Cascading lastName with null
+[TRACE] 2018-03-24 20:31:17.123 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.password
+[TRACE] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[TRACE] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.User:password]
+[DEBUG] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for password
+[TRACE] 2018-03-24 20:31:17.126 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] PropertyBinder - Building property password
+[TRACE] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] PropertyBinder - Cascading password with null
+[TRACE] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.User.roles
+[DEBUG] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[TRACE] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [roles]
+[TRACE] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [roles]
+[DEBUG] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.127 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[TRACE] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [roles_KEY]
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles_KEY, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [roles_KEY]
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-03-24 20:31:17.128 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.matc.entity.User.roles
+[DEBUG] 2018-03-24 20:31:17.129 [http-nio-8080-exec-4] PropertyBinder - Building property roles
+[TRACE] 2018-03-24 20:31:17.129 [http-nio-8080-exec-4] PropertyBinder - Cascading roles with all,delete,delete-orphan
+[DEBUG] 2018-03-24 20:31:17.132 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.Connection
+[TRACE] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] EntityBinder - Import with entity name Connection
+[TRACE] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: Connection -> edu.matc.entity.Connection
+[TRACE] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: edu.matc.entity.Connection -> edu.matc.entity.Connection
+[TRACE] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections]
+[TRACE] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections]
+[DEBUG] 2018-03-24 20:31:17.133 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.matc.entity.Connection on table connections
+[TRACE] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.connectionId
+[TRACE] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property connectionId with lazy=false
+[DEBUG] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:connectionId]
+[DEBUG] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for connectionId
+[TRACE] 2018-03-24 20:31:17.140 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.141 [http-nio-8080-exec-4] PropertyBinder - Building property connectionId
+[TRACE] 2018-03-24 20:31:17.141 [http-nio-8080-exec-4] PropertyBinder - Cascading connectionId with null
+[TRACE] 2018-03-24 20:31:17.141 [http-nio-8080-exec-4] AnnotationBinder - Add generic generator with name: native
+[TRACE] 2018-03-24 20:31:17.141 [http-nio-8080-exec-4] AnnotationBinder - Bind @Id on connectionId
+[TRACE] 2018-03-24 20:31:17.141 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.actionItems
+[DEBUG] 2018-03-24 20:31:17.142 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='connection'}
+[TRACE] 2018-03-24 20:31:17.142 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems]
+[TRACE] 2018-03-24 20:31:17.142 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems]
+[DEBUG] 2018-03-24 20:31:17.142 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=actionItems, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[TRACE] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems_KEY]
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=actionItems_KEY, insertable=true, updatable=true, unique=false}
+[TRACE] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [actionItems_KEY]
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='actionItems_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='connection'}
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='connection'}
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] CollectionBinder - Collection role: edu.matc.entity.Connection.actionItems
+[DEBUG] 2018-03-24 20:31:17.143 [http-nio-8080-exec-4] PropertyBinder - Building property actionItems
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] PropertyBinder - Cascading actionItems with all,delete,delete-orphan
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.background
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [background]
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [background]
+[DEBUG] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=background, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property background with lazy=false
+[DEBUG] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:background]
+[DEBUG] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for background
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [background]
+[DEBUG] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] PropertyBinder - Building property background
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] PropertyBinder - Cascading background with null
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.firstName
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[TRACE] 2018-03-24 20:31:17.144 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:firstName]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for firstName
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - Building property firstName
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - Cascading firstName with null
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.headline
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [headline]
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [headline]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=headline, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property headline with lazy=false
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:headline]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for headline
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [headline]
+[DEBUG] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - Building property headline
+[TRACE] 2018-03-24 20:31:17.145 [http-nio-8080-exec-4] PropertyBinder - Cascading headline with null
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.industry
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [industry]
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [industry]
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=industry, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property industry with lazy=false
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:industry]
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for industry
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [industry]
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] PropertyBinder - Building property industry
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] PropertyBinder - Cascading industry with null
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.isUpdated
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_updated]
+[TRACE] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_updated]
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=is_updated, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property isUpdated with lazy=false
+[DEBUG] 2018-03-24 20:31:17.146 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:isUpdated]
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for isUpdated
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_updated]
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] PropertyBinder - Building property isUpdated
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] PropertyBinder - Cascading isUpdated with null
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.lastName
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:lastName]
+[DEBUG] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for lastName
+[TRACE] 2018-03-24 20:31:17.147 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] PropertyBinder - Building property lastName
+[TRACE] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] PropertyBinder - Cascading lastName with null
+[TRACE] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.linkedInId
+[TRACE] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [linkedin_id]
+[TRACE] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [linkedin_id]
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=linkedin_id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property linkedInId with lazy=false
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:linkedInId]
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for linkedInId
+[TRACE] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [linkedin_id]
+[DEBUG] 2018-03-24 20:31:17.148 [http-nio-8080-exec-4] PropertyBinder - Building property linkedInId
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] PropertyBinder - Cascading linkedInId with null
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.location
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[DEBUG] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=location, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property location with lazy=false
+[DEBUG] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:location]
+[DEBUG] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for location
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[DEBUG] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] PropertyBinder - Building property location
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] PropertyBinder - Cascading location with null
+[TRACE] 2018-03-24 20:31:17.149 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.notes
+[TRACE] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [notes]
+[TRACE] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [notes]
+[DEBUG] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=notes, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property notes with lazy=false
+[DEBUG] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:notes]
+[DEBUG] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for notes
+[TRACE] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [notes]
+[DEBUG] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] PropertyBinder - Building property notes
+[TRACE] 2018-03-24 20:31:17.150 [http-nio-8080-exec-4] PropertyBinder - Cascading notes with null
+[TRACE] 2018-03-24 20:31:17.151 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.numberOfConnections
+[TRACE] 2018-03-24 20:31:17.151 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [number_connections]
+[TRACE] 2018-03-24 20:31:17.151 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [number_connections]
+[DEBUG] 2018-03-24 20:31:17.154 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=number_connections, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.154 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property numberOfConnections with lazy=false
+[DEBUG] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:numberOfConnections]
+[DEBUG] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for numberOfConnections
+[TRACE] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [number_connections]
+[DEBUG] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] PropertyBinder - Building property numberOfConnections
+[TRACE] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] PropertyBinder - Cascading numberOfConnections with null
+[TRACE] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.profile
+[TRACE] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [profile]
+[TRACE] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [profile]
+[DEBUG] 2018-03-24 20:31:17.155 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=profile, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property profile with lazy=false
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:profile]
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for profile
+[TRACE] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [profile]
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] PropertyBinder - Building property profile
+[TRACE] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] PropertyBinder - Cascading profile with null
+[TRACE] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.relationship
+[TRACE] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [relationship]
+[TRACE] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [relationship]
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=relationship, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property relationship with lazy=false
+[DEBUG] 2018-03-24 20:31:17.156 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:relationship]
+[DEBUG] 2018-03-24 20:31:17.157 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for relationship
+[TRACE] 2018-03-24 20:31:17.159 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [relationship]
+[DEBUG] 2018-03-24 20:31:17.159 [http-nio-8080-exec-4] PropertyBinder - Building property relationship
+[TRACE] 2018-03-24 20:31:17.159 [http-nio-8080-exec-4] PropertyBinder - Cascading relationship with null
+[TRACE] 2018-03-24 20:31:17.159 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.sharedInterests
+[TRACE] 2018-03-24 20:31:17.159 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [shared_interests]
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [shared_interests]
+[DEBUG] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=shared_interests, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property sharedInterests with lazy=false
+[DEBUG] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:sharedInterests]
+[DEBUG] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for sharedInterests
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [shared_interests]
+[DEBUG] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] PropertyBinder - Building property sharedInterests
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] PropertyBinder - Cascading sharedInterests with null
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.specialties
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [specialties]
+[TRACE] 2018-03-24 20:31:17.160 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [specialties]
+[DEBUG] 2018-03-24 20:31:17.161 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=specialties, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property specialties with lazy=false
+[DEBUG] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:specialties]
+[DEBUG] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for specialties
+[TRACE] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [specialties]
+[DEBUG] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] PropertyBinder - Building property specialties
+[TRACE] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] PropertyBinder - Cascading specialties with null
+[TRACE] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.summary
+[TRACE] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [summary]
+[TRACE] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [summary]
+[DEBUG] 2018-03-24 20:31:17.162 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=summary, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property summary with lazy=false
+[DEBUG] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Connection:summary]
+[DEBUG] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for summary
+[TRACE] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [summary]
+[DEBUG] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] PropertyBinder - Building property summary
+[TRACE] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] PropertyBinder - Cascading summary with null
+[TRACE] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.Connection.user
+[DEBUG] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[TRACE] 2018-03-24 20:31:17.163 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-03-24 20:31:17.164 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[DEBUG] 2018-03-24 20:31:17.164 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(connections), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.166 [http-nio-8080-exec-4] PropertyBinder - Building property user
+[TRACE] 2018-03-24 20:31:17.166 [http-nio-8080-exec-4] PropertyBinder - Cascading user with none
+[DEBUG] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.ActionItem
+[TRACE] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] EntityBinder - Import with entity name ActionItem
+[TRACE] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: ActionItem -> edu.matc.entity.ActionItem
+[TRACE] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] InFlightMetadataCollectorImpl - Import: edu.matc.entity.ActionItem -> edu.matc.entity.ActionItem
+[TRACE] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [action_items]
+[TRACE] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [action_items]
+[DEBUG] 2018-03-24 20:31:17.167 [http-nio-8080-exec-4] EntityBinder - Bind entity edu.matc.entity.ActionItem on table action_items
+[TRACE] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.actionItemId
+[TRACE] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property actionItemId with lazy=false
+[DEBUG] 2018-03-24 20:31:17.168 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.ActionItem:actionItemId]
+[DEBUG] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for actionItemId
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] PropertyBinder - Building property actionItemId
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] PropertyBinder - Cascading actionItemId with null
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] AnnotationBinder - Add generic generator with name: native
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] AnnotationBinder - Bind @Id on actionItemId
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.actionItemName
+[TRACE] 2018-03-24 20:31:17.169 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [action_item_name]
+[TRACE] 2018-03-24 20:31:17.170 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [action_item_name]
+[DEBUG] 2018-03-24 20:31:17.170 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=action_item_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.170 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property actionItemName with lazy=false
+[DEBUG] 2018-03-24 20:31:17.170 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.ActionItem:actionItemName]
+[DEBUG] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for actionItemName
+[TRACE] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [action_item_name]
+[DEBUG] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] PropertyBinder - Building property actionItemName
+[TRACE] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] PropertyBinder - Cascading actionItemName with null
+[TRACE] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.connection
+[DEBUG] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[TRACE] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection]
+[TRACE] 2018-03-24 20:31:17.171 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection]
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=connection, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] PropertyBinder - Building property connection
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] PropertyBinder - Cascading connection with none
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.dateCompleted
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_completed]
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_completed]
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=date_completed, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property dateCompleted with lazy=false
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.ActionItem:dateCompleted]
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for dateCompleted
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_completed]
+[DEBUG] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] PropertyBinder - Building property dateCompleted
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] PropertyBinder - Cascading dateCompleted with null
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.dateCreated
+[TRACE] 2018-03-24 20:31:17.172 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_created]
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_created]
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=date_created, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property dateCreated with lazy=false
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.ActionItem:dateCreated]
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for dateCreated
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [date_created]
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] PropertyBinder - Building property dateCreated
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] PropertyBinder - Cascading dateCreated with null
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.isComplete
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_complete]
+[TRACE] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_complete]
+[DEBUG] 2018-03-24 20:31:17.173 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=is_complete, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.174 [http-nio-8080-exec-4] PropertyBinder - MetadataSourceProcessor property isComplete with lazy=false
+[DEBUG] 2018-03-24 20:31:17.174 [http-nio-8080-exec-4] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.ActionItem:isComplete]
+[DEBUG] 2018-03-24 20:31:17.174 [http-nio-8080-exec-4] SimpleValueBinder - building SimpleValue for isComplete
+[TRACE] 2018-03-24 20:31:17.174 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [is_complete]
+[DEBUG] 2018-03-24 20:31:17.174 [http-nio-8080-exec-4] PropertyBinder - Building property isComplete
+[TRACE] 2018-03-24 20:31:17.175 [http-nio-8080-exec-4] PropertyBinder - Cascading isComplete with null
+[TRACE] 2018-03-24 20:31:17.175 [http-nio-8080-exec-4] AnnotationBinder - Processing annotations of edu.matc.entity.ActionItem.user
+[DEBUG] 2018-03-24 20:31:17.175 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[TRACE] 2018-03-24 20:31:17.176 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-03-24 20:31:17.176 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[DEBUG] 2018-03-24 20:31:17.176 [http-nio-8080-exec-4] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(action_items), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-03-24 20:31:17.176 [http-nio-8080-exec-4] PropertyBinder - Building property user
+[TRACE] 2018-03-24 20:31:17.176 [http-nio-8080-exec-4] PropertyBinder - Cascading user with none
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for email
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for connectionId
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for background
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for headline
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for industry
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for isUpdated
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for linkedInId
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for location
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for notes
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for numberOfConnections
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for profile
+[DEBUG] 2018-03-24 20:31:17.178 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for relationship
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for sharedInterests
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for specialties
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for summary
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for actionItemId
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for actionItemName
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for dateCompleted
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for dateCreated
+[DEBUG] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] SimpleValueBinder - Starting fillSimpleValue for isComplete
+[TRACE] 2018-03-24 20:31:17.179 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.182 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-03-24 20:31:17.182 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.182 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.182 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.183 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.183 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.183 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connections]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection_id]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection_id]
+[TRACE] 2018-03-24 20:31:17.188 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection_id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [connection_id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[TRACE] 2018-03-24 20:31:17.189 [http-nio-8080-exec-4] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_id]
+[DEBUG] 2018-03-24 20:31:17.190 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2018-03-24 20:31:17.190 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [connections]
+[DEBUG] 2018-03-24 20:31:17.190 [http-nio-8080-exec-4] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [action_items]
+[DEBUG] 2018-03-24 20:31:17.190 [http-nio-8080-exec-4] CollectionSecondPass - Second pass for collection: edu.matc.entity.User.actionItems
+[DEBUG] 2018-03-24 20:31:17.193 [http-nio-8080-exec-4] CollectionBinder - Binding a OneToMany: edu.matc.entity.User.actionItems through a foreign key
+[DEBUG] 2018-03-24 20:31:17.194 [http-nio-8080-exec-4] CollectionBinder - Mapping collection: edu.matc.entity.User.actionItems -> action_items
+[DEBUG] 2018-03-24 20:31:17.196 [http-nio-8080-exec-4] TableBinder - Retrieving property edu.matc.entity.ActionItem.user
+[DEBUG] 2018-03-24 20:31:17.196 [http-nio-8080-exec-4] CollectionSecondPass - Mapped collection key: user_id, one-to-many: edu.matc.entity.ActionItem
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionSecondPass - Second pass for collection: edu.matc.entity.User.connections
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionBinder - Binding a OneToMany: edu.matc.entity.User.connections through a foreign key
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionBinder - Mapping collection: edu.matc.entity.User.connections -> connections
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] TableBinder - Retrieving property edu.matc.entity.Connection.user
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionSecondPass - Mapped collection key: user_id, one-to-many: edu.matc.entity.Connection
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionSecondPass - Second pass for collection: edu.matc.entity.User.roles
+[DEBUG] 2018-03-24 20:31:17.197 [http-nio-8080-exec-4] CollectionBinder - Binding a collection of element: edu.matc.entity.User.roles
