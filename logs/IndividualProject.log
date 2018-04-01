@@ -408,3 +408,16 @@
 [INFO ] 2018-03-31 23:24:16.533 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
 [INFO ] 2018-03-31 23:24:21.910 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
 [INFO ] 2018-03-31 23:24:21.920 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections
+[INFO ] 2018-04-01 12:19:35.963 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-04-01 12:19:35.988 [http-nio-8080-exec-7] LinkedInLogin - AQQDNbUOaHt4ce1nmhqFU7JM3cq4TrZ7rXEuY9J6Qe5BKTdaPtykuMV8uEDORuxcBzQSMO6EeXTP0-ifqY2Z57gMkdRdaj0GsTD1N_ltRMswr_3Jl8u1Xd2CAwdtNEeZiIrIZKQnry4y5JQRvQnpl9pZfZRZug
+[INFO ] 2018-04-01 12:19:37.162 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-04-01 12:19:37.163 [http-nio-8080-exec-7] LinkedIn - 200
+[INFO ] 2018-04-01 12:19:37.174 [http-nio-8080-exec-7] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-04-01 12:19:37.174 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-04-01 12:19:46.251 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
