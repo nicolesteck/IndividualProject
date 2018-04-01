@@ -30,10 +30,10 @@ public class User {
     private String password;
 
     @Column(name = "number_connections")
-    private int numConnections;
+    private Integer numConnections;
 
     @Column(name = "is_updated")
-    private boolean isUpdated;
+    private Boolean isUpdated = false;
 
     @Column(name = "relationship")
     private String relationship;
@@ -111,7 +111,6 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
-        isUpdated = false;
     }
 
     /**
@@ -123,8 +122,21 @@ public class User {
     public User(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+
+    }
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param firstName the first name
+     * @param lastName  the last name
+     */
+    public User(String firstName, String lastName, boolean isUpdated) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         isUpdated = false;
     }
+
 
 
     /**
@@ -163,14 +175,6 @@ public class User {
     public void removeConnection(Connection connection) {
         connections.remove(connection);
         connection.setUser(null);
-    }
-
-    public void setUpdated(boolean isUpdated) {
-        this.isUpdated = isUpdated;
-    }
-
-    public boolean getUpdated() {
-        return isUpdated;
     }
 
 

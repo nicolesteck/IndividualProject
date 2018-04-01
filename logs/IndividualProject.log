@@ -299,3 +299,112 @@
   "numConnections": 500
 }
 [INFO ] 2018-03-31 21:05:40.506 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-31 22:02:38.592 [http-nio-8080-exec-8] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:02:38.659 [http-nio-8080-exec-8] LinkedInLogin - AQQFmsuqoB23wLIfHsNvr1Ytb9C1XMNiIfsNjOt1mY2i-l-qIKhs24WvrUD1EoNaskORpcdB8Hqgh2rbdaBJmklR8Q60SzY8-BkdzvpsFCzwD2B9PMWt5VyIDyc-7kS4Vp0d62xpzSuCtrAMajq-xi8z_Rh0JA
+[INFO ] 2018-03-31 22:02:38.818 [http-nio-8080-exec-3] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:02:38.820 [http-nio-8080-exec-3] LinkedInLogin - AQSj7wNMhedZ_TziT6n3Nke-TZagM7gLyIKV0B9V5afx0GNqUeqRDq4YbW-7FB827jGF8njfQ6L652l3Eqz-DvaZ3M6KbE19BIEC5j3ESawvBqxF02WWIDoZKcnGVz0yCs9reo2RqbfIMWa4RvDyiZYEtw1eEA
+[INFO ] 2018-03-31 22:02:40.581 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-31 22:02:40.590 [http-nio-8080-exec-8] LinkedIn - 
+[INFO ] 2018-03-31 22:02:40.591 [http-nio-8080-exec-3] LinkedIn - 200
+[INFO ] 2018-03-31 22:02:40.591 [http-nio-8080-exec-8] LinkedIn - 200
+[INFO ] 2018-03-31 22:02:40.592 [http-nio-8080-exec-3] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:02:40.592 [http-nio-8080-exec-3] LinkedIn - 
+[INFO ] 2018-03-31 22:02:40.596 [http-nio-8080-exec-8] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:02:40.597 [http-nio-8080-exec-8] LinkedIn - 
+[ERROR] 2018-03-31 22:02:55.075 [http-nio-8080-exec-3] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[ERROR] 2018-03-31 22:02:55.075 [http-nio-8080-exec-8] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 22:05:45.752 [http-nio-8080-exec-4] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:05:45.787 [http-nio-8080-exec-4] LinkedInLogin - AQQKawJ8NB7rejnwK1C-c4IrMYS6yLH_O4LT570ye2GE1d2cjjmdrqfe8lezqLpri1wJGIUTewjyDJiWhSdltYTM1cSfICMLrN0h2FcQ9jXO6TQ1mA8dDaKOKYsrhewPi53HkCmue6vEyLBKID0fzPs3i2dzdA
+[INFO ] 2018-03-31 22:07:26.376 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-31 22:07:26.385 [http-nio-8080-exec-4] LinkedIn - 200
+[INFO ] 2018-03-31 22:07:26.392 [http-nio-8080-exec-4] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:07:26.393 [http-nio-8080-exec-4] LinkedIn - 
+[INFO ] 2018-03-31 22:11:05.095 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:11:05.131 [http-nio-8080-exec-1] LinkedInLogin - AQS0kNzvowdE64dQycuUvvBE7_HzDFy-NSg2LWLa-geIW1xFoZrM5TbmNmrbrxLGMzSEAyp1fE1S33OANvQmPVpbDVdMNBgE7hSFFjz2zTFpuJyOya9fbtP20WlmAOFRMPr7R4vuGTroGchMABhKIBt9PcRoGQ
+[INFO ] 2018-03-31 22:11:06.596 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-31 22:11:06.600 [http-nio-8080-exec-1] LinkedIn - 200
+[INFO ] 2018-03-31 22:11:06.609 [http-nio-8080-exec-1] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:11:06.610 [http-nio-8080-exec-1] LinkedIn - 
+[ERROR] 2018-03-31 22:11:19.090 [http-nio-8080-exec-1] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 22:14:49.780 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:14:49.803 [http-nio-8080-exec-10] LinkedInLogin - AQRPw41Cgf-tmXoGDGTyzWHbZIdUGnZm7cn6c1pSb6jUFvA-9ry9Vn1dK7ZWzy2OVBWZIAOyy4EoaoD3Kq4xanMc4kuP1mM-7i8d-F6mHLmHpVoM7NlnNkukTcjLYXNjZaBJ75-8pixEkqy6j2WxBeExfDpQqg
+[INFO ] 2018-03-31 22:14:52.545 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-31 22:14:52.546 [http-nio-8080-exec-10] LinkedIn - 200
+[INFO ] 2018-03-31 22:14:52.546 [http-nio-8080-exec-10] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:14:52.547 [http-nio-8080-exec-10] LinkedIn - 
+[ERROR] 2018-03-31 22:15:01.128 [http-nio-8080-exec-10] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.numConnections] of primitive type setter of edu.matc.entity.User.numConnections
+[INFO ] 2018-03-31 22:17:49.279 [http-nio-8080-exec-8] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:17:49.307 [http-nio-8080-exec-8] LinkedInLogin - AQSo63yxKWXTEDjd2BUCam6eMTnvwa2Zaqfb1_Du_Aoz6o392O5cwTc1QO6o8fO8DTefNRsYwtClqtsqMme9oUjm_S2gonQS6Ps2krH9pHlvgaL4ET5o9qOw2OVJfCCWBhc8lG45HvXdFyAyEJSli7fySxn-MA
+[INFO ] 2018-03-31 22:17:50.657 [http-nio-8080-exec-8] LinkedIn - 
+[INFO ] 2018-03-31 22:17:50.659 [http-nio-8080-exec-8] LinkedIn - 200
+[INFO ] 2018-03-31 22:17:50.667 [http-nio-8080-exec-8] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:17:50.668 [http-nio-8080-exec-8] LinkedIn - 
+[INFO ] 2018-03-31 22:18:08.658 [http-nio-8080-exec-8] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-31 22:21:25.682 [http-nio-8080-exec-10] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 22:21:25.715 [http-nio-8080-exec-10] LinkedInLogin - AQQ2ky4nGQSf1ulmlg0zPNHsTMkuW1FH7YnHk8PrPZ1XC_2ew2KvUq31AvMjArsSsyEgcNdnBzVQ2IX-kw9FHqTHcJtjGt3A3KvtUQ71yoJmN2EehKtBDRqnpDlVhq3KFNxFdOgnM-CSUdgeE38GL36cgiMeyQ
+[INFO ] 2018-03-31 22:21:27.460 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-31 22:21:27.466 [http-nio-8080-exec-10] LinkedIn - 200
+[INFO ] 2018-03-31 22:21:27.467 [http-nio-8080-exec-10] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 22:21:27.468 [http-nio-8080-exec-10] LinkedIn - 
+[INFO ] 2018-03-31 22:21:42.445 [http-nio-8080-exec-10] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-31 22:21:52.207 [http-nio-8080-exec-7] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-31 22:21:52.348 [http-nio-8080-exec-7] AllUsers - In the doGet of allUsers
+[INFO ] 2018-03-31 23:23:52.129 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 23:23:52.141 [http-nio-8080-exec-7] LinkedInLogin - AQQ2ky4nGQSf1ulmlg0zPNHsTMkuW1FH7YnHk8PrPZ1XC_2ew2KvUq31AvMjArsSsyEgcNdnBzVQ2IX-kw9FHqTHcJtjGt3A3KvtUQ71yoJmN2EehKtBDRqnpDlVhq3KFNxFdOgnM-CSUdgeE38GL36cgiMeyQ
+[INFO ] 2018-03-31 23:24:15.322 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 23:24:15.323 [http-nio-8080-exec-7] LinkedInLogin - AQQcN6sQtpBu2j2F6fmV2P6d2dH7ETE2IYjYxL1-cBrRpUaNII0dTKKtxaMw_IROoec7XO08oVXf93frfzgiyauLDPcl4cliEf1jjysMAP13KXEzZt6xIxnNMW8iU6jgfW1s4BlEFR44I_hLBMCFk2rzqvTYog
+[INFO ] 2018-03-31 23:24:16.171 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-31 23:24:16.172 [http-nio-8080-exec-7] LinkedIn - 200
+[INFO ] 2018-03-31 23:24:16.185 [http-nio-8080-exec-7] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 23:24:16.186 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-31 23:24:16.533 [http-nio-8080-exec-7] RandomConnection - In the doGet of randomConnection
+[INFO ] 2018-03-31 23:24:21.910 [http-nio-8080-exec-9] AllActionItems - In the doGet of actionItems
+[INFO ] 2018-03-31 23:24:21.920 [http-nio-8080-exec-9] AllConnections - In the doGet of allConnections

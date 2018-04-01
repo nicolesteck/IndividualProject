@@ -148,7 +148,6 @@ public class LinkedIn implements PropertiesLoaderInterface {
     //JSON from String to Object
         User user = new User();
         user = mapper.readValue(profileContents, User.class);
-
         return user;
     }
 
