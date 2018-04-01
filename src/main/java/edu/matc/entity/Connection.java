@@ -22,9 +22,9 @@ public class Connection {
     @GenericGenerator(name = "native", strategy = "native")
     @Column(name = "id")
     private int connectionId;
-
-    @ManyToOne
-    private User user;
+//
+//    @ManyToOne
+//    private User user;
 
     @Column(name = "linkedin_id")
     private int linkedInId;
@@ -73,6 +73,10 @@ public class Connection {
 
     @OneToMany(mappedBy = "connection", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<ActionItem> actionItems = new HashSet<>();
+
+
+    @OneToMany(mappedBy = "connection", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<ConnectionJob> connectionJobs = new HashSet<>();
 
     /**
      * Instantiates a new Connection.
