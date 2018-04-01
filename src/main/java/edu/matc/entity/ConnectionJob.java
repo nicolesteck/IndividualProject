@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.*;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,5 +28,27 @@ public class ConnectionJob {
     @ManyToOne
     private Connection connection;
 
-    
+
+    @Column(name = "job_name")
+    private String jobName;
+
+
+    @Column(name = "company_name")
+    private String companyName;
+
+
+    @Column(name = "job_start")
+    private Date jobStartDate;
+
+
+    @Column(name = "job_end")
+    private Date jobEndDate;
+
+
+    @Column(name = "job_description")
+    private String jobDescription;
+
+
+
+
 }
