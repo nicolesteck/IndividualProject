@@ -33,7 +33,7 @@ public class User {
     private Integer numConnections;
 
     @Column(name = "is_updated")
-    private Boolean isUpdated = false;
+    private Boolean isUpdated;
 
     @Column(name = "relationship")
     private String relationship;
@@ -89,9 +89,9 @@ public class User {
 
     @Column(name = "email")
     private String email;
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Connection> connections = new HashSet<>();
+//
+//    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+//    private Set<Connection> connections = new HashSet<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Set<ActionItem> actionItems = new HashSet<>();
@@ -104,8 +104,12 @@ public class User {
     // is the same as the prop name
 
     // WARNING: only use EAGER if there will only ever be a very low number of "many" records
-    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
-    @Getter @Setter private Set<Role> roles = new HashSet<Role>();
+//    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+//    @Getter @Setter private Set<Role> roles = new HashSet<Role>();
+
+
+    @ManyToOne
+    private Role role;
 
     /**
      * Instantiates a new User.

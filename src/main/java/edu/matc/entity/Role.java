@@ -3,7 +3,9 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  * The type Role.
@@ -16,11 +18,14 @@ public class Role {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id",
-            foreignKey = @ForeignKey(name = "role_user_user_id_fk")
-    )
-    private User user;
+//    @ManyToOne
+//    @JoinColumn(name = "user_id",
+//            foreignKey = @ForeignKey(name = "role_user_user_id_fk")
+//    )
+//    private User user;
+
+    @OneToMany(mappedBy = "role", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private Set<User> users = new HashSet<>();
 
     @Column(name="email")
     private String email;
