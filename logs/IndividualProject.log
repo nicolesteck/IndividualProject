@@ -248,3 +248,54 @@
 }
 [INFO ] 2018-03-31 20:55:42.803 [http-nio-8080-exec-10] LinkedIn - 
 [ERROR] 2018-03-31 20:55:54.722 [http-nio-8080-exec-10] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 20:57:47.315 [http-nio-8080-exec-6] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 20:57:47.357 [http-nio-8080-exec-6] LinkedInLogin - AQR6woAKhHgtIwUTTwEXJt_PndzcINAl3lgily0PFQLFAnYfjtpfU_4fzkFOuPUzoDu9emI7LkTKVVc7QNrfjnR8anLQLrye9dw2WAhSnWrVPwbNariaVUs6bs_nmcCqFC-3RcWX6VKd1ASu-a2h_AbGtO3KuQ
+[INFO ] 2018-03-31 20:57:55.793 [http-nio-8080-exec-6] LinkedIn - 
+[INFO ] 2018-03-31 20:57:55.796 [http-nio-8080-exec-6] LinkedIn - 200
+[INFO ] 2018-03-31 20:57:55.806 [http-nio-8080-exec-6] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 20:57:55.808 [http-nio-8080-exec-6] LinkedIn - 
+[ERROR] 2018-03-31 21:01:20.027 [http-nio-8080-exec-6] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 21:02:02.653 [http-nio-8080-exec-7] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 21:02:02.681 [http-nio-8080-exec-7] LinkedInLogin - AQTPDViLunNm333m1gh8wEETO8a3oFgO9silLuqkspMEgCmuk_fQKAMG6U_IBAFUykphMUlVbaAgi295tmAUgMpTJ_F8_wkD3298Ad7y9qLHpT1YnQ5DD6gH6e-yII35Tgoq68YwmgrMq76v6EgJW7rWECTRNA
+[INFO ] 2018-03-31 21:02:05.253 [http-nio-8080-exec-7] LinkedIn - 
+[INFO ] 2018-03-31 21:02:05.256 [http-nio-8080-exec-7] LinkedIn - 200
+[INFO ] 2018-03-31 21:02:05.257 [http-nio-8080-exec-7] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 21:02:05.257 [http-nio-8080-exec-7] LinkedIn - 
+[ERROR] 2018-03-31 21:02:20.200 [http-nio-8080-exec-7] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 21:03:48.749 [http-nio-8080-exec-1] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 21:03:48.780 [http-nio-8080-exec-1] LinkedInLogin - AQSHfom4Ff3tMkImdLpIgDQ4MbzIuLC-A1DytSfDqY8a2QlfmDV7Ew5ACYVAQ4H3AdK1sAqTe7Crg40knTGqIidS6L99GEqGaVtPPhpeN8K_WONhqovJXwAudDwkKrh0NIpCnycBV60arpH4RWoMjOlfE2P90Q
+[INFO ] 2018-03-31 21:03:50.125 [http-nio-8080-exec-1] LinkedIn - 
+[INFO ] 2018-03-31 21:03:50.127 [http-nio-8080-exec-1] LinkedIn - 200
+[INFO ] 2018-03-31 21:03:50.136 [http-nio-8080-exec-1] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 21:03:50.136 [http-nio-8080-exec-1] LinkedIn - 
+[ERROR] 2018-03-31 21:04:02.849 [http-nio-8080-exec-1] LinkedInLogin - ERROR: Servlet Exception javax.servlet.ServletException: javax.servlet.jsp.JspException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class edu.matc.entity.User.isUpdated] of primitive type setter of edu.matc.entity.User.isUpdated
+[INFO ] 2018-03-31 21:05:15.853 [http-nio-8080-exec-2] LinkedIn - authorization url: https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=789qxnkiciz8ny&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fnsindieproject%2FlinkedInLogin&scope=r_basicprofile&state=13378675309
+[INFO ] 2018-03-31 21:05:15.890 [http-nio-8080-exec-2] LinkedInLogin - AQQ_yuEuGpoyDTeRrLSodXtlFD9wQUN2VX3-eX774SL9Nbg4UPX0PXXNsOs9TxalU2LGQd4Ac_fLXuHskHiOg1rZobvOTjbBCqH7SgdlDVXE7zGn3vULm3w7n7ToWyXDQ0gPEKHC7foouT0FLpYeqCmsOo9UtQ
+[INFO ] 2018-03-31 21:05:40.477 [http-nio-8080-exec-2] LinkedIn - 
+[INFO ] 2018-03-31 21:05:40.501 [http-nio-8080-exec-2] LinkedIn - 200
+[INFO ] 2018-03-31 21:05:40.505 [http-nio-8080-exec-2] LinkedIn - {
+  "firstName": "Nicole",
+  "headline": "Software Developer & System Administrator",
+  "industry": "Information Technology and Services",
+  "lastName": "Steck",
+  "numConnections": 500
+}
+[INFO ] 2018-03-31 21:05:40.506 [http-nio-8080-exec-2] LinkedIn - 

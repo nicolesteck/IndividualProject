@@ -146,9 +146,8 @@ public class LinkedIn implements PropertiesLoaderInterface {
         String jsonInString = "{'name' : 'mkyong'}";
 
     //JSON from String to Object
-        User user = mapper.readValue(profileContents, User.class);
-        boolean isUpdated = false;
-        user.setUpdated(isUpdated);
+        User user = new User();
+        user = mapper.readValue(profileContents, User.class);
 
         return user;
     }

@@ -111,6 +111,7 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
+        isUpdated = false;
     }
 
     /**
@@ -122,6 +123,7 @@ public class User {
     public User(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+        isUpdated = false;
     }
 
 
