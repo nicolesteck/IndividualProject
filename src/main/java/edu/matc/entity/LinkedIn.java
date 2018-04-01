@@ -53,7 +53,9 @@ public class LinkedIn implements PropertiesLoaderInterface {
      */
     public LinkedIn() throws IOException {
         //query = "firstName,lastName,headline,id,location,industry,currentShare,numConnections,summary,specialties,positions";
-        query = "firstName,lastName";
+        //query = "firstName,lastName";
+        // temporarily removing id and location
+        query = "firstName,lastName,industry,headline,numConnections,summary,specialties";
         properties = loadProperties("/clientKey.properties");
         clientSecret = properties.getProperty("clientSecret");
         clientId = properties.getProperty("clientKey");
@@ -145,6 +147,8 @@ public class LinkedIn implements PropertiesLoaderInterface {
 
     //JSON from String to Object
         User user = mapper.readValue(profileContents, User.class);
+        boolean isUpdated = false;
+        user.setUpdated(isUpdated);
 
         return user;
     }

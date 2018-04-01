@@ -42,16 +42,17 @@ class LinkedInTest {
     @Test
     void retrieveAccessTokenSuccess() throws Exception {
 
-        assertEquals("???", linkedIn.retrieveAccessToken("AQS9moCUybDXAk7QtKu-NPtFCJn8aMVajmElY8C-zKJsBYVX8_ap9w0aP1miMMa3WZgAwy-vI3oYAA-z2WfGochKjp584IT5lo2ydPgwuqFSZWHWy6MzaFdNIdfupcDJNaWjb0kpRrHoXyRZbMUBfXmtQ41AOQ"));
-
-/*
-    @Disabled
-    @Test
-    void getProfileSuccess() throws Exception{
-        assertEquals("???", linkedIn.getProfile("AQWoJ21dldW1YvGsHHxQf5O_SSlO3g224xsnpSwYEMoHSZdsQuqNfA9O5W_DJ6ni8k4dlga8Hbk3Hp-seJim7h62yR9k0YyB-wRptwQ_M0EnSkUtWGNYe5hNPfxq4OEG27BHhKu1ahkmLspPOi_DLWZRsGb8QFEIvwvkiBrwyeDa82rhlOplED_zFOTFXY3DV6fJ1r6CnTlazH5obC9PBqj_7cZvFj-sl4JAXw8zF6NA1sVTeqmyHap25l7lpG2w5_uzrC-iaMHSH2EP34RADDwkFgkmE5gBSl6sTzB5py3v3jy_xCTT7Z5mUHhX-lGMH33K6zr-rYhNDXkJ5-s5pTEj8QlD-A",""));
-    }
-*/
+        assertEquals("???", linkedIn.retrieveAccessToken("AQQPkEdFjZRrA0Vm7BrI6cWl3ACLr4sXicIhTzUJ56bC17FOtxRUvwJOCxGMDPw3UB5S7Tl8k0NcVME4lQ-t-aWlfyoqcgXInvAgjJxPdU_RgOUwlYL-NQiLISYRm_1FPXArmNT-W1O4TJ5RXJffxm3g_kHYCA"));
 
     }
+
+//    @Disabled
+//    @Test
+//    void getProfileSuccess() throws Exception{
+//        assertEquals("???", linkedIn.getProfile("AQWoJ21dldW1YvGsHHxQf5O_SSlO3g224xsnpSwYEMoHSZdsQuqNfA9O5W_DJ6ni8k4dlga8Hbk3Hp-seJim7h62yR9k0YyB-wRptwQ_M0EnSkUtWGNYe5hNPfxq4OEG27BHhKu1ahkmLspPOi_DLWZRsGb8QFEIvwvkiBrwyeDa82rhlOplED_zFOTFXY3DV6fJ1r6CnTlazH5obC9PBqj_7cZvFj-sl4JAXw8zF6NA1sVTeqmyHap25l7lpG2w5_uzrC-iaMHSH2EP34RADDwkFgkmE5gBSl6sTzB5py3v3jy_xCTT7Z5mUHhX-lGMH33K6zr-rYhNDXkJ5-s5pTEj8QlD-A",""));
+//    }
+
+//
+//    }
 
 }

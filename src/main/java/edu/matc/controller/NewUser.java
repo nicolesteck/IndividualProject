@@ -37,11 +37,15 @@ public class NewUser extends HttpServlet {
         user.setFirstName(req.getParameter("firstName"));
         user.setLastName(req.getParameter("lastName"));
         user.setPassword(req.getParameter("password"));
+        logger.debug("email: " + req.getParameter("email"));
+        logger.debug("first name: " + (req.getParameter("firstName")));
+        logger.debug("last name: " + (req.getParameter("lastName")));
+        logger.debug("password: " + (req.getParameter("password")));
         Role role = new Role();
         role.setUser(user);
         role.setRoleName("user");
         user.addRole(role);
-        GenericDao dao = new GenericDao(User.class);
+        GenericDao<User> dao = new GenericDao<>(User.class);
         logger.info("(NEWUSER) USER INFO: " + user);
         dao.insert(user);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/newUser.jsp");

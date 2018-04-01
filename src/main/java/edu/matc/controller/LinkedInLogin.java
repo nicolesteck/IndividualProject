@@ -52,9 +52,9 @@ public class LinkedInLogin extends HttpServlet implements PropertiesLoaderInterf
             req.setAttribute("profile", profile);
             String profileContents = profile.getBody();
             User user = linkedIn.buildUser(profileContents);
-            GenericDao genericDao = new GenericDao(User.class);
+            GenericDao<User> genericDao = new GenericDao<>(User.class);
             genericDao.insert(user);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/linkedInLogin.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
             dispatcher.forward(req, resp);
         } catch (InterruptedException ie) {
             logger.error("ERROR: Interrupted exception " + ie);

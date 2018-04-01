@@ -29,6 +29,42 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "number_connections")
+    private int numConnections;
+
+    @Column(name = "is_updated")
+    private boolean isUpdated;
+
+    @Column(name = "relationship")
+    private String relationship;
+
+    @Column(name = "shared_interests")
+    private String sharedInterests;
+
+    @Column(name = "background")
+    private String background;
+
+    @Column(name = "notes")
+    private String notes;
+
+    @Column(name = "headline")
+    private String headline;
+
+    @Column(name = "location")
+    private String location;
+
+    @Column(name = "industry")
+    private String industry;
+
+    @Column(name = "summary")
+    private String summary;
+
+    @Column(name = "specialties")
+    private String specialties;
+
+    @Column(name = "profile")
+    private String profile;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -125,6 +161,14 @@ public class User {
     public void removeConnection(Connection connection) {
         connections.remove(connection);
         connection.setUser(null);
+    }
+
+    public void setUpdated(boolean isUpdated) {
+        this.isUpdated = isUpdated;
+    }
+
+    public boolean getUpdated() {
+        return isUpdated;
     }
 
 
