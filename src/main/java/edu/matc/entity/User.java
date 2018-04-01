@@ -58,7 +58,7 @@ public class User {
 //    private Set<Connection> connections = new HashSet<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    private Set<ActionItem> actionItems = new HashSet<>();
+    private Set<UserConnection> userConnections = new HashSet<>();
 
 
     @Id//the GeneratedValue and GenericGenerator are to create an auto-generating key

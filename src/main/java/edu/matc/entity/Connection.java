@@ -71,11 +71,11 @@ public class Connection {
     @Column(name = "profile")
     private String profile;
 
-    @OneToMany(mappedBy = "connection", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<ActionItem> actionItems = new HashSet<>();
+    @OneToMany(mappedBy = "connectionForLinking", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<UserConnection> userConnections = new HashSet<>();
 
 
-    @OneToMany(mappedBy = "connection", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "connectionForJobs", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<ConnectionJob> connectionJobs = new HashSet<>();
 
     /**
@@ -111,7 +111,7 @@ public class Connection {
     public String toString() {
         return "Connection{" +
                 "connectionId=" + connectionId +
-                ", user=" + user +
+            //    ", user=" + user +
                 ", linkedInId=" + linkedInId +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
@@ -131,7 +131,7 @@ public class Connection {
         if (linkedInId != that.linkedInId) return false;
         if (numberOfConnections != that.numberOfConnections) return false;
         if (isUpdated != that.isUpdated) return false;
-        if (user != null ? !user.equals(that.user) : that.user != null) return false;
+       // if (user != null ? !user.equals(that.user) : that.user != null) return false;
         if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
         if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
         if (relationship != null ? !relationship.equals(that.relationship) : that.relationship != null) return false;

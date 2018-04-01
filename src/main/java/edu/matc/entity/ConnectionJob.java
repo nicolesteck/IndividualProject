@@ -26,7 +26,7 @@ public class ConnectionJob {
 
 
     @ManyToOne
-    private Connection connection;
+    private Connection connectionForJobs;
 
 
     @Column(name = "job_name")

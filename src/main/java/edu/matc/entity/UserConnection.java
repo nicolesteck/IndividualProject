@@ -23,7 +23,7 @@ public class UserConnection {
     private int userConnectionId;
 
     @ManyToOne
-    private Connection connection;
+    private Connection connectionForLinking;
 
     @ManyToOne
     private User user;
